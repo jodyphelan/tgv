@@ -1,0 +1,694 @@
+<html>
+    <head>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js" integrity="sha512-gEWKnYYa1/1c3jOuT9PR7NxiVI1bwn02DeJGsl+lMVQ1fWMNvtjkjxIApTdbJ/wcDjQmbf+McWahXwipdC9bGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cytoscape/cytoscape.js-popper/cytoscape-popper.js"></script> -->
+        <!-- <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script> -->
+        <!-- <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript> -->
+
+        <script src="/js/cytoscape.min.js" integrity="sha512-gEWKnYYa1/1c3jOuT9PR7NxiVI1bwn02DeJGsl+lMVQ1fWMNvtjkjxIApTdbJ/wcDjQmbf+McWahXwipdC9bGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/js/dropzone.min.js"></script>
+        <link rel="stylesheet" href="/css/dropzone.min.css" type="text/css" />
+        <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cytoscape/cytoscape.js-popper/cytoscape-popper.js"></script>
+        <script src="https://unpkg.com/layout-base/layout-base.js"></script>
+      <script src="https://unpkg.com/cose-base/cose-base.js"></script>
+      <script src="https://unpkg.com/cytoscape-layout-utilities/cytoscape-layout-utilities.js"></script>
+      <script src="js/cytoscape-fcose.js"></script>
+        <style>
+            body {
+                font-family: Roboto, "Open Sans", sans-serif;
+                font-size: 20px;
+                font-weight: 300;
+                text-rendering: optimizeLegibility;
+            }
+            .btn {
+                font-family: Roboto, "Open Sans", sans-serif;
+                font-size: 18px;
+                font-weight: 300;
+                text-rendering: optimizeLegibility;
+            }
+
+            .dropzone {
+                background: white;
+                border-radius: 5px;
+                border: 2px dashed rgb(0, 135, 247);
+                border-image: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .popper-div {
+                background-color: rgba(255, 255, 255, 0.716);
+                border-radius: 25px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d-flex justify-content-center" style="height:100%;">
+            <div class="p-2" style="overflow: auto; width:20%;">
+                <img class="img-fluid mt-4 mb-4" src="https://tbdr.lshtm.ac.uk/static/tb-profiler-logo-rectangle.png" alt="">
+                <p>
+                    Add JSON transmission file:
+                </p>
+                <form action="/target" class="dropzone" id="json-drop" style="width:100%; height:20%;"></form>
+                <p class="p-2 pt-3">
+                    Add CSV annotation file:
+                </p>
+                <form action="/target" class="dropzone" id="meta-drop" style="width:100%; height:20%;"></form>
+                <hr>
+                <div class="p-2">
+                    <label id="node_colour_label" class="form-check-label" for="node_colour" >
+                        Node colour
+                    </label>
+                    <select id="node_colour" class="form-select" aria-label="Default select example">
+                        <option selected></option>
+                    </select>
+                    <div class="pt-2" id="legend"></div>
+                </div>
+                <div class="p-2">
+                    <label id="node_label_label" class="form-check-label" for="node_label" >
+                        Node label
+                    </label>
+                    <select id="node_label" class="form-select" aria-label="Default select example">
+                        <option selected></option>
+                    </select>
+                </div>
+                <div class="p-2">
+                    <label id="edge_label_label" class="form-check-label" for="edge_label" >
+                        Edge label
+                    </label>
+                    <select id="edge_label" class="form-select" aria-label="Default select example">
+                        <option selected></option>
+                    </select>
+                </div>
+
+                <!-- Button trigger modal -->
+                <div class="p-2">
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Filter edges
+                    </button>
+                </div>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Filter edges</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="p-2">
+                                <label id="edge_filter_key_label" class="form-check-label" for="edge_filter" >
+                                    Edge filter attribute
+                                </label>
+                                <select id="edge_filter_key" class="form-select" aria-label="Default select example">
+                                    <option selected></option>
+                                </select>
+                            </div>
+            
+              
+            
+                            <div class="p-2">
+                                <label id="edge_filter_operator_label" class="form-check-label" for="edge_filter" >
+                                    Edge Operator
+                                </label>
+                                <select id="edge_filter_operator" class="form-select" aria-label="Default select example">
+                                    <option selected></option>
+                                    <option>&lt;</option>
+                                    <option>&gt;</option>
+                                    <option>==</option>
+                                    <option>!=</option>
+                                </select>
+                            </div>
+                            <div class="p-2">
+                                <label id="edge_filter_value_label" class="form-check-label" for="edge_filter" >
+                                    Attribute value
+                                </label>
+                                <!-- <input id="edge_filter_value" class="input-group-text" aria-label="Default select example"> -->
+                                <input type="text" class="form-control" id="edge_filter_value" >
+                            </div>
+                            <div class="p-2 ">
+                                <button type="button" class="btn btn-outline-primary mt-2" onclick="add_edge_filter()">Add</button>
+                            </div>
+            
+                            <div class="p-2">
+                                <label class="form-check-label" for="active_filters" >
+                                    Active filters
+                                </label>
+                                <div class="" id="active_filters"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+  
+
+                
+                
+                
+                <div class="p-2 input-group">
+                    <div>
+                        <label id="max_dist_label" class="form-check-label" for="max_snp_dist" >
+                            Search nodes
+                        </label>
+                    </div>
+                    <div>
+                        <input id="node_search" type="text" class="form-control" placeholder="" aria-label="Node search" aria-describedby="basic-addon2" oninput="node_search()">
+                    </div>
+
+                </div>
+                
+                <hr>
+                <div class="p-2 ">
+                    <button type="button" class="btn btn-outline-primary mt-2" onclick="download_sample_names()">Download selected IDs</button>
+                    <button type="button" class="btn btn-outline-primary mt-2" onclick="download_img()">Download PNG</button>
+                </div>
+
+
+
+            </div>
+            <div id="info" class="p-5 align-self-center" style="max-width: 70%;">
+                <div class="p-2 fs-3">
+                    Welcome to the TB-Profiler transmission viewer!
+                </div>
+                <div class="p-2">
+                    After running <kbd>tb-profiler collate</kbd>, you will get a file ending with
+                    <i>.transmission_graph.json</i>. Drag and drop this file to the upload box to 
+                    the left and see the graph. You can use the simple controls to colour the nodes
+                    based on drug resistance or lineage. You can also display labels. To select nodes 
+                    for download, use the <kbd>cmd/ctrl</kbd> key and click and drag and hit the
+                    download button.
+                </div>
+                <div class="p-2">
+                    No data is uploaded anywhere, all data is process and visualised in your browser
+                    and stays on your computer. To show funders our software is used we do monitor 
+                    the total number of page views, but no personal data is collected. This is facilitated through 
+                    <a href="https://docs.simpleanalytics.com/what-we-collect" target="_blank">Simple Analytics</a>.
+                </div>
+                
+                
+            </div>
+            <div class="p-2 flex-fill">
+                <div id="cy" style="height:100%;"></div>
+            </div>
+            
+        </div>
+
+                
+                
+
+
+        <script>
+            window.onload = function(){
+                // document.getElementById("snp_dist_check").checked = false;
+                // document.getElementById("sample_name_check").checked = false;
+                // document.getElementById("flexRadioDefault1").checked = true;
+            }
+            palletes =  {
+                1:["#000000"],
+                2:["#1b9e77","#7570b3"],
+                3:['#1B9E77', '#D95F02', '#7570B3'],
+                4:['#1B9E77', '#D95F02', '#7570B3', '#E7298A'],
+                5:['#1B9E77', '#D95F02', '#7570B3', '#E7298A', '#66A61E'],
+                6:['#1B9E77', '#D95F02', '#7570B3', '#E7298A', '#66A61E', '#E6AB02'],
+                7:['#1B9E77', '#D95F02', '#7570B3', '#E7298A', '#66A61E', '#E6AB02', '#A6761D'],
+                8:['#1B9E77', '#D95F02', '#7570B3', '#E7298A', '#66A61E', '#E6AB02', '#A6761D', '#666666'],
+                9:['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6'],
+                10:['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6', '#6A3D9A'],
+                11:['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6', '#6A3D9A', '#FFFF99'],
+                12:['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6', '#6A3D9A', '#FFFF99', '#B15928']
+            }
+            
+            var cy;
+            var data;
+
+            var edge_filters = [];
+            
+            get_node_metadata = function(data){
+                dict = {}
+                data.forEach(function(d){
+                    if (d.data.type=="node"){
+                        for (label in d.data){
+                            if (label!="type" ){
+                                if (!(label in dict)){
+                                    dict[label] = [d.data[label]]
+                                } else {
+                                    dict[label].push(d.data[label])
+                                }
+                            }
+                        }
+                    }
+                })
+                uniqified_dict = {}
+                for (label in dict){
+                    uniqified_dict[label] = [...new Set(dict[label])]
+                }
+                return uniqified_dict
+            }
+
+            get_edge_metadata = function(data){
+                dict = {}
+                data.forEach(function(d){
+                    if (d.data.type=="edge"){
+                        for (label in d.data){
+                            if (label!="type" && label!="id" && label!="source" && label!="target"){
+                                if (!(label in dict)){
+                                    dict[label] = [d.data[label]]
+                                } else {
+                                    dict[label].push(d.data[label])
+                                }
+                            }
+                        }
+                    }
+                })
+                uniqified_dict = {}
+                for (label in dict){
+                    uniqified_dict[label] = [...new Set(dict[label])]
+                }
+                return uniqified_dict
+            }
+            populate_edge_label_options = function(data){
+                edge_metadata = get_edge_metadata(data);
+                edge_labels = document.getElementById("edge_filter_key")
+                edge_labels.innerHTML = ""
+                edge_labels.innerHTML += '<option selected></option>'
+                for (label in edge_metadata){
+                    edge_labels.innerHTML += '<option value="'+label+'">'+label+'</option>'
+                }
+                edge_labels = document.getElementById("edge_label")
+                edge_labels.innerHTML = ""
+                edge_labels.innerHTML += '<option selected></option>'
+                for (label in edge_metadata){
+                    edge_labels.innerHTML += '<option value="'+label+'">'+label+'</option>'
+                }
+            }
+
+            toggle_edge_label_collapse = function(){
+                edge_filter = document.getElementById("edge_filter_key")
+                el = document.getElementById('collapseWidthExample')
+                if (edge_filter.value==""){
+                    if (el.classList.value.includes("show")){
+                        new bootstrap.Collapse(el)
+                    }
+                } else {
+                    if (!el.classList.value.includes("show")){
+                        new bootstrap.Collapse(el)
+                    }
+                }
+
+            }
+
+            draw_edge_labels = function(){
+                edge_labels = document.getElementById("edge_label")
+                if (edge_labels.value==""){
+                        cy.edges().style("label","")
+                    } else {
+                        cy.edges().style("label",function(d){
+                            console.log(d.data())
+                            return d.data()[edge_labels.value]
+                        })
+                    }
+                
+            }
+
+            add_edge_filter_listener = function(data){
+                edge_metadata = get_edge_metadata(data);
+                
+                edge_filter.onchange = function(){
+                    key = document.getElementById("edge_filter_key").value
+                    console.log(key)
+                    toggle_edge_label_collapse()
+                    document.getElementById("min_dist").value = Math.min(edge_metadata[key])
+                    document.getElementById("max_dist").value = Math.max(edge_metadata[key])
+                }
+            }
+
+
+            add_edge_label_listener = function(data){
+
+                
+                edge_labels.onchange = function(){
+                    draw_edge_labels()
+                    console.log(edge_metadata)
+                }
+            }
+
+            get_pallete = function(arr){
+                cols = {}
+                if (arr.length>12){
+                    for (i in arr){
+                        cols[arr[i]] = "black"
+                    } 
+                } else {
+
+                    pal = palletes[arr.length]
+                    for (i in arr){
+                        cols[arr[i]] = pal[i]
+                    }
+                }
+                
+                return cols
+            }
+
+            get_metadata_colours = function(data){
+                metadata = get_node_metadata(data)
+                colours = {}
+                for (label in metadata){
+                    colours[label] = get_pallete(metadata[label])
+                }
+                return colours
+            }
+
+            populate_select_with_options = function(id,metadata){
+                el = document.getElementById(id)
+                el.innerHTML = ""
+                el.innerHTML += '<option selected></option>'
+                for (label in metadata){
+                    el.innerHTML += '<option value="'+label+'">'+label+'</option>'
+                }
+            }
+            populate_node_label_options = function(data){
+                metadata_colours = get_metadata_colours(data)
+                populate_select_with_options("node_label",metadata_colours)
+            }
+
+            populate_node_colour_options = function(data){
+                metadata_colours = get_metadata_colours(data)
+                console.log(metadata_colours)
+                populate_select_with_options("node_colour",metadata_colours)
+            }
+
+            add_node_colour_listener = function(data){
+                metadata_colours = get_metadata_colours(data)
+                node_colours = document.getElementById("node_colour")
+                node_colours.onchange = function(){
+                    console.log(metadata_colours)
+                    if (node_colours.value==""){
+                        cy.nodes().style("background-color","#000000")
+                    } else {
+                        cy.nodes().style("background-color",function(d){
+                            return metadata_colours[node_colours.value][d.data()[node_colours.value]]
+                        })
+                    }
+                    div = document.getElementById("legend");
+                    div.innerHTML = "";
+                    for (var key in metadata_colours[node_colours.value]) {
+                        div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"'>"+key+"</span>"
+                    }
+                }
+                
+            }
+
+            add_node_label_listener = function(data){
+                metadata_colours = get_metadata_colours(data)
+                node_labels = document.getElementById("node_label")
+                node_labels.onchange = function(){
+                    if (node_labels.value==""){
+                        cy.nodes().style("label","")
+                    } else {
+                        cy.nodes().style("label",function(d){
+                            return d.data()[node_labels.value]
+                        })
+                    }
+                }
+            }
+
+            add_edge_filter = function(){
+                key = document.getElementById("edge_filter_key").value
+                operator = document.getElementById("edge_filter_operator").value
+                value = document.getElementById("edge_filter_value").value
+                fid = Date.now()
+                edge_filters.push({key: key, operator: operator, val: value, id: fid});
+                console.log(edge_filters)
+                var el = document.createElement('span');
+                el.id = fid
+                el.classList.add('badge')
+                el.classList.add('text-bg-dark')
+                el.style = 'cursor: not-allowed;'
+                el.innerHTML = key + operator + value
+                el.onclick = function() {remove_filter(this)}
+                document.getElementById('active_filters').appendChild(el)
+
+                redraw_edges()
+            }
+
+            remove_filter = function(t){
+                edge_filters = edge_filters.filter(function(x){x.id!=t.id})
+                t.remove()
+                redraw_edges()
+            }
+
+            redraw_edges = function(){
+                console.log(edge_filters)
+                newdata = data.filter(function(x){
+                    if (x.data.type=="node"){
+                        return true
+                    } else {
+                        test = true
+                        edge_filters.forEach(function(f){
+                            if (f.operator=="<"){
+                                if (! (x.data[f.key] < parseFloat(f.val))){
+                                    test = false
+                                }
+                            }
+                            if (f.operator==">"){
+                                if (! (x.data[f.key] > parseFloat(f.val))){
+                                    test = false
+                                }
+                            }
+                            if (f.operator=="=="){
+                                if (! (x.data[f.key] == f.val)){
+                                    test = false
+                                }
+                            }
+                            if (f.operator=="!="){
+                                if (! (x.data[f.key] != f.val)){
+                                    test = false
+                                }
+                            }
+                        })
+                        return test
+                    }
+                })
+                console.log(newdata)
+                cy.json({ elements: newdata });
+                cy.ready(function () {
+                    var layout = cy.layout({ name: 'fcose' }); 
+                    layout.run();
+                });
+                draw_edge_labels(data)
+            }
+
+            reset_view = function(){
+                div = document.getElementById("legend");
+                div.innerHTML = ""; 
+                
+            }
+
+            populate_dropdowns = function(data){
+                reset_view()
+                populate_node_colour_options(data);
+                populate_node_label_options(data);
+                add_node_colour_listener(data);
+                add_node_label_listener(data);
+                populate_edge_label_options(data);
+                // add_edge_label_listener(data);
+                // add_edge_filter_listener(data);
+            }
+            
+            Dropzone.options.jsonDrop = { // camelized version of the `id`
+                paramName: "file", // The name that will be used to transfer the file
+                maxFilesize: 10, // Mb
+                previewsContainer: false,
+                accept: function(file, done) {
+                    var reader = new FileReader();
+                    reader.addEventListener("loadend", function(event) { 
+                        const element = document.getElementById('info');
+                        if (element!=null){
+
+                            element.remove();
+                        }
+                        data = JSON.parse(event.target.result);
+                        
+                        populate_dropdowns(data)
+                        
+
+                        
+
+                        node_search = function(){
+                            search_term = document.getElementById("node_search").value
+                            obj = cy.$id(search_term)
+                            if (obj.length > 0){
+                                cy.fit(obj,200)
+                            }
+                        }
+                        console.log(data)
+                        cy = cytoscape({
+
+                            container: document.getElementById('cy'), // container to render in
+
+                            elements: data,
+
+
+                            style: [ // the stylesheet for the graph
+                                {
+                                    selector: 'node',
+                                    style: {
+                                    'background-color': 'black',
+                                    // 'label': 'data(id)',
+                                    'border-width': 2,
+                                    }
+                                },
+
+                                {
+                                    selector: 'edge',
+                                    style: {
+                                    'width': 3,
+                                    'line-color': '#ccc',
+                                    'curve-style': 'haystack'
+                                    }
+                                }
+                            ],
+
+                            layout: {
+                                name: 'fcose'
+                            },
+                            hideEdgesOnViewport: true,
+                            boxSelectionEnabled:true
+
+                        });
+
+                        cy.on('boxselect',function(x){
+                            cy.nodes(':selected').forEach(function(ele){
+                              ele.style("border-color","red")
+                            })
+                        })
+
+                        cy.on('click',function(x){
+                            cy.nodes(':selected').forEach(function(ele){
+                              ele.style("border-color","red")
+                            })
+                        })
+
+                        cy.on('tapunselect',function(ele){
+                            cy.nodes().forEach(function(ele){
+                              ele.style("border-color","black")
+                            })
+                        })
+
+                        cy.nodes().on('mouseover', function(x){
+                            ele = x.target
+                            console.log(ele)
+                            ele.popper({
+                                content: function(x){ return generate_tooltip(ele)}
+                            })
+                        })
+
+                        cy.nodes().on('mouseout', function(x){
+                            document.getElementsByClassName('popper-div').forEach(function(x){
+                                x.remove()
+                            })
+                        })
+                        
+                        var generate_tooltip = function(ele){
+                            console.log(ele)
+
+                            var div = document.createElement('div');
+                            div.classList.add('popper-div');
+                            div.innerHTML = "<b>ID:</b> " + ele.data('id')
+                            for (key in ele.data()){
+                                if (key=="id"){continue}
+                                if (key=="type"){continue}
+                                div.innerHTML = div.innerHTML + "<br>" + "<b>"+key+":</b> "+ele.data(key)
+                            }
+                            document.body.appendChild( div );
+                            return div;
+                        };
+
+
+
+                        download_sample_names = function() {
+                            var element = document.createElement('a');
+                            text = ""
+                            cy.nodes(':selected').map(function(x){return x.data('id')}).forEach(function(x){text += x + "\n"})
+                            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+                            element.setAttribute('download', "sample_names.txt");
+
+                            element.style.display = 'none';
+                            document.body.appendChild(element);
+
+                            element.click();
+
+                            document.body.removeChild(element);
+                        }
+
+                        download_img = function() {
+                            var element = document.createElement('a');
+                            element.setAttribute('href', cy.png({scale:3,bg:"white"}));
+                            element.setAttribute('download', "graph.png");
+
+                            element.style.display = 'none';
+                            document.body.appendChild(element);
+
+                            element.click();
+
+                            document.body.removeChild(element);
+                        }
+
+
+                    });
+                    reader.readAsText(file);
+                    console.log(file)
+
+                }
+            };
+
+            Dropzone.options.metaDrop = { // camelized version of the `id`
+                paramName: "file", // The name that will be used to transfer the file
+                maxFilesize: 10, // Mb
+                previewsContainer: false,
+                accept: function(file, done) {
+                    var reader = new FileReader();
+                    reader.addEventListener("loadend", function(event) { 
+                        var text = event.target.result
+                        lines = text.split("\n").map(function(d){
+                            return d.replace("\r","")
+                        })
+                        header = lines.reverse().pop().split(",")
+                        node_index = header.indexOf("Node")
+
+                        for (i in lines){
+                            console.log(i)
+                            if (lines[i]==""){continue}
+                            row = lines[i].split(",")
+                            data_index = data.map(function(d){return d['data']['id']}).indexOf(row[node_index])
+
+                            for (j in row){
+                                if (j==node_index){continue}
+
+                                data[data_index]['data'][header[j]] = row[j]
+
+                            }
+                        }
+                        console.log(data)
+                        populate_dropdowns(data)
+                    });
+                    reader.readAsText(file);
+                }
+            };
+        </script>
+    </body>
+</html>
