@@ -122,9 +122,7 @@
                         </div>
                         <div class="modal-body">
                             <form action="/target" class="dropzone" id="edge-data-drop" style="width:100%; height:20%;"></form>
-                            <div class="progress">
-                                <div class="progress-bar w-0" id="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
+
                         </div>
                         <div class="modal-footer">
                         <div id="liveAlertPlaceholderEdges"></div>
@@ -968,8 +966,6 @@
                         console.log(text)
                         rows = $.csv.toObjects(text)
 
-                        // create a object called lookup and with the source and target fields as a key
-                        // and the row as the value
                         lookup = {}
                         rows.forEach(function(row){
                             lookup[row['Source']+row['Target']] = row
