@@ -24,7 +24,12 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin="" />
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
         <script src="https://unpkg.com/cytoscape-leaflet@1.0.13/dist/cytoscape-leaflet.js"></script>
-
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
+        
+        
         <style>
 
             
@@ -73,6 +78,65 @@
                 </p>
                 <form action="/target" class="dropzone" id="json-drop" style="width:100%; height:20%;"></form>
                 <hr>
+                <!-- Button trigger modal -->
+                <div class="p-2">
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#nodeMetaModal">
+                        Add node metadata
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="nodeMetaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add node metadata</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/target" class="dropzone" id="node-data-drop" style="width:100%; height:20%;"></form>
+                            
+                        </div>
+                        <div class="modal-footer">
+                        <div id="liveAlertPlaceholderNodes"></div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Button trigger modal -->
+                <div class="p-2">
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#edgeMetaModal">
+                        Add edge metadata
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="edgeMetaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add edge metadata</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/target" class="dropzone" id="edge-data-drop" style="width:100%; height:20%;"></form>
+                            <div class="progress">
+                                <div class="progress-bar w-0" id="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                        <div id="liveAlertPlaceholderEdges"></div>
+                        
+                          
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr>
+                
                 <div class="p-2">
                     <label id="node_colour_label" class="form-check-label" for="node_colour" >
                         Node colour
@@ -150,10 +214,79 @@
                             </div>
             
                             <div class="p-2">
-                                <label class="form-check-label" for="active_filters" >
+                                <label class="form-check-label" for="active_edge_filters" >
                                     Active filters
                                 </label>
-                                <div class="" id="active_filters"></div>
+                                <div class="" id="active_edge_filters"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- Button trigger modal -->
+                <div class="p-2">
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#node_filter_modal">
+                        Filter nodes
+                    </button>
+                </div>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="node_filter_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Filter nodes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="p-2">
+                                <label id="node_filter_key_label" class="form-check-label" for="node_filter" >
+                                    Node filter attribute
+                                </label>
+                                <select id="node_filter_key" class="form-select" aria-label="Default select example">
+                                    <option selected></option>
+                                </select>
+                            </div>
+            
+              
+            
+                            <div class="p-2">
+                                <label id="node_filter_operator_label" class="form-check-label" for="node_filter" >
+                                    Node Operator
+                                </label>
+                                <select id="node_filter_operator" class="form-select" aria-label="Default select example">
+                                    <option selected></option>
+                                    <option>&lt;</option>
+                                    <option>&gt;</option>
+                                    <option>==</option>
+                                    <option>!=</option>
+                                </select>
+                            </div>
+                            <div class="p-2">
+                                <label id="node_filter_value_label" class="form-check-label" for="node_filter" >
+                                    Attribute value
+                                </label>
+                                <!-- <input id="node_filter_value" class="input-group-text" aria-label="Default select example"> -->
+                                <input type="text" class="form-control" id="node_filter_value" >
+                            </div>
+                            <div class="p-2 ">
+                                <button type="button" class="btn btn-outline-primary mt-2" onclick="add_node_filter()">Add</button>
+                            </div>
+            
+                            <div class="p-2">
+                                <label class="form-check-label" for="active_node_filters" >
+                                    Active filters
+                                </label>
+                                <div class="" id="active_node_filters"></div>
                             </div>
                             
                         </div>
@@ -165,32 +298,7 @@
                 </div>
   
 
-                <!-- Button trigger modal -->
-                <div class="p-2">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#nodeMetaModal">
-                        Add node metadata
-                    </button>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="nodeMetaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add node metadata</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="/target" class="dropzone" id="meta-drop" style="width:100%; height:20%;"></form>
-                            
-                        </div>
-                        <div class="modal-footer">
-                        <div id="liveAlertPlaceholder"></div>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+                
                 
                 
                 <div class="p-2 input-group">
@@ -271,7 +379,8 @@
             var cymap = undefined;
 
             var edge_filters = [];
-            
+            var node_filters = [];
+
             get_node_metadata = function(data){
                 dict = {}
                 data.forEach(function(d){
@@ -331,20 +440,7 @@
                 }
             }
 
-            toggle_edge_label_collapse = function(){
-                edge_filter = document.getElementById("edge_filter_key")
-                el = document.getElementById('collapseWidthExample')
-                if (edge_filter.value==""){
-                    if (el.classList.value.includes("show")){
-                        new bootstrap.Collapse(el)
-                    }
-                } else {
-                    if (!el.classList.value.includes("show")){
-                        new bootstrap.Collapse(el)
-                    }
-                }
 
-            }
 
             draw_edge_labels = function(){
                 edge_labels = document.getElementById("edge_label")
@@ -397,24 +493,24 @@
                 return colours
             }
 
-            populate_select_with_options = function(id,metadata){
+            populate_select_with_options = function(id,metadata,options = []){
                 el = document.getElementById(id)
                 el.innerHTML = ""
                 el.innerHTML += '<option selected></option>'
                 for (label in metadata){
                     el.innerHTML += '<option value="'+label+'">'+label+'</option>'
                 }
+                for (option in options){
+                    el.innerHTML += '<option value="'+options[option]+'">'+options[option]+'</option>'
+                }
             }
-            populate_node_label_options = function(data){
+            populate_node_selects = function(data){
                 metadata_colours = get_metadata_colours(data)
                 populate_select_with_options("node_label",metadata_colours)
+                populate_select_with_options("node_colour",metadata_colours)
+                populate_select_with_options("node_filter_key",metadata_colours,["degree"])
             }
 
-            populate_node_colour_options = function(data){
-                metadata_colours = get_metadata_colours(data)
-                console.log(metadata_colours)
-                populate_select_with_options("node_colour",metadata_colours)
-            }
 
             add_node_colour_listener = function(data){
                 metadata_colours = get_metadata_colours(data)
@@ -469,19 +565,47 @@
                 el.classList.add('text-bg-dark')
                 el.style = 'cursor: not-allowed;'
                 el.innerHTML = key + operator + value
-                el.onclick = function() {remove_filter(this)}
-                document.getElementById('active_filters').appendChild(el)
+                el.onclick = function() {remove_edge_filter(this)}
+                document.getElementById('active_edge_filters').appendChild(el)
 
-                redraw_edges()
+                redraw_graph()
             }
 
-            remove_filter = function(t){
+            add_node_filter = function(){
+                key = document.getElementById("node_filter_key").value
+                operator = document.getElementById("node_filter_operator").value
+                value = document.getElementById("node_filter_value").value
+                fid = Date.now()
+                node_filters.push({key: key, operator: operator, val: value, id: fid});
+                console.log(node_filters)
+                var el = document.createElement('span');
+                el.id = fid
+                el.classList.add('badge')
+                el.classList.add('text-bg-dark')
+                el.style = 'cursor: not-allowed;'
+                el.innerHTML = key + operator + value
+                el.onclick = function() {remove_node_filter(this)}
+                document.getElementById('active_node_filters').appendChild(el)
+
+                redraw_graph()
+            }
+
+            remove_edge_filter = function(t){
                 edge_filters = edge_filters.filter(function(x){x.id!=t.id})
                 t.remove()
-                redraw_edges()
+                redraw_graph()
             }
 
-            redraw_edges = function(){
+            remove_node_filter = function(t){
+                node_filters = node_filters.filter(function(x){x.id!=t.id})
+                t.remove()
+                redraw_graph()
+            }
+
+            redraw_graph = function(){
+                console.log("Redrawing graph")
+                console.log(edge_filters)
+                console.log(node_filters)
                 newdata = data.filter(function(x){
                     if (x.data.type=="node"){
                         return true
@@ -513,9 +637,47 @@
                     }
                 })
                 cy.json({ elements: newdata });
+
+                newdata = newdata.filter(function(x){
+                    if (x.data.type=="node"){
+                        test = true
+                        node_filters.forEach(function(f){
+                            if (f.key=='degree'){
+                                x.data.degree = cy.$('#'+x.data.id).degree()
+                            }
+                            if (f.operator=="<"){
+                                if (! (x.data[f.key] < parseFloat(f.val))){
+                                    test = false
+                                }
+                            }
+                            if (f.operator==">"){
+                                if (! (x.data[f.key] > parseFloat(f.val))){
+                                    test = false
+                                }
+                            }
+                            if (f.operator=="=="){
+                                if (! (x.data[f.key] == f.val)){
+                                    test = false
+                                }
+                            }
+                            if (f.operator=="!="){
+                                if (! (x.data[f.key] != f.val)){
+                                    test = false
+                                }
+                            }
+                        })
+                        return test
+                    } else {
+                        return true
+                    }
+                })
+
+                
+                
+                cy.json({ elements: newdata });
                 if (!cymap){
                     
-                    console.log(newdata)
+
                     cy.ready(function () {
                         var layout = cy.layout({ name: 'fcose' }); 
                         layout.run();
@@ -525,6 +687,7 @@
                     destroy_map()
                     draw_map(cy)
                 }
+                add_interaction_listener()
             }
 
             reset_view = function(){
@@ -535,12 +698,76 @@
 
             populate_dropdowns = function(data){
                 reset_view()
-                populate_node_colour_options(data);
-                populate_node_label_options(data);
+                populate_node_selects(data);
                 add_node_colour_listener(data);
                 add_node_label_listener(data);
                 populate_edge_label_options(data);
                 add_edge_label_listener(data);
+            }
+
+            add_interaction_listener = function(){
+                cy.on('boxselect',function(x){
+                    cy.nodes(':selected').forEach(function(ele){
+                        ele.style("border-color","red")
+                    })
+                })
+
+                cy.on('click',function(x){
+                    cy.nodes(':selected').forEach(function(ele){
+                        ele.style("border-color","red")
+                    })
+                })
+
+                cy.on('tapunselect',function(ele){
+                    cy.nodes().forEach(function(ele){
+                        ele.style("border-color","black")
+                    })
+                })
+
+                cy.nodes().on('mouseover', function(x){
+                    ele = x.target
+                    ele.popper({
+                        content: function(x){ return generate_tooltip(ele)}
+                    })
+                })
+
+                cy.nodes().on('mouseout', function(x){
+                    document.getElementsByClassName('popper-div').forEach(function(x){
+                        x.remove()
+                    })
+                })
+
+                cy.edges().on('mouseover', function(x){
+                    ele = x.target
+                    ele.popper({
+                        content: function(x){ return generate_tooltip(ele)}
+                    })
+                })
+
+                cy.edges().on('mouseout', function(x){
+                    document.getElementsByClassName('popper-div').forEach(function(x){
+                        x.remove()
+                    })
+                })
+
+
+                // document.getElementById('mode').addEventListener('click', function(){toggleMap(cy)});
+
+                
+                var generate_tooltip = function(ele){
+
+
+                    var div = document.createElement('div');
+                    div.classList.add('popper-div');
+                    div.innerHTML = "<b>ID:</b> " + ele.data('id')
+                    for (key in ele.data()){
+                        if (key=="id"){continue}
+                        // if (key=="type"){continue}
+                        div.innerHTML = div.innerHTML + "<br>" + "<b>"+key+":</b> "+ele.data(key)
+                    }
+                    document.body.appendChild( div );
+                    return div;
+                };
             }
 
             destroy_map = function(){
@@ -588,6 +815,34 @@
                 }
             };
             
+            download_sample_names = function() {
+                var element = document.createElement('a');
+                text = ""
+                cy.nodes(':selected').map(function(x){return x.data('id')}).forEach(function(x){text += x + "\n"})
+                element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+                element.setAttribute('download', "sample_names.txt");
+
+                element.style.display = 'none';
+                document.body.appendChild(element);
+
+                element.click();
+
+                document.body.removeChild(element);
+            }
+
+            download_img = function() {
+                var element = document.createElement('a');
+                element.setAttribute('href', cy.png({scale:3,bg:"white"}));
+                element.setAttribute('download', "graph.png");
+
+                element.style.display = 'none';
+                document.body.appendChild(element);
+
+                element.click();
+
+                document.body.removeChild(element);
+            }
+
             Dropzone.options.jsonDrop = { // camelized version of the `id`
                 paramName: "file", // The name that will be used to transfer the file
                 maxFilesize: 10, // Mb
@@ -637,7 +892,8 @@
                                     style: {
                                     'width': 3,
                                     'line-color': '#ccc',
-                                    'curve-style': 'haystack'
+                                    'target-arrow-shape': 'triangle',
+        'curve-style': 'bezier'
                                     }
                                 }
                             ],
@@ -650,86 +906,13 @@
 
                         });
 
-                        cy.on('boxselect',function(x){
-                            cy.nodes(':selected').forEach(function(ele){
-                              ele.style("border-color","red")
-                            })
-                        })
-
-                        cy.on('click',function(x){
-                            cy.nodes(':selected').forEach(function(ele){
-                              ele.style("border-color","red")
-                            })
-                        })
-
-                        cy.on('tapunselect',function(ele){
-                            cy.nodes().forEach(function(ele){
-                              ele.style("border-color","black")
-                            })
-                        })
-
-                        cy.nodes().on('mouseover', function(x){
-                            ele = x.target
-                            console.log(ele)
-                            ele.popper({
-                                content: function(x){ return generate_tooltip(ele)}
-                            })
-                        })
-
-                        cy.nodes().on('mouseout', function(x){
-                            document.getElementsByClassName('popper-div').forEach(function(x){
-                                x.remove()
-                            })
-                        })
-
-
-                        // document.getElementById('mode').addEventListener('click', function(){toggleMap(cy)});
+                        add_interaction_listener()
 
                         
-                        var generate_tooltip = function(ele){
-                            console.log(ele)
-
-                            var div = document.createElement('div');
-                            div.classList.add('popper-div');
-                            div.innerHTML = "<b>ID:</b> " + ele.data('id')
-                            for (key in ele.data()){
-                                if (key=="id"){continue}
-                                if (key=="type"){continue}
-                                div.innerHTML = div.innerHTML + "<br>" + "<b>"+key+":</b> "+ele.data(key)
-                            }
-                            document.body.appendChild( div );
-                            return div;
-                        };
 
 
 
-                        download_sample_names = function() {
-                            var element = document.createElement('a');
-                            text = ""
-                            cy.nodes(':selected').map(function(x){return x.data('id')}).forEach(function(x){text += x + "\n"})
-                            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-                            element.setAttribute('download', "sample_names.txt");
-
-                            element.style.display = 'none';
-                            document.body.appendChild(element);
-
-                            element.click();
-
-                            document.body.removeChild(element);
-                        }
-
-                        download_img = function() {
-                            var element = document.createElement('a');
-                            element.setAttribute('href', cy.png({scale:3,bg:"white"}));
-                            element.setAttribute('download', "graph.png");
-
-                            element.style.display = 'none';
-                            document.body.appendChild(element);
-
-                            element.click();
-
-                            document.body.removeChild(element);
-                        }
+                        
 
 
                     });
@@ -739,7 +922,7 @@
                 }
             };
 
-            Dropzone.options.metaDrop = { // camelized version of the `id`
+            Dropzone.options.nodeDataDrop = { // camelized version of the `id`
                 paramName: "file", // The name that will be used to transfer the file
                 maxFilesize: 10, // Mb
                 previewsContainer: false,
@@ -768,16 +951,53 @@
                         }
                         console.log(data)
                         populate_dropdowns(data)
-                        alert('Sucessfully added metadata to nodes.', 'success')
+                        alert('Sucessfully added metadata to nodes.', 'success','liveAlertPlaceholderNodes')
+                    });
+                    reader.readAsText(file);
+                }
+            };
+
+            Dropzone.options.edgeDataDrop = { // camelized version of the `id`
+                paramName: "file", // The name that will be used to transfer the file
+                maxFilesize: 100, // Mb
+                previewsContainer: false,
+                accept: function(file, done) {
+                    var reader = new FileReader();
+                    reader.addEventListener("loadend", function(event) { 
+                        var text = event.target.result
+                        console.log(text)
+                        rows = $.csv.toObjects(text)
+
+                        // create a object called lookup and with the source and target fields as a key
+                        // and the row as the value
+                        lookup = {}
+                        rows.forEach(function(row){
+                            lookup[row['Source']+row['Target']] = row
+                        })
+
+                        data.forEach(function(d){
+                            if (lookup[d.data.source+d.data.target]){
+                                for (key in lookup[d.data.source+d.data.target]){
+                                    d.data[key] = lookup[d.data.source+d.data.target][key]
+                                }
+                            }
+                        })
+
+                    
+
+                        
+                        populate_dropdowns(data)
+                        alert('Sucessfully added metadata to edges.', 'success', 'liveAlertPlaceholderEdges')
                     });
                     reader.readAsText(file);
                 }
             };
 
 
-            const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+            
 
-            const alert = (message, type) => {
+            const alert = (message, type, divid) => {
+                const alertPlaceholder = document.getElementById(divid)
                 const wrapper = document.createElement('div')
                 wrapper.innerHTML = [
                     `<div class="alert alert-${type} alert-dismissible" role="alert">`,
