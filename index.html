@@ -359,17 +359,7 @@
                 
             }
 
-            add_edge_filter_listener = function(data){
-                edge_metadata = get_edge_metadata(data);
-                
-                edge_filter.onchange = function(){
-                    key = document.getElementById("edge_filter_key").value
-                    console.log(key)
-                    toggle_edge_label_collapse()
-                    document.getElementById("min_dist").value = Math.min(edge_metadata[key])
-                    document.getElementById("max_dist").value = Math.max(edge_metadata[key])
-                }
-            }
+            
 
 
             add_edge_label_listener = function(data){
@@ -440,8 +430,12 @@
                     }
                     div = document.getElementById("legend");
                     div.innerHTML = "";
-                    for (var key in metadata_colours[node_colours.value]) {
-                        div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"'>"+key+"</span>"
+                    if (Object.keys(metadata_colours[node_colours.value]).length<=12){ 
+                        for (var key in metadata_colours[node_colours.value]) {
+                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"'>"+key+"</span>"
+                        }
+                    } else {
+                        div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many colours to display</span>"
                     }
                 }
                 
@@ -450,6 +444,7 @@
             add_node_label_listener = function(data){
                 metadata_colours = get_metadata_colours(data)
                 node_labels = document.getElementById("node_label")
+                console.log("Adding label to edges")
                 node_labels.onchange = function(){
                     if (node_labels.value==""){
                         cy.nodes().style("label","")
@@ -545,8 +540,7 @@
                 add_node_colour_listener(data);
                 add_node_label_listener(data);
                 populate_edge_label_options(data);
-                // add_edge_label_listener(data);
-                // add_edge_filter_listener(data);
+                add_edge_label_listener(data);
             }
 
             destroy_map = function(){
