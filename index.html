@@ -589,13 +589,13 @@
             }
 
             remove_edge_filter = function(t){
-                edge_filters = edge_filters.filter(function(x){x.id!=t.id})
+                edge_filters = edge_filters.filter(function(x){return x.id!=t.id})
                 t.remove()
                 redraw_graph()
             }
 
             remove_node_filter = function(t){
-                node_filters = node_filters.filter(function(x){x.id!=t.id})
+                node_filters = node_filters.filter(function(x){return x.id!=t.id})
                 t.remove()
                 redraw_graph()
             }
