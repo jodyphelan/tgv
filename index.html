@@ -10,11 +10,7 @@
         <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
         <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 
-        <!-- <script src="/tgv/js/cytoscape.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-        <!-- <script src="/tgv/js/dropzone.min.js"></script> -->
-        <!-- <link rel="stylesheet" href="/tgv/css/dropzone.min.css" type="text/css" /> -->
-        <!-- <link href="/tgv/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
-        <!-- <script src="/tgv/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+
 
         <script src="https://unpkg.com/layout-base/layout-base.js"></script>
         <script src="https://unpkg.com/cose-base/cose-base.js"></script>
@@ -29,7 +25,12 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
         
-        
+        <!-- <script src="/tgv/js/cytoscape.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/tgv/js/dropzone.min.js"></script>
+        <link rel="stylesheet" href="/tgv/css/dropzone.min.css" type="text/css" />
+        <link href="/tgv/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="/tgv/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+
         <style>
 
             
@@ -932,26 +933,22 @@
                     var reader = new FileReader();
                     reader.addEventListener("loadend", function(event) { 
                         var text = event.target.result
-                        lines = text.split("\n").map(function(d){
-                            return d.replace("\r","")
+                        rows = $.csv.toObjects(text)
+
+                        lookup = {}
+                        rows.forEach(function(row){
+                            lookup[row.Node] = row
                         })
-                        header = lines.reverse().pop().split(",")
-                        node_index = header.indexOf("Node")
 
-                        for (i in lines){
-                            console.log(i)
-                            if (lines[i]==""){continue}
-                            row = lines[i].split(",")
-                            data_index = data.map(function(d){return d['data']['id']}).indexOf(row[node_index])
-
-                            for (j in row){
-                                if (j==node_index){continue}
-
-                                data[data_index]['data'][header[j]] = row[j]
-
+                        data.forEach(function(d){
+                            if (lookup[d.data.id]){
+                                for (key in lookup[d.data.id]){
+                                    d.data[key] = lookup[d.data.id][key]
+                                }
                             }
-                        }
-                        console.log(data)
+                        })
+
+                        
                         populate_dropdowns(data)
                         alert('Sucessfully added metadata to nodes.', 'success','liveAlertPlaceholderNodes')
                     });
