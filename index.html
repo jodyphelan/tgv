@@ -446,7 +446,6 @@
                         cy.edges().style("label","")
                     } else {
                         cy.edges().style("label",function(d){
-                            console.log(d.data())
                             return d.data()[edge_labels.value]
                         })
                     }
@@ -704,6 +703,9 @@
             }
 
             add_interaction_listener = function(){
+                // cy.removeListener('mouseover')
+                // cy.removeListener('mouseout')
+
                 cy.on('boxselect',function(x){
                     cy.nodes(':selected').forEach(function(ele){
                         ele.style("border-color","red")
@@ -754,7 +756,9 @@
                 
                 var generate_tooltip = function(ele){
 
-
+                    document.getElementsByClassName('popper-div').forEach(function(x){
+                        x.remove()
+                    })
                     var div = document.createElement('div');
                     div.classList.add('popper-div');
                     div.innerHTML = "<b>ID:</b> " + ele.data('id')
