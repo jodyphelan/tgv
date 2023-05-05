@@ -858,7 +858,34 @@
 
                             element.remove();
                         }
-                        data = JSON.parse(event.target.result);
+                        raw_data = JSON.parse(event.target.result);
+                        data = [];
+                        raw_data.nodes.forEach(function(x){
+                            obj = {
+                                data: {
+                                    id: x.id,
+                                    type: 'node'
+                                }
+                            }
+                            for (key in x.properties){
+                                obj.data[key] = x.properties[key]
+                            }
+                            data.push(obj)
+                        })
+                        raw_data.edges.forEach(function(x){
+                            obj = {
+                                data: {
+                                    id: x.id,
+                                    source: x.source,
+                                    target: x.target,
+                                    type: 'edge'
+                                }
+                            }
+                            for (key in x.properties){
+                                obj.data[key] = x.properties[key]
+                            }
+                            data.push(obj)
+                        })
                         
                         populate_dropdowns(data)
                         
