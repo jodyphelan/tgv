@@ -372,6 +372,13 @@
                 11:['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6', '#6A3D9A', '#FFFF99'],
                 12:['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6', '#6A3D9A', '#FFFF99', '#B15928']
             }
+
+            symbol_palletes = {
+                1: ["ellipse"],
+                2: ["ellipse","triangle"], 
+                3: ["ellipse","triangle","rectangle"],
+                4: ["ellipse","triangle","rectangle","pentagon"],
+            }
             
             var cy;
             var data;
@@ -859,6 +866,7 @@
                             element.remove();
                         }
                         raw_data = JSON.parse(event.target.result);
+                        directional = raw_data.directed
                         data = [];
                         raw_data.nodes.forEach(function(x){
                             obj = {
@@ -922,8 +930,8 @@
                                     style: {
                                     'width': 3,
                                     'line-color': '#ccc',
-                                    'target-arrow-shape': 'triangle',
-                                    'curve-style': 'bezier'
+                                    'target-arrow-shape': directional ? 'triangle' : 'none',
+                                    'curve-style': directional ? 'bezier' : 'haystack',
                                     }
                                 }
                             ],
