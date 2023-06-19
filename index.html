@@ -146,6 +146,15 @@
                     <div class="pt-2" id="legend"></div>
                 </div>
                 <div class="p-2">
+                    <label id="node_symbol_label" class="form-check-label" for="node_symbol" >
+                        Node symbol
+                    </label>
+                    <select id="node_symbol" class="form-select" aria-label="Default select example">
+                        <option selected></option>
+                    </select>
+                    <div class="pt-2" id="legend"></div>
+                </div>
+                <div class="p-2">
                     <label id="node_label_label" class="form-check-label" for="node_label" >
                         Node label
                     </label>
@@ -489,6 +498,23 @@
                 return cols
             }
 
+            get_symbol_pallete = function(arr){
+                symbols = {}
+                if (arr.length>12){
+                    for (i in arr){
+                        symbols[arr[i]] = "ellipse"
+                    } 
+                } else {
+
+                    pal = symbol_palletes[arr.length]
+                    for (i in arr){
+                        symbols[arr[i]] = pal[i]
+                    }
+                }
+                
+                return symbols
+            }
+
             get_metadata_colours = function(data){
                 metadata = get_node_metadata(data)
                 colours = {}
@@ -496,6 +522,15 @@
                     colours[label] = get_pallete(metadata[label])
                 }
                 return colours
+            }
+
+            get_metadata_symbols = function(data){
+                metadata = get_node_metadata(data)
+                symbols = {}
+                for (label in metadata){
+                    symbols[label] = get_pallete(metadata[label])
+                }
+                return symbols
             }
 
             populate_select_with_options = function(id,metadata,options = []){
@@ -537,6 +572,31 @@
                         }
                     } else {
                         div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many colours to display</span>"
+                    }
+                }
+                
+            }
+
+            add_node_symbol_listener = function(data){
+                metadata_symbols = get_metadata_symbols(data)
+                node_symbols = document.getElementById("node_symbol")
+                node_symbols.onchange = function(){
+                    console.log(metadata_symbols)
+                    if (node_symbols.value==""){
+                        cy.nodes().style("shape","ellipse")
+                    } else {
+                        cy.nodes().style("shape",function(d){
+                            return metadata_symbols[node_symbols.value][d.data()[node_symbols.value]]
+                        })
+                    }
+                    div = document.getElementById("legend");
+                    div.innerHTML = "";
+                    if (Object.keys(metadata_symbols[node_symbols.value]).length<=4){ 
+                        for (var key in metadata_symbols[node_symbols.value]) {
+                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_symbols[node_symbols.value][key]+"'>"+key+"</span>"
+                        }
+                    } else {
+                        div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many symbols to display</span>"
                     }
                 }
                 
