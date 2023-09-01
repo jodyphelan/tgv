@@ -71,6 +71,7 @@
         </style>
     </head>
     <body>
+        <input type="color" id="colorPicker" style="display: none;">
         <div class="d-flex justify-content-center" style="height:100%;">
             <div class="p-2" style="overflow: auto; width:20%;">
                 <img class="img-fluid mt-4 mb-4" src="tgv-logo.png" alt="">
@@ -143,7 +144,7 @@
                     <select id="node_colour" class="form-select" aria-label="Default select example">
                         <option selected></option>
                     </select>
-                    <div class="pt-2" id="legend"></div>
+                    <div class="pt-2" id="colour_legend"></div>
                 </div>
                 <div class="p-2">
                     <label id="node_symbol_label" class="form-check-label" for="node_symbol" >
@@ -152,7 +153,7 @@
                     <select id="node_symbol" class="form-select" aria-label="Default select example">
                         <option selected></option>
                     </select>
-                    <div class="pt-2" id="legend"></div>
+                    <div class="pt-2" id="shape_legend"></div>
                 </div>
                 <div class="p-2">
                     <label id="node_label_label" class="form-check-label" for="node_label" >
@@ -367,6 +368,9 @@
                 // document.getElementById("sample_name_check").checked = false;
                 // document.getElementById("flexRadioDefault1").checked = true;
             }
+
+            var metadata_colours = []
+
             palletes =  {
                 1:["#000000"],
                 2:["#1b9e77","#7570b3"],
@@ -387,6 +391,19 @@
                 2: ["ellipse","triangle"], 
                 3: ["ellipse","triangle","rectangle"],
                 4: ["ellipse","triangle","rectangle","pentagon"],
+                5: ["ellipse","triangle","rectangle","pentagon","diamond"],
+                6: ["ellipse","triangle","rectangle","pentagon","diamond","star"],
+
+            }
+
+
+            symbol_html = {
+                "ellipse": "&#9679;",
+                "triangle": "&#9650;",
+                "rectangle": "&#9632;",
+                "pentagon": "&#11039;",
+                "diamond": "&#9670;",
+                "star": "&#9733;",
             }
             
             var cy;
@@ -499,8 +516,8 @@
             }
 
             get_symbol_pallete = function(arr){
-                symbols = {}
-                if (arr.length>12){
+                var symbols = {}
+                if (arr.length>6){
                     for (i in arr){
                         symbols[arr[i]] = "ellipse"
                     } 
@@ -528,7 +545,7 @@
                 metadata = get_node_metadata(data)
                 symbols = {}
                 for (label in metadata){
-                    symbols[label] = get_pallete(metadata[label])
+                    symbols[label] = get_symbol_pallete(metadata[label])
                 }
                 return symbols
             }
@@ -547,34 +564,54 @@
             populate_node_selects = function(data){
                 metadata_colours = get_metadata_colours(data)
                 populate_select_with_options("node_label",metadata_colours)
+                populate_select_with_options("node_symbol",metadata_colours)
                 populate_select_with_options("node_colour",metadata_colours)
                 populate_select_with_options("node_filter_key",metadata_colours,["degree"])
             }
 
-
-            add_node_colour_listener = function(data){
-                metadata_colours = get_metadata_colours(data)
+            colour_nodes = function(){
                 node_colours = document.getElementById("node_colour")
-                node_colours.onchange = function(){
-                    console.log(metadata_colours)
-                    if (node_colours.value==""){
+                if (node_colours.value==""){
                         cy.nodes().style("background-color","#000000")
                     } else {
                         cy.nodes().style("background-color",function(d){
                             return metadata_colours[node_colours.value][d.data()[node_colours.value]]
                         })
                     }
-                    div = document.getElementById("legend");
+                    div = document.getElementById("colour_legend");
                     div.innerHTML = "";
                     if (Object.keys(metadata_colours[node_colours.value]).length<=12){ 
                         for (var key in metadata_colours[node_colours.value]) {
-                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"'>"+key+"</span>"
+                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"' onclick='testfun(this)'>"+key+"</span>"
                         }
                     } else {
                         div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many colours to display</span>"
                     }
+            }
+            add_node_colour_listener = function(data){
+                // metadata_colours = get_metadata_colours(data)
+                node_colours = document.getElementById("node_colour")
+                node_colours.onchange = function(){
+                    console.log(metadata_colours)
+                    colour_nodes()
                 }
                 
+            }
+
+            testfun = function(targetElement){
+
+                var watchColorPicker = function(event) {
+                    metadata_colours[document.getElementById("node_colour").value][targetElement.innerHTML] = event.target.value
+                    colour_nodes()
+                }
+
+                var old_element = document.getElementById("colorPicker");
+                var new_element = old_element.cloneNode(true);
+                old_element.parentNode.replaceChild(new_element, old_element);
+                var colorPicker = document.getElementById("colorPicker")
+                colorPicker.addEventListener("change", watchColorPicker, false);
+                colorPicker.value = metadata_colours[document.getElementById("node_colour").value][targetElement.innerHTML]
+                colorPicker.click();
             }
 
             add_node_symbol_listener = function(data){
@@ -589,11 +626,11 @@
                             return metadata_symbols[node_symbols.value][d.data()[node_symbols.value]]
                         })
                     }
-                    div = document.getElementById("legend");
+                    div = document.getElementById("shape_legend");
                     div.innerHTML = "";
-                    if (Object.keys(metadata_symbols[node_symbols.value]).length<=4){ 
+                    if (Object.keys(metadata_symbols[node_symbols.value]).length<=6){ 
                         for (var key in metadata_symbols[node_symbols.value]) {
-                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_symbols[node_symbols.value][key]+"'>"+key+"</span>"
+                            div.innerHTML += "<span class='badge m-1' style='background-color:black'>"+symbol_html[metadata_symbols[node_symbols.value][key]]+" "+key+"</span>"
                         }
                     } else {
                         div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many symbols to display</span>"
@@ -603,7 +640,7 @@
             }
 
             add_node_label_listener = function(data){
-                metadata_colours = get_metadata_colours(data)
+                // metadata_colours = get_metadata_colours(data)
                 node_labels = document.getElementById("node_label")
                 console.log("Adding label to edges")
                 node_labels.onchange = function(){
@@ -756,7 +793,9 @@
             }
 
             reset_view = function(){
-                div = document.getElementById("legend");
+                div = document.getElementById("colour_legend");
+                div.innerHTML = ""; 
+                div = document.getElementById("shape_legend");
                 div.innerHTML = ""; 
                 
             }
@@ -765,6 +804,7 @@
                 reset_view()
                 populate_node_selects(data);
                 add_node_colour_listener(data);
+                add_node_symbol_listener(data);
                 add_node_label_listener(data);
                 populate_edge_label_options(data);
                 add_edge_label_listener(data);
