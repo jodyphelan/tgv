@@ -25,11 +25,13 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
         
-        <!-- <script src="/tgv/js/cytoscape.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="/tgv/js/dropzone.min.js"></script>
-        <link rel="stylesheet" href="/tgv/css/dropzone.min.css" type="text/css" />
-        <link href="/tgv/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-        <script src="/tgv/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+
+        <!-- Local development  -->
+        <!-- <script src="/js/cytoscape.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/js/dropzone.min.js"></script>
+        <link rel="stylesheet" href="/css/dropzone.min.css" type="text/css" />
+        <link href="/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
 
         <style>
 
@@ -343,6 +345,10 @@
                     To for download the IDs from a subset, use the <kbd>cmd/ctrl</kbd> key and click and drag and hit the
                     download button.
                 </div>
+                <div>
+                    Don't have data yet? Download this example json file and drag it into the box on the top left:
+                    <a href="https://jodyphelan.github.io/tgv/example_data.json"></a> 
+                </div>
                 <div class="p-2">
                     No data is uploaded anywhere, all data is process and visualised in your browser
                     and stays on your computer. To show funders our software is used we do monitor 
@@ -573,20 +579,22 @@
                 node_colours = document.getElementById("node_colour")
                 if (node_colours.value==""){
                         cy.nodes().style("background-color","#000000")
-                    } else {
-                        cy.nodes().style("background-color",function(d){
-                            return metadata_colours[node_colours.value][d.data()[node_colours.value]]
-                        })
-                    }
-                    div = document.getElementById("colour_legend");
-                    div.innerHTML = "";
+                } else {
+                    cy.nodes().style("background-color",function(d){
+                        return metadata_colours[node_colours.value][d.data()[node_colours.value]]
+                    })
+                }
+                div = document.getElementById("colour_legend");
+                div.innerHTML = "";
+                if (node_colours.value!=""){
                     if (Object.keys(metadata_colours[node_colours.value]).length<=12){ 
                         for (var key in metadata_colours[node_colours.value]) {
-                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"' onclick='testfun(this)'>"+key+"</span>"
+                            div.innerHTML += "<span class='badge m-1' style='background-color:"+metadata_colours[node_colours.value][key]+"' onclick='launchColorPicker(this)'>"+key+"</span>"
                         }
                     } else {
                         div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many colours to display</span>"
                     }
+                }
             }
             add_node_colour_listener = function(data){
                 // metadata_colours = get_metadata_colours(data)
@@ -598,7 +606,7 @@
                 
             }
 
-            testfun = function(targetElement){
+            launchColorPicker = function(targetElement){
 
                 var watchColorPicker = function(event) {
                     metadata_colours[document.getElementById("node_colour").value][targetElement.innerHTML] = event.target.value
@@ -614,12 +622,10 @@
                 colorPicker.click();
             }
 
-            add_node_symbol_listener = function(data){
-                metadata_symbols = get_metadata_symbols(data)
+            set_node_symbols = function(){
+                console.log("Setting node symbols")
                 node_symbols = document.getElementById("node_symbol")
-                node_symbols.onchange = function(){
-                    console.log(metadata_symbols)
-                    if (node_symbols.value==""){
+                if (node_symbols.value==""){
                         cy.nodes().style("shape","ellipse")
                     } else {
                         cy.nodes().style("shape",function(d){
@@ -635,6 +641,13 @@
                     } else {
                         div.innerHTML = "<span class='badge m-1' style='background-color:black'>Too many symbols to display</span>"
                     }
+            }
+
+            add_node_symbol_listener = function(data){
+                metadata_symbols = get_metadata_symbols(data)
+                node_symbols = document.getElementById("node_symbol")
+                node_symbols.onchange = function(){
+                    set_node_symbols()
                 }
                 
             }
@@ -696,12 +709,16 @@
                 edge_filters = edge_filters.filter(function(x){return x.id!=t.id})
                 t.remove()
                 redraw_graph()
+                colour_nodes()
+                set_node_symbols()
             }
 
             remove_node_filter = function(t){
                 node_filters = node_filters.filter(function(x){return x.id!=t.id})
                 t.remove()
                 redraw_graph()
+                colour_nodes()
+                set_node_symbols()
             }
 
             redraw_graph = function(){
