@@ -73,6 +73,7 @@
         </style>
     </head>
     <body>
+        <div id="alertPlaceholder"></div>
         <input type="color" id="colorPicker" style="display: none;">
         <div class="d-flex justify-content-center" style="height:100%;">
             <div class="p-2" style="overflow: auto; width:20%;">
@@ -82,62 +83,7 @@
                 </p>
                 <form action="/target" class="dropzone" id="json-drop" style="width:100%; height:20%;"></form>
                 <hr>
-                <!-- Button trigger modal -->
-                <div class="p-2">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#nodeMetaModal">
-                        Add node metadata
-                    </button>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="nodeMetaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add node metadata</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="/target" class="dropzone" id="node-data-drop" style="width:100%; height:20%;"></form>
-                            
-                        </div>
-                        <div class="modal-footer">
-                        <div id="liveAlertPlaceholderNodes"></div>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-
-                <!-- Button trigger modal -->
-                <div class="p-2">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#edgeMetaModal">
-                        Add edge metadata
-                    </button>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="edgeMetaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add edge metadata</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="/target" class="dropzone" id="edge-data-drop" style="width:100%; height:20%;"></form>
-
-                        </div>
-                        <div class="modal-footer">
-                        <div id="liveAlertPlaceholderEdges"></div>
-                        
-                          
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <hr>
+                
                 
                 <div class="p-2">
                     <label id="node_colour_label" class="form-check-label" for="node_colour" >
@@ -971,6 +917,142 @@
                 document.body.removeChild(element);
             }
 
+
+            parse_json = function(event){
+                const element = document.getElementById('info');
+                if (element!=null){
+
+                    element.remove();
+                }
+                raw_data = JSON.parse(event.target.result);
+                directional = raw_data.directed
+                data = [];
+                raw_data.nodes.forEach(function(x){
+                    obj = {
+                        data: {
+                            id: x.id,
+                            type: 'node'
+                        }
+                    }
+                    for (key in x.properties){
+                        obj.data[key] = x.properties[key]
+                    }
+                    data.push(obj)
+                })
+                raw_data.edges.forEach(function(x){
+                    obj = {
+                        data: {
+                            id: x.id,
+                            source: x.source,
+                            target: x.target,
+                            type: 'edge'
+                        }
+                    }
+                    for (key in x.properties){
+                        obj.data[key] = x.properties[key]
+                    }
+                    data.push(obj)
+                })
+                
+                populate_dropdowns(data)
+                
+
+                
+
+                node_search = function(){
+                    search_term = document.getElementById("node_search").value
+                    obj = cy.$id(search_term)
+                    if (obj.length > 0){
+                        cy.fit(obj,200)
+                    }
+                }
+                console.log(data)
+                cy = cytoscape({
+
+                    container: document.getElementById('cy'), // container to render in
+
+                    elements: data,
+
+
+                    style: [ // the stylesheet for the graph
+                        {
+                            selector: 'node',
+                            style: {
+                            'background-color': 'black',
+                            // 'label': 'data(id)',
+                            'border-width': 2,
+                            }
+                        },
+
+                        {
+                            selector: 'edge',
+                            style: {
+                            'width': 3,
+                            'line-color': '#ccc',
+                            'target-arrow-shape': directional ? 'triangle' : 'none',
+                            'curve-style': directional ? 'bezier' : 'haystack',
+                            }
+                        }
+                    ],
+
+                    layout: {
+                        name: 'fcose'
+                    },
+                    hideEdgesOnViewport: true,
+                    boxSelectionEnabled:true
+
+                });
+
+                add_interaction_listener()
+            }
+
+            parse_node_csv = function(event){
+                var text = event.target.result
+                rows = $.csv.toObjects(text)
+
+                lookup = {}
+                rows.forEach(function(row){
+                    lookup[row.Node] = row
+                })
+
+                data.forEach(function(d){
+                    if (lookup[d.data.id]){
+                        for (key in lookup[d.data.id]){
+                            d.data[key] = lookup[d.data.id][key]
+                        }
+                    }
+                })
+
+                
+                populate_dropdowns(data)
+                alert('Sucessfully added metadata to nodes.', 'success','liveAlertPlaceholderNodes')
+            }
+
+            parse_edge_csv = function(event){
+                var text = event.target.result
+                console.log(text)
+                rows = $.csv.toObjects(text)
+
+                lookup = {}
+                rows.forEach(function(row){
+                    lookup[row['Source']+row['Target']] = row
+                })
+
+                data.forEach(function(d){
+                    if (lookup[d.data.source+d.data.target]){
+                        for (key in lookup[d.data.source+d.data.target]){
+                            d.data[key] = lookup[d.data.source+d.data.target][key]
+                        }
+                    }
+                })
+
+            
+
+                
+                populate_dropdowns(data)
+                alert('Sucessfully added metadata to edges.', 'success', 'liveAlertPlaceholderEdges')
+            }
+
             Dropzone.options.jsonDrop = { // camelized version of the `id`
                 paramName: "file", // The name that will be used to transfer the file
                 maxFilesize: 10, // Mb
@@ -978,99 +1060,16 @@
                 accept: function(file, done) {
                     var reader = new FileReader();
                     reader.addEventListener("loadend", function(event) { 
-                        const element = document.getElementById('info');
-                        if (element!=null){
-
-                            element.remove();
+                        console.log(event)
+                        if (event.target.result.startsWith('Node')){
+                            parse_node_csv(event)
+                        } else if (event.target.result.startsWith('Source')){
+                            parse_edge_csv(event)
+                        } else if (event.target.result.replace(/\s/g, "").startsWith('{"nodes"')) {
+                            parse_json(event)
+                        } else {
+                            alert('File not recognised. Please upload a json file or a csv file with a column "Node" for nodes or columns "Source" and "Target" for edges.', 'danger')
                         }
-                        raw_data = JSON.parse(event.target.result);
-                        directional = raw_data.directed
-                        data = [];
-                        raw_data.nodes.forEach(function(x){
-                            obj = {
-                                data: {
-                                    id: x.id,
-                                    type: 'node'
-                                }
-                            }
-                            for (key in x.properties){
-                                obj.data[key] = x.properties[key]
-                            }
-                            data.push(obj)
-                        })
-                        raw_data.edges.forEach(function(x){
-                            obj = {
-                                data: {
-                                    id: x.id,
-                                    source: x.source,
-                                    target: x.target,
-                                    type: 'edge'
-                                }
-                            }
-                            for (key in x.properties){
-                                obj.data[key] = x.properties[key]
-                            }
-                            data.push(obj)
-                        })
-                        
-                        populate_dropdowns(data)
-                        
-
-                        
-
-                        node_search = function(){
-                            search_term = document.getElementById("node_search").value
-                            obj = cy.$id(search_term)
-                            if (obj.length > 0){
-                                cy.fit(obj,200)
-                            }
-                        }
-                        console.log(data)
-                        cy = cytoscape({
-
-                            container: document.getElementById('cy'), // container to render in
-
-                            elements: data,
-
-
-                            style: [ // the stylesheet for the graph
-                                {
-                                    selector: 'node',
-                                    style: {
-                                    'background-color': 'black',
-                                    // 'label': 'data(id)',
-                                    'border-width': 2,
-                                    }
-                                },
-
-                                {
-                                    selector: 'edge',
-                                    style: {
-                                    'width': 3,
-                                    'line-color': '#ccc',
-                                    'target-arrow-shape': directional ? 'triangle' : 'none',
-                                    'curve-style': directional ? 'bezier' : 'haystack',
-                                    }
-                                }
-                            ],
-
-                            layout: {
-                                name: 'fcose'
-                            },
-                            hideEdgesOnViewport: true,
-                            boxSelectionEnabled:true
-
-                        });
-
-                        add_interaction_listener()
-
-                        
-
-
-
-                        
-
-
                     });
                     reader.readAsText(file);
                     console.log(file)
@@ -1085,25 +1084,7 @@
                 accept: function(file, done) {
                     var reader = new FileReader();
                     reader.addEventListener("loadend", function(event) { 
-                        var text = event.target.result
-                        rows = $.csv.toObjects(text)
-
-                        lookup = {}
-                        rows.forEach(function(row){
-                            lookup[row.Node] = row
-                        })
-
-                        data.forEach(function(d){
-                            if (lookup[d.data.id]){
-                                for (key in lookup[d.data.id]){
-                                    d.data[key] = lookup[d.data.id][key]
-                                }
-                            }
-                        })
-
                         
-                        populate_dropdowns(data)
-                        alert('Sucessfully added metadata to nodes.', 'success','liveAlertPlaceholderNodes')
                     });
                     reader.readAsText(file);
                 }
@@ -1116,28 +1097,7 @@
                 accept: function(file, done) {
                     var reader = new FileReader();
                     reader.addEventListener("loadend", function(event) { 
-                        var text = event.target.result
-                        console.log(text)
-                        rows = $.csv.toObjects(text)
-
-                        lookup = {}
-                        rows.forEach(function(row){
-                            lookup[row['Source']+row['Target']] = row
-                        })
-
-                        data.forEach(function(d){
-                            if (lookup[d.data.source+d.data.target]){
-                                for (key in lookup[d.data.source+d.data.target]){
-                                    d.data[key] = lookup[d.data.source+d.data.target][key]
-                                }
-                            }
-                        })
-
-                    
-
                         
-                        populate_dropdowns(data)
-                        alert('Sucessfully added metadata to edges.', 'success', 'liveAlertPlaceholderEdges')
                     });
                     reader.readAsText(file);
                 }
@@ -1146,19 +1106,28 @@
 
             
 
-            const alert = (message, type, divid) => {
-                const alertPlaceholder = document.getElementById(divid)
+            const alert = (message, type) => {
+                placeholder = document.getElementById('alertPlaceholder')
+                placeholder.innerHTML = ""
                 const wrapper = document.createElement('div')
                 wrapper.innerHTML = [
-                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
-                    `   <div>${message}</div>`,
-                    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                    `<div class="modal fade" id="alertModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">`,
+                    `    <div class="modal-dialog">`,
+                    `        <div class="modal-content alert alert-${type}">`,
+                    '            <div class="modal-header">',
+                    '                <h5 class="modal-title" id="exampleModalLabel"></h5>',
+                    '                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>',
+                    '            </div>',
+                    `            <div class="modal-body">${message}  </div>`,
+                    '        </div>',
+                    '    </div>',
                     '</div>'
                 ].join('')
 
-                alertPlaceholder.append(wrapper)
+                placeholder.append(wrapper)
+                $('#alertModel').modal('show');
             }
-
+            
         </script>
     </body>
 </html>
