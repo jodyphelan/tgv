@@ -25,6 +25,9 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-csv@1.0.21/src/jquery.csv.min.js"></script>
         
+        <script src="js/cytoscape-svg.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
 
         <!-- Local development  -->
         <!-- <script src="/js/cytoscape.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -117,6 +120,23 @@
                     </label>
                     <select id="edge_label" class="form-select" aria-label="Default select example">
                         <option selected></option>
+                    </select>
+                </div>
+                <div class="p-2">
+                    <label id="edge_width_label" class="form-check-label" for="edge_width" >
+                        Edge Width
+                    </label>
+                    <select id="edge_width" class="form-select" aria-label="Default select example">
+                        <option selected></option>
+                    </select>
+                </div>
+                <div class="p-2">
+                    <label id="edge_width_order_label" class="form-check-label" for="edge_width_order" >
+                        Edge Width Order
+                    </label>
+                    <select id="edge_width_order" class="form-select" aria-label="Default select example">
+                        <option selected>Increasing</option>
+                        <option>Decreasing</option>
                     </select>
                 </div>
 
@@ -273,7 +293,8 @@
                 <hr>
                 <div class="p-2 ">
                     <button type="button" class="btn btn-outline-primary mt-2" onclick="download_sample_names()">Download selected IDs</button>
-                    <button type="button" class="btn btn-outline-primary mt-2" onclick="download_img()">Download PNG</button>
+                    <button type="button" class="btn btn-outline-primary mt-2" onclick="download_png()">Download PNG</button>
+                    <button type="button" class="btn btn-outline-primary mt-2" onclick="download_svg()">Download SVG</button>
                 </div>
 
 
@@ -320,6 +341,14 @@
                 // document.getElementById("snp_dist_check").checked = false;
                 // document.getElementById("sample_name_check").checked = false;
                 // document.getElementById("flexRadioDefault1").checked = true;
+            }
+
+            function getRandomInt(max) {
+               return Math.floor(Math.random() * max);
+            }
+            
+            function mapNumRange(num, inMin, inMax, outMin, outMax) {
+                return ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
             }
 
             var metadata_colours = []
@@ -423,11 +452,20 @@
                 for (label in edge_metadata){
                     edge_labels.innerHTML += '<option value="'+label+'">'+label+'</option>'
                 }
+                edge_widths = document.getElementById("edge_width")
+                edge_widths.innerHTML = ""
+                edge_widths.innerHTML += '<option selected></option>'
+                for (label in edge_metadata){
+                    edge_widths.innerHTML += '<option value="'+label+'">'+label+'</option>'
+                }
             }
+
+            
 
 
 
             draw_edge_labels = function(){
+                console.log("Redrawing edge labels")
                 edge_labels = document.getElementById("edge_label")
                 if (edge_labels.value==""){
                         cy.edges().style("label","")
@@ -440,14 +478,51 @@
             }
 
             
-
-
             add_edge_label_listener = function(data){
-
-                
+                console.log("Adding label to edges")
                 edge_labels.onchange = function(){
                     draw_edge_labels()
-                    console.log(edge_metadata)
+                }
+            }
+
+            get_edge_width_function = function(){
+                variable = document.getElementById("edge_width").value
+                minval = Math.min(...cy.edges().map(function(x){return x.data()[variable]}))
+                maxval = Math.max(...cy.edges().map(function(x){return x.data()[variable]}))
+
+                
+                if (document.getElementById("edge_width_order").value=="Increasing"){
+                    maxmapped = 20
+                    minmapped = 1
+                } else {
+                    maxmapped = 1
+                    minmapped = 20
+                }
+
+                return function(d){
+                    return mapNumRange(d.data()[variable],minval,maxval,minmapped,maxmapped)
+                }
+            }
+            
+            draw_edge_width = function(){
+                console.log("Redrawing edge width")
+                edge_width = document.getElementById("edge_width")
+                if (edge_width.value==""){
+                        cy.edges().style("width",3) 
+                    } else {
+                        f = get_edge_width_function()
+                        cy.edges().style("width",f)
+                    }
+            }
+
+            add_edge_width_listener = function(data){
+                edge_width = document.getElementById("edge_width")
+                edge_width.onchange = function(){
+                    draw_edge_width()
+                }
+                edge_width_order = document.getElementById("edge_width_order")
+                edge_width_order.onchange = function(){
+                    draw_edge_width()
                 }
             }
 
@@ -745,7 +820,15 @@
                     
 
                     cy.ready(function () {
-                        var layout = cy.layout({ name: 'fcose' }); 
+                        var layout = cy.layout(
+                            { 
+                                name: 'fcose' ,
+                                idealEdgeLength: function(edge){
+                                    min_degree = Math.min(edge.source().degree(),edge.target().degree())
+                                    return mapNumRange(min_degree,0,10,50,200)
+                                },
+                            }
+                        ); 
                         layout.run();
                     });
                     draw_edge_labels(data)
@@ -772,11 +855,10 @@
                 add_node_label_listener(data);
                 populate_edge_label_options(data);
                 add_edge_label_listener(data);
+                add_edge_width_listener(data);
             }
 
             add_interaction_listener = function(){
-                // cy.removeListener('mouseover')
-                // cy.removeListener('mouseout')
 
                 cy.on('boxselect',function(x){
                     cy.nodes(':selected').forEach(function(ele){
@@ -904,7 +986,7 @@
                 document.body.removeChild(element);
             }
 
-            download_img = function() {
+            download_png = function() {
                 var element = document.createElement('a');
                 element.setAttribute('href', cy.png({scale:3,bg:"white"}));
                 element.setAttribute('download', "graph.png");
@@ -915,6 +997,12 @@
                 element.click();
 
                 document.body.removeChild(element);
+            }
+
+            download_svg = function() {
+                var svgContent = cy.svg({scale: 1, full: true, bg: '#ffffff'});
+                var blob = new Blob([svgContent], {type: "image/svg+xml"});
+                saveAs(blob, "graph.svg");
             }
 
 
@@ -978,8 +1066,9 @@
                         {
                             selector: 'node',
                             style: {
-                            'background-color': 'black',
-                            // 'label': 'data(id)',
+                            'background-color': function(n){
+                                return n.data().id.startsWith('compound') ? '#e3e3e3' : '#000'
+                            },
                             'border-width': 2,
                             }
                         },
@@ -996,7 +1085,12 @@
                     ],
 
                     layout: {
-                        name: 'fcose'
+                        name: 'fcose',
+                        idealEdgeLength: function(edge){
+                            min_degree = Math.min(edge.source().degree(),edge.target().degree())
+                            return mapNumRange(min_degree,0,10,50,500)
+                            
+                        },
                     },
                     hideEdgesOnViewport: true,
                     boxSelectionEnabled:true

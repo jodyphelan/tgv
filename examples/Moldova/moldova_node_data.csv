@@ -1,0 +1,1835 @@
+﻿Node,main_lineage,sub_lineage,spoligotype,drtype,gender,age(yrs),tb_type,tb_initTreatment,hopsitalized,urban_residence,homeless,occupation,education,previouslyPrisoner,no_of_houseHoldcontacts
+SRR14782158,lineage2,lineage2.2.1,-,Other,Male,41,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14782764,lineage4,lineage4.2.1,-,Other,Female,31,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,6
+SRR14801340,lineage2,lineage2.2.1,-,HR-TB,Male,58,previously_treated,yes,yes,no,no,unemployed,secondary,yes,3
+SRR14782416,lineage2,lineage2.2.1,-,HR-TB,Male,33,previously_treated,yes,yes,yes,yes,unemployed,specialized secondary,NA,2
+SRR14782161,lineage4,lineage4.1.2,-,Other,Male,36,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782719,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782714,lineage2,lineage2.2.1,-,HR-TB,Male,44,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14801629,lineage4,lineage4.2.1,-,HR-TB,Male,46,new_case,yes,yes,yes,no,unemployed,specialized secondary,yes,NA
+SRR14802165,lineage2,lineage2.2.1,-,HR-TB,Male,57,previously_treated,yes,yes,yes,yes,unemployed,primary,no,0
+SRR14802148,lineage2,lineage2.2.1,-,HR-TB,Male,44,previously_treated,yes,yes,no,no,unemployed,primary,NA,1
+SRR14802060,lineage2,lineage2.2.1,-,HR-TB,Female,28,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14802034,lineage2,lineage2.2.1,-,Other,Female,43,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801934,lineage2,lineage2.2.1,-,HR-TB,Female,27,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14801929,lineage2,lineage2.2.1,-,HR-TB,Female,49,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14801925,lineage2,lineage2.2.1,-,HR-TB,Male,35,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14802199,lineage2,lineage2.2.1,-,Other,Male,50,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14807672,lineage4,lineage4.8,-,Other,Male,44,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14807666,lineage4,lineage4.1.2.1,-,HR-TB,Male,56,previously_treated,yes,yes,yes,yes,unemployed,primary,yes,0
+SRR14807619,lineage4,lineage4.1.2,-,Other,Female,58,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782115,lineage4,lineage4.2.1,-,HR-TB,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782003,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782233,lineage4,lineage4.2.1,-,HR-TB,Female,38,new_case,other,yes,no,no,unemployed,primary,no,NA
+SRR14782197,lineage4,lineage4.8,-,HR-TB,Male,45,new_case,other,yes,yes,yes,unemployed,primary,no,3
+SRR14782027,lineage2,lineage2.2.1,-,Other,Female,60,new_case,yes,yes,no,no,retired,primary,no,7
+SRR14781838,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782218,lineage4,lineage4.1.2.1,-,HR-TB,Male,60,new_case,yes,yes,no,NA,unemployed,secondary,no,3
+SRR14801335,lineage2,lineage2.2.1,-,HR-TB,Female,16,new_case,yes,yes,no,no,student,specialized secondary,no,1
+SRR14807483,lineage2,lineage2.2.1,-,HR-TB,Male,29,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782159,lineage2;lineage4,lineage2.2.1;lineage4.2.1,-,RR-TB,Male,62,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14781899,lineage2,lineage2.2.1,-,Other,Male,30,new_case,yes,yes,no,NA,unemployed,secondary,no,1
+SRR14782659,lineage4,lineage4.2.1.1,-,HR-TB,Male,50,new_case,yes,yes,no,NA,unemployed,specialized secondary,no,2
+SRR14782433,lineage4,lineage4.1.2,-,Other,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,6
+SRR14802226,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782676,lineage2,lineage2.2.1,-,HR-TB,Male,49,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782090,lineage4,lineage4.3.3,-,HR-TB,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782310,lineage2,lineage2.2.1,-,HR-TB,Male,35,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782657,lineage4,lineage4.2.1,-,HR-TB,Male,50,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801698,lineage4,lineage4.2.1,-,HR-TB,Male,37,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801896,lineage4,lineage4.2.1,-,HR-TB,Female,29,previously_treated,yes,yes,yes,yes,unemployed,primary,no,1
+SRR14802244,lineage4,lineage4.8,-,HR-TB,Male,32,previously_treated,yes,yes,yes,yes,unemployed,secondary,no,0
+SRR14802187,lineage4,lineage4.2.1,-,HR-TB,Male,22,new_case,yes,yes,yes,yes,unemployed,primary,no,1
+SRR14781963,lineage2,lineage2.2.1,-,HR-TB,Male,41,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14781943,La1,La1.4,-,Other,Male,33,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782427,lineage4,lineage4.2.1,-,HR-TB,Male,43,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14782485,lineage2,lineage2.2.1,-,HR-TB,Female,55,new_case,yes,yes,no,no,employed,secondary,no,1
+SRR14781908,lineage4,lineage4.2.1.1,-,HR-TB,Male,47,new_case,yes,yes,yes,no,unemployed,primary,no,8
+SRR14782377,lineage2,lineage2.2.1,-,Other,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,12
+SRR14807675,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782187,lineage2,lineage2.2.1,-,HR-TB,Female,60,previously_treated,yes,yes,yes,no,retired,primary,no,2
+SRR14782441,lineage4,lineage4.3.3,-,HR-TB,Male,57,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14782019,lineage4,lineage4.8,-,Other,Female,53,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14781878,lineage2,lineage2.2.1,-,HR-TB,Male,37,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782357,lineage2,lineage2.2.1,-,HR-TB,Male,50,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14782201,lineage2,lineage2.2.1,-,HR-TB,Male,61,new_case,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14782697,lineage4,lineage4.2.1,-,HR-TB,Male,29,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782548,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782449,lineage2,lineage2.2.1,-,HR-TB,Male,19,new_case,yes,yes,no,no,student,secondary,no,3
+SRR14782732,lineage2,lineage2.2.1,-,Other,Male,30,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801503,lineage4,lineage4.2.1,-,HR-TB,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14807664,lineage2,lineage2.2.1,-,HR-TB,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14807677,lineage4,lineage4.1.2.1,-,HR-TB,Male,41,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14801721,lineage2,lineage2.2.1,-,HR-TB,Female,77,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14782555,lineage2,lineage2.2.1,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14802105,lineage2,lineage2.2.1,-,HR-TB,Male,52,new_case,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14801950,lineage4,lineage4.2.1,-,HR-TB,Male,49,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801855,lineage4,lineage4.3.3,-,HR-TB,Male,45,new_case,yes,yes,no,no,unemployed,secondary,NA,5
+SRR14801816,lineage2,lineage2.2.1,-,HR-TB,Male,69,new_case,yes,yes,yes,no,retired,primary,no,1
+SRR14801755,lineage2,lineage2.2.1,-,HR-TB,Male,60,previously_treated,yes,yes,no,no,employed,primary,no,3
+SRR14802096,lineage2,lineage2.2.1,-,Other,Female,60,previously_treated,yes,yes,yes,no,retired,primary,yes,1
+SRR14782720,lineage4,lineage4.2.1,-,HR-TB,Male,29,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782722,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782062,lineage4,lineage4.2.1,-,HR-TB,Male,26,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801651,lineage4,lineage4.3.3,-,Other,Male,37,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801650,lineage4,lineage4.3.3,-,Other,Male,38,new_case,yes,2,no,no,disabled,higher_education,no,2
+SRR14801845,lineage2,lineage2.2.1,-,HR-TB,Male,43,new_case,yes,yes,yes,no,disabled,secondary,no,6
+SRR14801808,lineage4,lineage4.2.1,-,HR-TB,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,7
+SRR14801733,lineage4,lineage4.1.2,-,Other,Male,63,new_case,yes,yes,yes,no,retired,secondary,no,2
+SRR14801723,lineage4,lineage4.1.2,-,Other,Male,46,previously_treated,yes,yes,no,no,unemployed,secondary,no,7
+SRR14801691,lineage4,lineage4.8,-,HR-TB,Male,31,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801641,lineage2,lineage2.2.1,-,HR-TB,Male,55,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801637,lineage4,lineage4.2.1,-,HR-TB,Male,31,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14781974,lineage2,lineage2.2.1,-,HR-TB,Male,45,previously_treated,yes,yes,no,no,unemployed,primary,no,2
+SRR14781940,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801296,lineage2,lineage2.2.1,-,HR-TB,Male,49,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14801790,lineage2,lineage2.2.1,-,Other,Male,54,previously_treated,yes,yes,yes,no,disabled,secondary,no,0
+SRR14801739,lineage2,lineage2.2.1,-,Other,Male,46,new_case,yes,yes,no,no,unemployed,no_education,no,0
+SRR14801736,lineage2,lineage2.2.1,-,HR-TB,Male,37,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801686,lineage2,lineage2.2.1,-,Other,Female,30,new_case,yes,yes,no,no,unemployed,no_education,no,1
+SRR14801635,lineage2,lineage2.2.1,-,Other,Male,31,new_case,yes,yes,no,no,unemployed,no_education,no,1
+SRR14802206,lineage2,lineage2.2.1,-,Other,Female,48,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801878,lineage2,lineage2.2.1,-,HR-TB,Female,32,new_case,yes,yes,no,no,unemployed,secondary,no,7
+SRR14801817,lineage4,lineage4.8,-,HR-TB,Male,55,previously_treated,yes,yes,no,no,unemployed,specialized secondary,yes,5
+SRR14801743,lineage4,lineage4.7,-,HR-TB,Male,51,new_case,yes,yes,no,no,employed,specialized secondary,no,9
+SRR14801669,lineage4,lineage4.1.2,-,Other,Male,41,new_case,yes,yes,yes,no,unemployed,secondary,yes,2
+SRR14801932,lineage2,lineage2.2.1,-,HR-TB,Male,59,new_case,yes,yes,no,no,disabled,specialized secondary,no,1
+SRR14781975,lineage2,lineage2.2.1,-,HR-TB,Female,31,new_case,yes,yes,no,no,disabled,no_education,no,1
+SRR14781937,lineage4,lineage4.1,-,HR-TB,Male,58,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782490,lineage2,lineage2.2.1,-,HR-TB,Female,16,new_case,yes,no,no,NA,0,NA,NA,0
+SRR14802208,lineage2,lineage2.2.1,-,HR-TB,Male,46,new_case,yes,yes,no,no,unemployed,secondary,yes,3
+SRR14807484,lineage4,lineage4.1.2,-,Other,Male,57,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782042,lineage2,lineage2.2.1,-,HR-TB,Female,51,previously_treated,yes,yes,no,no,unemployed,primary,no,2
+SRR14782246,lineage2,lineage2.2.1,-,HR-TB,Male,33,new_case,yes,yes,no,yes,unemployed,primary,no,3
+SRR14782209,lineage2,lineage2.2.1,-,HR-TB,Female,19,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782183,lineage2,lineage2.2.1,-,HR-TB,Male,42,new_case,yes,yes,no,no,unemployed,NA,yes,0
+SRR14782612,lineage2,lineage2.2.1,-,Other,Male,34,new_case,yes,yes,no,no,unemployed,primary,NA,5
+SRR14801753,lineage4,lineage4.3.3,-,HR-TB,Male,56,new_case,yes,yes,yes,yes,unemployed,primary,no,0
+SRR14802227,lineage4,lineage4.8,-,HR-TB,Male,63,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14807523,lineage4,lineage4.2.1,-,HR-TB,Male,32,previously_treated,yes,yes,no,yes,unemployed,primary,yes,1
+SRR14782170,lineage2;lineage4,lineage2.2.1;lineage4.8,-,HR-TB,Male,53,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782565,lineage2,lineage2.2.1,-,Other,Female,29,new_case,yes,yes,no,yes,unemployed,primary,no,4
+SRR14782656,lineage4,lineage4.1.2.1,-,Other,Male,46,previously_treated,yes,yes,no,no,disabled,primary,no,2
+SRR14782634,lineage2,lineage2.2.1,-,HR-TB,Male,53,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801471,lineage4,lineage4.2.1.1,-,HR-TB,Female,30,new_case,yes,yes,no,no,employed,primary,no,4
+SRR14801544,lineage4,lineage4.1.2.1,-,HR-TB,Female,85,new_case,yes,yes,yes,no,retired,primary,no,NA
+SRR14802267,lineage4,lineage4.8,-,Other,Male,43,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14801856,lineage2,lineage2.2.1,-,HR-TB,Male,38,new_case,yes,yes,yes,no,disabled,no_education,no,4
+SRR14801796,lineage2,lineage2.2.1,-,Other,Male,27,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,6
+SRR14801654,lineage4,lineage4.3.3,-,HR-TB,Female,65,new_case,yes,yes,yes,no,retired,secondary,no,NA
+SRR14801619,lineage4,lineage4.2.1,-,HR-TB,Male,35,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14782432,lineage2,lineage2.2.1,-,Other,Male,34,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14782293,lineage4,lineage4.8,-,Other,Male,51,new_case,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14782782,lineage4,lineage4.8,-,Other,Male,58,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782126,lineage2,lineage2.2.1,-,HR-TB,Male,36,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14782117,lineage2,lineage2.2.1,-,Other,Male,55,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,0
+SRR14782034,lineage2,lineage2.2.1,-,HR-TB,Male,25,new_case,yes,yes,no,no,employed,secondary,no,4
+SRR14781994,lineage4,lineage4.3.3,-,HR-TB,Male,60,new_case,yes,yes,yes,no,unemployed,secondary,no,NA
+SRR14781971,lineage4,lineage4.8,-,HR-TB,Female,43,previously_treated,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14781928,lineage4,lineage4.8,-,Other,Male,79,new_case,yes,yes,yes,no,retired,higher_education,no,5
+SRR14781918,lineage2,lineage2.2.1,-,HR-TB,Male,38,previously_treated,yes,yes,yes,yes,unemployed,secondary,NA,NA
+SRR14781893,lineage2,lineage2.2.1,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14781864,lineage2,lineage2.2.1,-,Other,Male,49,new_case,yes,yes,yes,yes,unemployed,secondary,no,5
+SRR14781857,lineage4,lineage4.8,-,Other,Male,58,previously_treated,yes,yes,yes,yes,unemployed,higher_education,NA,NA
+SRR14782376,lineage4,lineage4.2.1,-,HR-TB,Male,52,new_case,yes,yes,yes,yes,unemployed,specialized secondary,no,0
+SRR14782351,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782268,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782186,lineage4,lineage4.2.1.1,-,HR-TB,Female,33,previously_treated,yes,yes,yes,no,unemployed,secondary,no,NA
+SRR14782713,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782685,lineage4,lineage4.2.1,-,HR-TB,Male,44,previously_treated,yes,yes,yes,no,disabled,primary,NA,1
+SRR14782600,lineage4,lineage4.3.3,-,Other,Female,35,new_case,yes,yes,yes,NA,unemployed,primary,yes,NA
+SRR14782532,lineage4,lineage4.2.1,-,HR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,secondary,no,5
+SRR14782459,lineage4,lineage4.8,-,Other,Male,36,new_case,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14782799,lineage2,lineage2.2.1,-,HR-TB,Male,34,new_case,yes,yes,yes,no,unemployed,secondary,yes,1
+SRR14782762,lineage4,lineage4.2.1;lineage4.8,-,HR-TB,Male,32,previously_treated,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14801914,lineage2,lineage2.2.1,-,HR-TB,Male,61,new_case,yes,yes,yes,yes,retired,specialized secondary,no,2
+SRR14801897,lineage4,lineage4.2.1.1,-,HR-TB,Male,61,previously_treated,yes,yes,yes,yes,unemployed,specialized secondary,yes,1
+SRR14801882,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14802252,lineage4,lineage4.2.1.1,-,HR-TB,Male,35,previously_treated,yes,yes,yes,yes,unemployed,no_education,NA,1
+SRR14782219,lineage4,lineage4.1.2.1,-,HR-TB,Female,49,new_case,yes,yes,no,no,employed,primary,no,4
+SRR14801461,lineage2,lineage2.2.1,-,HR-TB,Male,49,new_case,yes,yes,no,no,unemployed,primary,no,NA
+SRR14802193,lineage4,lineage4.3.3,-,HR-TB,Female,51,new_case,yes,yes,no,no,unemployed,primary,no,9
+SRR14782455,lineage2,lineage2.2.1,-,HR-TB,Male,46,new_case,other,yes,no,yes,unemployed,secondary,yes,3
+SRR14801745,lineage4,lineage4.2.1,-,HR-TB,Female,59,previously_treated,yes,yes,yes,yes,unemployed,no_education,no,8
+SRR14801712,lineage4,lineage4.3.3,-,HR-TB,Male,57,new_case,yes,yes,yes,yes,unemployed,secondary,yes,0
+SRR14801640,lineage2,lineage2.2.1,-,HR-TB,Female,38,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14801583,lineage4,lineage4.7,-,HR-TB,Male,48,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782089,lineage2;lineage4,lineage2.2.1;lineage4.1.2.1,-,HR-TB,Male,61,new_case,yes,yes,no,no,employed,secondary,no,0
+SRR14782702,lineage2,lineage2.2.1,-,HR-TB,Male,69,new_case,yes,yes,no,no,retired,specialized secondary,no,4
+SRR14782440,lineage2,lineage2.2.1,-,HR-TB,Female,40,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14782810,lineage4,lineage4.3.3,-,HR-TB,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801487,lineage2,lineage2.2.1,-,HR-TB,Female,57,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801907,lineage4,lineage4.2.1,-,HR-TB,Male,32,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14802183,lineage4,lineage4.3.3,-,HR-TB,Male,60,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782100,lineage4,lineage4.3.4.2,-,HR-TB,Male,37,new_case,yes,yes,no,no,unemployed,specialized secondary,NA,2
+SRR14782777,lineage2,lineage2.2.1,-,RR-TB,Male,27,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801519,lineage4,lineage4.2.1,-,HR-TB,Female,50,new_case,yes,yes,yes,no,employed,secondary,no,NA
+SRR14801933,lineage2,lineage2.2.1,-,HR-TB,Female,68,new_case,yes,yes,yes,no,retired,specialized secondary,no,1
+SRR14801301,lineage2,lineage2.2.1,-,HR-TB,Male,32,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782738,lineage2,lineage2.2.1,-,HR-TB,Male,43,new_case,yes,yes,yes,no,employed,secondary,no,9
+SRR14782202,lineage2,lineage2.2.1,-,Other,Male,52,new_case,yes,yes,yes,no,employed,specialized secondary,no,NA
+SRR14782637,lineage4,lineage4.3.4.1,-,HR-TB,Male,46,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782077,lineage2,lineage2.2.1,-,Other,Male,54,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,NA
+SRR14782173,lineage2,lineage2.2.1,-,Sensitive,Male,52,previously_treated,yes,yes,yes,no,unemployed,primary,no,2
+SRR14782402,lineage2,lineage2.2.1,-,Other,Male,16,new_case,yes,yes,yes,no,student,primary,no,2
+SRR14781914,lineage2,lineage2.2.1,-,HR-TB,Male,46,new_case,yes,yes,no,no,unemployed,primary,NA,7
+SRR14801961,lineage4,lineage4.2.1,-,HR-TB,Female,56,new_case,yes,yes,no,no,disabled,secondary,no,4
+SRR14801823,lineage4,lineage4.8,-,HR-TB,Male,50,new_case,yes,yes,no,no,disabled,secondary,no,6
+SRR14801685,lineage4,lineage4.2.1,-,HR-TB,Male,31,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14801567,lineage4,lineage4.1.2.1,-,HR-TB,Male,37,new_case,yes,yes,no,no,unemployed,secondary,NA,2
+SRR14802264,lineage4,lineage4.2.1.1,-,HR-TB,Female,40,previously_treated,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14807454,lineage4,lineage4.3.3,-,HR-TB,Female,36,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14807560,lineage4,lineage4.2.1.1,-,HR-TB,Male,48,new_case,yes,yes,no,no,retired,secondary,no,3
+SRR14807495,lineage4,lineage4.2.1,-,HR-TB,Male,38,new_case,yes,yes,no,no,disabled,primary,no,1
+SRR14782088,lineage4,lineage4.8,-,HR-TB,Male,45,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801779,lineage4,lineage4.8,-,RR-TB,Male,65,previously_treated,yes,yes,yes,no,retired,secondary,no,4
+SRR14782815,lineage2,lineage2.2.1,-,Other,Male,47,new_case,yes,yes,no,NA,unemployed,specialized secondary,no,1
+SRR14782365,lineage2,lineage2.2.1,-,HR-TB,Male,56,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782824,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801561,lineage2,lineage2.2.1,-,Other,Male,53,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14801560,lineage2,lineage2.2.1,-,Other,Male,11,new_case,yes,yes,no,no,student,primary,no,3
+SRR14801531,lineage4,lineage4.3.3,-,HR-TB,Male,57,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14801493,lineage2,lineage2.2.1,-,Other,Female,77,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14781895,lineage4,lineage4.2.1.1,-,HR-TB,Male,34,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782166,lineage4,lineage4.1.2.1,-,HR-TB,Male,41,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782163,lineage4,lineage4.2.1.1,-,HR-TB,Male,34,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14782650,lineage4,lineage4.1.2.1,-,HR-TB,Male,36,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782646,lineage4,lineage4.3.3,-,Other,Male,32,new_case,yes,yes,yes,no,unemployed,primary,no,4
+SRR14801349,lineage2,lineage2.2.1,-,HR-TB,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802279,lineage2,lineage2.2.1,-,Other,Male,31,new_case,yes,yes,no,no,disabled,primary,no,1
+SRR14802224,La1,La1.2.BCG,-,Other,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14781886,lineage4,lineage4.2.1.1,-,RR-TB,Male,43,previously_treated,yes,yes,no,yes,unemployed,primary,no,1
+SRR14801746,lineage4,lineage4.8,-,Other,Male,39,new_case,yes,yes,no,yes,unemployed,primary,no,3
+SRR14801727,lineage2,lineage2.2.1,-,HR-TB,Female,61,new_case,yes,yes,no,NA,retired,primary,no,1
+SRR14801628,lineage4,lineage4.3.3,-,Other,Male,24,new_case,yes,yes,no,NA,unemployed,primary,no,2
+SRR14782465,La1,La1.2.BCG,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14802146,lineage2,lineage2.2.1,-,HR-TB,Female,16,new_case,yes,yes,yes,no,student,secondary,no,0
+SRR14802045,lineage4,lineage4.1.2.1,-,HR-TB,Male,39,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14802000,lineage4,lineage4.8,-,Other,Male,44,new_case,yes,yes,yes,yes,unemployed,secondary,no,1
+SRR14801945,lineage2,lineage2.2.1,-,HR-TB,Male,44,new_case,yes,yes,yes,yes,unemployed,secondary,yes,0
+SRR14801931,lineage2,lineage2.2.1,-,HR-TB,Male,41,new_case,yes,yes,yes,no,employed,secondary,no,4
+SRR14801930,lineage2,lineage2.2.1,-,HR-TB,Male,23,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,0
+SRR14807622,lineage2,lineage2.2.1,-,HR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14807612,lineage4,lineage4.1.2.1,-,HR-TB,Female,48,new_case,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14782070,lineage4,lineage4.2.1,-,HR-TB,Male,43,new_case,yes,yes,no,no,employed,secondary,no,0
+SRR14782298,lineage2,lineage2.2.1,-,HR-TB,Male,43,previously_treated,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782271,lineage2,lineage2.2.1,-,HR-TB,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782684,lineage2,lineage2.2.1,-,Other,Female,39,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14782625,lineage4,lineage4.3.3,-,HR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801431,lineage4,lineage4.2.1,-,Other,Female,30,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801384,lineage4,lineage4.2.1,-,HR-TB,Male,46,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14801365,lineage2,lineage2.2.1,-,Other,Female,48,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14781981,lineage2,lineage2.2.1,-,MDR-TB,Male,48,new_case,yes,yes,no,no,employed,secondary,no,5
+SRR14782178,lineage2,lineage2.2.1,-,MDR-TB,Female,31,new_case,yes,yes,yes,yes,unemployed,secondary,NA,3
+SRR14782750,lineage4,lineage4.2.1,-,MDR-TB,Male,30,new_case,yes,yes,no,no,employed,specialized secondary,no,3
+SRR14801507,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,37,previously_treated,yes,yes,no,no,unemployed,secondary,yes,4
+SRR14801495,lineage2,lineage2.2.1,-,MDR-TB,Female,26,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14801494,lineage4,lineage4.2.1,-,MDR-TB,Male,68,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14801360,lineage4,lineage4.3.3,-,MDR-TB,Male,28,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801354,lineage2,lineage2.2.1,-,MDR-TB,Male,38,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782012,lineage2,lineage2.2.1,-,MDR-TB,Male,31,new_case,yes,yes,yes,no,disabled,higher_education,no,2
+SRR14781844,lineage2,lineage2.2.1,-,MDR-TB,Male,41,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,6
+SRR14782615,lineage2,lineage2.2.1,-,MDR-TB,Male,34,previously_treated,yes,yes,yes,yes,unemployed,primary,no,1
+SRR14782601,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,71,previously_treated,yes,yes,no,no,retired,secondary,no,1
+SRR14801809,lineage4,lineage4.2.1,-,MDR-TB,Female,32,new_case,yes,yes,yes,no,unemployed,primary,no,3
+SRR14801764,lineage4,lineage4.2.1,-,MDR-TB,Male,54,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14801421,lineage2,lineage2.2.1,-,MDR-TB,Male,29,previously_treated,yes,yes,yes,yes,unemployed,primary,yes,1
+SRR14782358,lineage2,lineage2.2.1,-,HR-TB,Male,29,previously_treated,yes,2,yes,no,unemployed,primary,no,0
+SRR14801302,lineage2,lineage2.2.1,-,MDR-TB,Female,76,new_case,yes,yes,yes,no,retired,specialized secondary,no,0
+SRR14801612,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,0
+SRR14801606,lineage2,lineage2.2.1,-,MDR-TB,Male,57,previously_treated,yes,yes,yes,no,unemployed,higher_education,no,0
+SRR14801603,lineage2,lineage2.2.1,-,XDR-TB,Male,31,previously_treated,yes,yes,yes,no,disabled,primary,yes,1
+SRR14801597,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,53,previously_treated,yes,yes,no,yes,unemployed,primary,no,0
+SRR14801593,lineage2,lineage2.2.1,-,MDR-TB,Male,59,new_case,yes,yes,yes,no,unemployed,higher_education,no,0
+SRR14801588,lineage4,lineage4.2.1,-,MDR-TB,Female,53,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14802178,lineage4,lineage4.2.1,-,MDR-TB,Male,52,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,4
+SRR14802147,lineage2,lineage2.2.1,-,MDR-TB,Male,53,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14802126,lineage4,lineage4.1,-,Pre-XDR-TB,Male,34,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14802085,lineage2,lineage2.2.1,-,HR-TB,Male,45,new_case,yes,yes,no,yes,employed,secondary,no,1
+SRR14802077,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,21,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14802066,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,59,previously_treated,yes,yes,no,no,unemployed,primary,NA,1
+SRR14802065,lineage2,lineage2.2.1,-,MDR-TB,Male,59,previously_treated,yes,yes,yes,yes,unemployed,primary,no,0
+SRR14802062,lineage2,lineage2.2.1,-,HR-TB,Female,36,previously_treated,yes,yes,yes,no,unemployed,primary,no,1
+SRR14802031,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,31,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14802027,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,no,unemployed,primary,yes,2
+SRR14802008,lineage4,lineage4.2.1,-,HR-TB,Female,26,new_case,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14801978,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,43,new_case,yes,yes,yes,no,retired,specialized secondary,no,0
+SRR14801970,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14801951,lineage4,lineage4.2.1,-,MDR-TB,Male,45,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14802270,lineage2,lineage2.2.1,-,MDR-TB,Male,45,new_case,yes,yes,yes,no,unemployed,primary,no,0
+SRR14802262,lineage2,lineage2.2.1,-,MDR-TB,Male,43,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14807685,lineage2,lineage2.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,1
+SRR14807678,lineage2,lineage2.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807656,lineage4,lineage4.2.1,-,MDR-TB,Male,60,new_case,yes,yes,yes,no,unemployed,higher_education,no,1
+SRR14807651,lineage2,lineage2.2.1,-,MDR-TB,Male,47,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14807649,lineage4,lineage4.2.1,-,MDR-TB,Female,36,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14807618,lineage4,lineage4.2.1,-,MDR-TB,Female,34,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14807600,lineage4,lineage4.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14807578,lineage2,lineage2.2.1,-,MDR-TB,Male,51,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14807544,lineage4,lineage4.2.1,-,MDR-TB,Female,76,new_case,other,yes,yes,no,unemployed,NA,no,2
+SRR14781903,lineage2,lineage2.2.1,-,MDR-TB,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801715,lineage2,lineage2.2.1,-,HR-TB,Male,29,previously_treated,yes,yes,yes,yes,unemployed,no_education,yes,2
+SRR14801695,lineage2,lineage2.2.1,-,MDR-TB,Male,38,new_case,yes,yes,no,no,retired,secondary,no,2
+SRR14801639,lineage2,lineage2.2.1,-,MDR-TB,Male,35,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801638,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,2,no,no,unemployed,primary,no,1
+SRR14801625,lineage4,lineage4.2.1,-,MDR-TB,Male,33,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801618,lineage4,lineage4.2.1,-,MDR-TB,Male,40,new_case,yes,yes,yes,no,disabled,primary,no,1
+SRR14782116,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,59,previously_treated,yes,yes,no,no,disabled,primary,NA,1
+SRR14781924,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,56,previously_treated,yes,yes,yes,no,unemployed,primary,no,2
+SRR14782394,lineage4,lineage4.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,no,no,unemployed,primary,no,2
+SRR14782352,lineage2,lineage2.2.1,-,MDR-TB,Male,54,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782230,lineage2,lineage2.2.1,-,MDR-TB,Male,50,previously_treated,yes,yes,no,yes,unemployed,no_education,no,1
+SRR14782199,lineage2,lineage2.2.1,-,MDR-TB,Male,52,new_case,yes,yes,no,no,employed,secondary,no,3
+SRR14782139,lineage2,lineage2.2.1,-,HR-TB,Male,49,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782673,lineage4,lineage4.3.3,-,HR-TB,Male,44,previously_treated,yes,2,no,no,unemployed,secondary,yes,0
+SRR14782602,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782596,lineage2,lineage2.2.1,-,MDR-TB,Male,61,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782518,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,34,new_case,yes,yes,yes,yes,unemployed,secondary,no,0
+SRR14782768,lineage4,lineage4.2.1,-,MDR-TB,Male,40,previously_treated,yes,2,yes,no,employed,primary,no,1
+SRR14801498,lineage4,lineage4.3.3,-,MDR-TB,Male,21,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802218,lineage2,lineage2.2.1,-,MDR-TB,Male,43,new_case,yes,yes,yes,no,employed,secondary,no,2
+SRR14781874,lineage2,lineage2.2.1,-,MDR-TB,Female,68,previously_treated,yes,yes,no,no,disabled,primary,no,0
+SRR14782790,lineage4,lineage4.2.1,-,MDR-TB,Male,61,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14801787,lineage4,lineage4.2.1,-,MDR-TB,Female,40,previously_treated,yes,yes,no,no,disabled,primary,no,2
+SRR14801556,lineage4,lineage4.2.1,-,MDR-TB,Male,72,previously_treated,yes,yes,yes,no,retired,primary,no,NA
+SRR14801543,lineage2,lineage2.2.1,-,MDR-TB,Male,45,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801517,lineage2,lineage2.2.1,-,MDR-TB,Male,51,new_case,yes,yes,no,no,employed,secondary,no,1
+SRR14801386,lineage4,lineage4.2.1,-,MDR-TB,Male,29,new_case,yes,yes,no,no,disabled,primary,no,1
+SRR14801327,lineage4,lineage4.2.1,-,MDR-TB,Female,29,new_case,yes,yes,no,no,employed,higher_education,no,6
+SRR14802236,lineage4,lineage4.2.1,-,MDR-TB,Male,58,new_case,yes,yes,no,yes,disabled,primary,yes,1
+SRR14801601,lineage4,lineage4.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,no,no,employed,primary,yes,1
+SRR14802086,lineage2,lineage2.2.1,-,MDR-TB,Male,54,new_case,yes,yes,yes,no,unemployed,primary,no,4
+SRR14802073,lineage2,lineage2.2.1,-,MDR-TB,Male,57,previously_treated,yes,yes,no,no,unemployed,specialized secondary,yes,0
+SRR14801927,lineage2,lineage2.2.1,-,MDR-TB,Male,55,new_case,yes,yes,yes,yes,unemployed,secondary,NA,0
+SRR14782749,lineage4,lineage4.2.1,-,MDR-TB,Male,24,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782112,lineage4,lineage4.2.1,-,MDR-TB,Male,21,new_case,yes,yes,no,no,unemployed,secondary,no,7
+SRR14781887,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,secondary,yes,3
+SRR14782723,lineage4,lineage4.2.1;lineage4.8,-,HR-TB,Male,42,previously_treated,yes,yes,no,no,employed,secondary,no,1
+SRR14782721,lineage4,lineage4.2.1,-,HR-TB,Male,58,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14782486,lineage2,lineage2.2.1,-,MDR-TB,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801445,lineage4,lineage4.2.1,-,MDR-TB,Male,38,previously_treated,yes,yes,no,no,unemployed,secondary,NA,2
+SRR14782223,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,45,previously_treated,yes,yes,no,no,disabled,specialized secondary,no,2
+SRR14782828,lineage2,lineage2.2.1,-,MDR-TB,Female,28,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782794,lineage4,lineage4.2.1,-,MDR-TB,Male,60,new_case,yes,yes,no,no,disabled,secondary,no,4
+SRR14801490,lineage2,lineage2.2.1,-,MDR-TB,Male,56,previously_treated,yes,yes,yes,no,employed,secondary,no,3
+SRR14801392,lineage4,lineage4.2.1,-,MDR-TB,Male,34,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801329,lineage2,lineage2.2.1,-,MDR-TB,Female,52,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14807644,lineage4,lineage4.2.1,-,MDR-TB,Male,30,new_case,yes,yes,no,yes,unemployed,primary,no,1
+SRR14782081,lineage2;lineage4,lineage2.2.1;lineage4.2.1.1,-,MDR-TB,Male,37,previously_treated,yes,yes,no,no,unemployed,secondary,yes,1
+SRR14782590,lineage2,lineage2.2.1,-,HR-TB,Male,30,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14807477,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,43,previously_treated,yes,yes,yes,yes,disabled,primary,yes,1
+SRR14782048,lineage4,lineage4.3.3,-,MDR-TB,Male,45,new_case,yes,yes,no,NA,unemployed,secondary,NA,0
+SRR14782000,lineage4,lineage4.2.1,-,MDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782538,lineage4,lineage4.2.1,-,MDR-TB,Male,62,new_case,yes,yes,yes,no,employed,specialized secondary,no,10
+SRR14801448,lineage2,lineage2.2.1,-,MDR-TB,Male,49,new_case,yes,yes,no,no,unemployed,primary,yes,6
+SRR14782826,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,32,previously_treated,yes,yes,no,no,unemployed,primary,NA,1
+SRR14782174,lineage2,lineage2.2.1,-,MDR-TB,Female,23,new_case,yes,yes,yes,no,employed,specialized secondary,no,11
+SRR14782643,lineage2,lineage2.2.1,-,MDR-TB,Male,59,previously_treated,yes,yes,no,no,unemployed,no_education,NA,NA
+SRR14801915,lineage2,lineage2.2.1,-,MDR-TB,Male,53,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14782379,lineage2,lineage2.2.1,-,MDR-TB,Female,64,new_case,yes,yes,no,no,retired,primary,no,0
+SRR14782278,lineage4,lineage4.2.1,-,MDR-TB,Male,42,new_case,yes,yes,no,no,employed,secondary,no,1
+SRR14782132,lineage4,lineage4.2.1,-,MDR-TB,Male,52,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14801400,lineage4,lineage4.2.1,-,MDR-TB,Male,31,new_case,yes,yes,no,no,unemployed,secondary,NA,NA
+SRR14802035,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14801960,lineage2,lineage2.2.1,-,MDR-TB,Male,42,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807457,lineage2,lineage2.2.1,-,MDR-TB,Female,58,new_case,postmortem,yes,yes,no,retired,specialized secondary,no,0
+SRR14801385,lineage4,lineage4.2.1,-,MDR-TB,Male,60,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801300,lineage2,lineage2.2.1,-,MDR-TB,Male,53,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801815,lineage4,lineage4.1.2.1,-,MDR-TB,Male,33,new_case,yes,yes,no,no,unemployed,no_education,no,0
+SRR14801800,lineage4,lineage4.2.1,-,MDR-TB,Male,40,previously_treated,yes,yes,no,no,unemployed,primary,no,5
+SRR14801788,lineage2,lineage2.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14781982,lineage4,lineage4.2.1,-,HR-TB,Male,44,previously_treated,yes,2,no,no,unemployed,secondary,no,0
+SRR14782256,lineage4,lineage4.2.1.1,-,MDR-TB,Male,38,previously_treated,yes,yes,yes,no,unemployed,secondary,no,5
+SRR14782765,lineage2,lineage2.2.1,-,MDR-TB,Male,43,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14802234,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,22,new_case,yes,yes,yes,no,unemployed,primary,no,7
+SRR14801299,lineage2,lineage2.2.1,-,MDR-TB,Male,42,new_case,yes,yes,yes,no,employed,secondary,no,3
+SRR14801843,lineage4,lineage4.2.1,-,MDR-TB,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801756,lineage2,lineage2.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,7
+SRR14801634,lineage4,lineage4.3.3,-,MDR-TB,Male,56,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802215,lineage2,lineage2.2.1,-,MDR-TB,Male,53,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14802122,lineage2,lineage2.2.1,-,MDR-TB,Male,29,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14802121,lineage2,lineage2.2.1,-,MDR-TB,Male,39,new_case,yes,yes,yes,no,unemployed,primary,NA,1
+SRR14802119,lineage2,lineage2.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,3
+SRR14802087,lineage2,lineage2.2.1,-,MDR-TB,Male,68,new_case,yes,yes,no,no,retired,primary,no,2
+SRR14802071,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,40,previously_treated,yes,yes,yes,no,unemployed,primary,yes,3
+SRR14801940,lineage2,lineage2.2.1,-,MDR-TB,Male,33,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14802268,lineage4,lineage4.2.1,-,MDR-TB,Female,30,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14802213,lineage4,lineage4.2.1.1,-,MDR-TB,Male,53,previously_treated,yes,yes,yes,yes,unemployed,secondary,no,2
+SRR14807682,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,34,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,3
+SRR14807639,lineage2,lineage2.2.1,-,MDR-TB,Male,44,previously_treated,yes,yes,yes,no,disabled,secondary,no,7
+SRR14807637,lineage2,lineage2.2.1,-,MDR-TB,Male,25,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807577,lineage2,lineage2.2.1,-,MDR-TB,Male,48,previously_treated,yes,yes,no,no,unemployed,primary,yes,0
+SRR14807569,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,primary,no,2
+SRR14807559,lineage2,lineage2.2.1,-,MDR-TB,Male,50,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,7
+SRR14782176,lineage2,lineage2.2.1,-,MDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782739,lineage2,lineage2.2.1,-,MDR-TB,Male,52,new_case,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14802233,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14802196,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,33,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782623,lineage2,lineage2.2.1,-,MDR-TB,Male,51,new_case,yes,yes,yes,no,unemployed,primary,no,NA
+SRR14801390,lineage4,lineage4.2.1,-,MDR-TB,Female,32,new_case,yes,yes,no,no,employed,primary,no,4
+SRR14801351,lineage2,lineage2.2.1,-,MDR-TB,Male,33,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782039,lineage2;lineage4,lineage2.2.1;lineage4.2.1,-,HR-TB,Female,36,new_case,yes,yes,no,no,unemployed,secondary,no,NA
+SRR14801762,lineage4,lineage4.2.1,-,MDR-TB,Male,29,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801748,lineage4,lineage4.2.1,-,MDR-TB,Male,50,previously_treated,yes,yes,yes,no,disabled,secondary,no,NA
+SRR14801725,lineage2,lineage2.2.1,-,MDR-TB,Male,43,new_case,yes,yes,no,no,employed,secondary,no,4
+SRR14801718,lineage4,lineage4.2.1,-,MDR-TB,Male,53,new_case,yes,yes,no,no,employed,secondary,no,1
+SRR14801568,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,26,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14801481,lineage4,lineage4.2.1,-,MDR-TB,Male,27,previously_treated,yes,yes,yes,no,unemployed,secondary,no,NA
+SRR14801366,lineage4,lineage4.2.1,-,MDR-TB,Male,28,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14807521,lineage4,lineage4.2.1,-,MDR-TB,Male,57,new_case,yes,yes,no,yes,employed,secondary,no,NA
+SRR14782460,lineage4,lineage4.2.1,-,MDR-TB,Female,45,new_case,yes,yes,yes,no,disabled,specialized secondary,no,3
+SRR14782818,lineage4,lineage4.2.1,-,MDR-TB,Male,32,previously_treated,yes,2,no,no,unemployed,secondary,NA,0
+SRR14801330,lineage2;lineage4,lineage2.2.1;lineage4,-,MDR-TB,Male,52,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801294,lineage2,lineage2.2.1,-,MDR-TB,Male,41,previously_treated,yes,2,yes,no,unemployed,primary,no,1
+SRR14801860,lineage2,lineage2.2.1,-,MDR-TB,Male,58,new_case,yes,yes,no,no,employed,specialized secondary,no,2
+SRR14801833,lineage4,lineage4.2.1,-,MDR-TB,Male,58,new_case,yes,yes,no,no,employed,higher_education,no,4
+SRR14801747,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14801729,lineage2,lineage2.2.1,-,MDR-TB,Female,24,previously_treated,yes,yes,yes,yes,unemployed,secondary,no,4
+SRR14801704,lineage4,lineage4.2.1,-,MDR-TB,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801689,lineage4,lineage4.2.1,-,MDR-TB,Male,29,previously_treated,yes,no,no,no,unemployed,no_education,no,0
+SRR14801652,lineage4,lineage4.3.3,-,HR-TB,Female,32,new_case,yes,yes,no,no,employed,specialized secondary,no,4
+SRR14801576,lineage4,lineage4.2.1,-,MDR-TB,Male,55,new_case,yes,yes,no,no,disabled,specialized secondary,no,1
+SRR14801480,lineage4,lineage4.2.1,-,MDR-TB,Female,60,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801396,lineage4,lineage4.8,-,MDR-TB,Male,34,previously_treated,yes,yes,no,no,unemployed,secondary,yes,12
+SRR14801847,lineage4,lineage4.2.1,-,MDR-TB,Female,19,new_case,yes,yes,no,yes,unemployed,secondary,no,7
+SRR14801420,lineage4,lineage4.2.1,-,MDR-TB,Male,48,previously_treated,yes,yes,no,no,unemployed,secondary,no,7
+SRR14801316,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,36,previously_treated,yes,yes,no,no,disabled,secondary,no,5
+SRR14802164,lineage2,lineage2.2.1,-,MDR-TB,Male,61,previously_treated,yes,yes,no,no,retired,specialized secondary,no,1
+SRR14802157,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14802090,lineage2,lineage2.2.1,-,MDR-TB,Female,43,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14802067,lineage2,lineage2.2.1,-,MDR-TB,Male,70,new_case,yes,yes,no,no,retired,specialized secondary,no,3
+SRR14801980,lineage4,lineage4.2.1,-,MDR-TB,Male,36,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14801979,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,61,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801974,lineage4,lineage4.2.1,-,MDR-TB,Male,56,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801966,lineage2,lineage2.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,yes,no,disabled,primary,no,3
+SRR14801958,lineage2,lineage2.2.1,-,MDR-TB,Female,41,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14801937,lineage2,lineage2.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,no,no,unemployed,secondary,yes,0
+SRR14801936,lineage2,lineage2.2.1,-,MDR-TB,Male,55,new_case,yes,yes,yes,no,unemployed,secondary,NA,0
+SRR14807464,lineage4,lineage4.2.1,-,MDR-TB,Male,51,new_case,yes,yes,yes,no,disabled,primary,no,0
+SRR14807594,lineage2,lineage2.2.1,-,MDR-TB,Male,44,previously_treated,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14807589,lineage2,lineage2.2.1,-,MDR-TB,Male,53,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14807565,lineage2,lineage2.2.1,-,MDR-TB,Female,27,new_case,yes,yes,yes,no,unemployed,primary,no,1
+SRR14807555,lineage2,lineage2.2.1,-,MDR-TB,Female,32,new_case,yes,yes,no,no,unemployed,secondary,NA,1
+SRR14807546,lineage2,lineage2.2.1,-,MDR-TB,Female,60,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14807540,lineage2,lineage2.2.1,-,MDR-TB,Male,28,new_case,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14781896,lineage4,lineage4.2.1,-,MDR-TB,Male,36,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782281,lineage4,lineage4.2.1,-,HR-TB,Male,35,previously_treated,yes,yes,yes,yes,unemployed,primary,no,NA
+SRR14782237,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,NA,unemployed,primary,no,0
+SRR14781997,lineage2,lineage2.2.1,-,MDR-TB,Female,43,previously_treated,yes,yes,no,no,employed,specialized secondary,NA,3
+SRR14781979,lineage2,lineage2.2.1,-,MDR-TB,Female,30,previously_treated,yes,yes,no,no,disabled,secondary,no,3
+SRR14781961,lineage2,lineage2.2.1,-,MDR-TB,Male,41,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14781935,lineage4,lineage4.2.1,-,MDR-TB,Female,42,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14781892,lineage4,lineage4.2.1,-,MDR-TB,Female,45,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14781883,lineage2,lineage2.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782396,lineage4,lineage4.2.1,-,MDR-TB,Female,21,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782210,lineage4,lineage4.2.1,-,MDR-TB,Female,32,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782184,lineage4,lineage4.2.1,-,MDR-TB,Female,29,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782181,lineage4,lineage4.2.1,-,MDR-TB,Female,70,new_case,yes,yes,no,no,retired,primary,no,2
+SRR14782150,lineage4,lineage4.2.1,-,HR-TB,Male,59,new_case,yes,yes,no,no,disabled,specialized secondary,no,4
+SRR14782767,lineage2,lineage2.2.1,-,HR-TB,Male,33,new_case,yes,yes,no,yes,unemployed,secondary,NA,0
+SRR14801633,lineage4,lineage4.2.1,-,HR-TB,Male,25,new_case,yes,yes,no,no,unemployed,primary,NA,NA
+SRR14801891,lineage4,lineage4.2.1,-,MDR-TB,Male,32,previously_treated,yes,yes,no,yes,unemployed,no_education,no,0
+SRR14782109,lineage2,lineage2.2.1,-,MDR-TB,Male,32,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782016,lineage4,lineage4.2.1,-,MDR-TB,Female,39,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14781842,lineage2,lineage2.2.1,-,HR-TB,Male,57,previously_treated,other,yes,no,yes,unemployed,primary,no,2
+SRR14782425,lineage2,lineage2.2.1,-,MDR-TB,Male,3,new_case,yes,yes,no,no,unemployed,no_education,no,3
+SRR14782417,lineage4,lineage4.2.1,-,MDR-TB,Male,56,new_case,yes,yes,no,no,employed,secondary,no,0
+SRR14782342,lineage4,lineage4.2.1,-,MDR-TB,Male,38,previously_treated,yes,yes,no,no,unemployed,primary,yes,3
+SRR14782323,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,48,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14782247,lineage4,lineage4.2.1,-,MDR-TB,Male,29,new_case,yes,yes,no,no,unemployed,higher_education,no,2
+SRR14782221,lineage4,lineage4.2.1,-,MDR-TB,Male,37,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782160,lineage2,lineage2.2.1,-,XDR-TB,Female,1,new_case,yes,yes,no,yes,student,no_education,no,3
+SRR14782528,lineage2,lineage2.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,yes,unemployed,primary,no,2
+SRR14782480,lineage2,lineage2.2.1,-,MDR-TB,Male,27,previously_treated,yes,2,no,NA,unemployed,primary,no,2
+SRR14782737,lineage2,lineage2.2.1,-,MDR-TB,Male,55,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802216,lineage2,lineage2.2.1,-,XDR-TB,Male,35,previously_treated,yes,yes,no,no,unemployed,primary,yes,3
+SRR14807528,lineage4,lineage4.2.1,-,MDR-TB,Male,38,previously_treated,yes,yes,no,yes,employed,primary,no,9
+SRR14782053,lineage4,lineage4.2.1,-,MDR-TB,Male,52,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782536,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,50,new_case,yes,yes,no,no,employed,secondary,no,3
+SRR14782812,lineage4,lineage4.2.1,-,MDR-TB,Male,57,new_case,yes,yes,no,no,employed,primary,no,4
+SRR14801536,lineage2,lineage2.2.1,-,MDR-TB,Male,67,new_case,yes,yes,no,no,retired,primary,no,5
+SRR14802094,lineage2,lineage2.2.1,-,MDR-TB,Female,17,new_case,yes,yes,yes,no,student,primary,no,3
+SRR14801994,lineage4,lineage4.2.1,-,MDR-TB,Female,49,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14801872,lineage4,lineage4.2.1,-,MDR-TB,Male,47,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,7
+SRR14801849,lineage4,lineage4.2.1,-,MDR-TB,Male,59,new_case,yes,yes,yes,no,employed,specialized secondary,no,5
+SRR14801814,lineage4,lineage4.2.1.1,-,MDR-TB,Female,25,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801768,lineage4,lineage4.2.1,-,MDR-TB,Male,56,new_case,yes,yes,yes,no,unemployed,secondary,no,5
+SRR14801765,lineage4,lineage4.2.1,-,MDR-TB,Male,46,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14801761,lineage4,lineage4.2.1,-,MDR-TB,Female,33,previously_treated,yes,yes,yes,no,unemployed,secondary,no,NA
+SRR14801679,lineage4,lineage4.2.1,-,MDR-TB,Male,56,new_case,yes,yes,yes,no,employed,specialized secondary,no,NA
+SRR14801667,lineage4,lineage4.2.1,-,MDR-TB,Male,30,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,4
+SRR14801666,lineage2,lineage2.2.1,-,MDR-TB,Male,52,previously_treated,yes,yes,yes,yes,unemployed,primary,yes,NA
+SRR14807506,lineage4,lineage4.2.1,-,MDR-TB,Female,38,new_case,yes,yes,no,no,employed,secondary,no,NA
+SRR14782096,lineage2,lineage2.2.1,-,MDR-TB,Female,19,previously_treated,yes,yes,yes,yes,employed,primary,no,1
+SRR14782063,lineage4,lineage4.2.1,-,MDR-TB,Male,63,new_case,yes,yes,yes,yes,unemployed,primary,no,0
+SRR14782520,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782793,lineage4,lineage4.2.1,-,MDR-TB,Male,21,new_case,yes,yes,no,no,unemployed,specialized secondary,no,4
+SRR14782110,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,no,employed,specialized secondary,yes,0
+SRR14782083,lineage2,lineage2.2.1,-,MDR-TB,Male,32,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14782065,lineage4,lineage4.2.1,-,MDR-TB,Male,53,previously_treated,yes,2,yes,yes,unemployed,primary,yes,NA
+SRR14782002,lineage4,lineage4.2.1,-,MDR-TB,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782001,lineage4,lineage4.2.1,-,MDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14781993,lineage4,lineage4.2.1,-,MDR-TB,Male,60,previously_treated,yes,yes,no,yes,unemployed,specialized secondary,no,1
+SRR14781988,lineage2,lineage2.2.1,-,MDR-TB,Male,48,new_case,other,yes,yes,no,unemployed,NA,no,NA
+SRR14781983,lineage2,lineage2.2.1,-,MDR-TB,Male,32,previously_treated,yes,yes,yes,no,unemployed,primary,yes,NA
+SRR14781978,lineage4,lineage4.2.1,-,MDR-TB,Female,33,previously_treated,yes,yes,yes,no,employed,higher_education,no,2
+SRR14781976,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,60,new_case,yes,yes,yes,no,disabled,secondary,no,2
+SRR14781955,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,68,new_case,yes,yes,yes,yes,retired,primary,no,1
+SRR14781948,lineage4,lineage4.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14781926,lineage4,lineage4.2.1,-,MDR-TB,Female,26,new_case,yes,yes,yes,no,unemployed,secondary,no,7
+SRR14781894,lineage2,lineage2.2.1,-,MDR-TB,Female,34,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,5
+SRR14781891,lineage2,lineage2.2.1,-,MDR-TB,Male,46,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14781850,lineage2,lineage2.2.1,-,MDR-TB,Female,32,new_case,yes,yes,yes,no,unemployed,secondary,no,6
+SRR14781835,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,35,new_case,yes,yes,yes,no,employed,higher_education,no,2
+SRR14782383,lineage4,lineage4.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,yes,unemployed,primary,NA,NA
+SRR14782375,lineage4,lineage4.3.3,-,MDR-TB,Male,53,previously_treated,yes,yes,yes,yes,unemployed,primary,yes,0
+SRR14782361,lineage2,lineage2.2.1,-,MDR-TB,Male,27,new_case,yes,yes,yes,no,unemployed,primary,NA,2
+SRR14782345,lineage4,lineage4.2.1,-,MDR-TB,Male,32,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14782343,lineage2,lineage2.2.1,-,MDR-TB,Male,52,new_case,yes,yes,yes,no,employed,specialized secondary,no,4
+SRR14782340,lineage2,lineage2.2.1,-,MDR-TB,Male,36,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14782333,lineage2,lineage2.2.1,-,HR-TB,Male,45,new_case,yes,yes,yes,no,unemployed,primary,NA,NA
+SRR14782331,lineage4,lineage4.2.1,-,MDR-TB,Male,48,previously_treated,yes,yes,yes,no,disabled,secondary,no,4
+SRR14782324,lineage4,lineage4.2.1,-,MDR-TB,Male,32,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,NA,NA
+SRR14782303,lineage2,lineage2.2.1,-,HR-TB,Male,35,new_case,yes,yes,yes,no,unemployed,primary,NA,11
+SRR14782291,lineage2,lineage2.2.1,-,MDR-TB,Female,40,new_case,yes,yes,yes,no,employed,secondary,no,1
+SRR14782285,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,primary,no,1
+SRR14782277,lineage2,lineage2.2.1,-,HR-TB,Female,25,new_case,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14782239,lineage2,lineage2.2.1,-,MDR-TB,Female,36,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782216,lineage4,lineage4.2.1,-,HR-TB,Female,21,previously_treated,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14782214,lineage2,lineage2.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,yes,NA,employed,specialized secondary,NA,2
+SRR14782196,lineage2,lineage2.2.1,-,MDR-TB,Male,58,new_case,yes,yes,yes,no,employed,secondary,no,2
+SRR14782660,lineage2,lineage2.2.1,-,MDR-TB,Male,65,new_case,yes,yes,yes,no,retired,specialized secondary,no,5
+SRR14782645,lineage2,lineage2.2.1,-,MDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782606,lineage2,lineage2.2.1,-,MDR-TB,Male,45,previously_treated,yes,yes,yes,no,unemployed,secondary,NA,2
+SRR14782604,lineage2,lineage2.2.1,-,MDR-TB,Male,21,new_case,yes,yes,yes,yes,unemployed,primary,yes,1
+SRR14782562,lineage2,lineage2.2.1,-,HR-TB,Male,38,previously_treated,yes,yes,yes,no,unemployed,primary,no,1
+SRR14782546,lineage2,lineage2.2.1,-,HR-TB,Male,43,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782510,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,yes,no,employed,secondary,yes,3
+SRR14782474,lineage2,lineage2.2.1,-,MDR-TB,Male,22,new_case,yes,yes,yes,no,employed,secondary,no,0
+SRR14782469,lineage4,lineage4.2.1,-,HR-TB,Male,52,previously_treated,yes,yes,yes,yes,unemployed,primary,yes,NA
+SRR14782447,lineage2,lineage2.2.1,-,MDR-TB,Male,34,previously_treated,yes,yes,yes,no,employed,secondary,NA,1
+SRR14782817,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,26,previously_treated,yes,2,yes,no,unemployed,primary,no,0
+SRR14782816,lineage4,lineage4.2.1,-,MDR-TB,Male,34,previously_treated,yes,2,no,no,unemployed,secondary,yes,0
+SRR14782791,lineage4,lineage4.2.1,-,MDR-TB,Male,40,previously_treated,yes,yes,yes,yes,unemployed,secondary,no,NA
+SRR14782735,lineage4,lineage4.2.1,-,MDR-TB,Male,50,previously_treated,yes,yes,yes,no,unemployed,primary,NA,NA
+SRR14801995,lineage4,lineage4.2.1,-,MDR-TB,Male,60,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,2
+SRR14801535,lineage4,lineage4.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,primary,yes,NA
+SRR14801492,lineage4,lineage4.2.1,-,MDR-TB,Male,33,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801479,lineage4,lineage4.2.1,-,MDR-TB,Male,34,new_case,yes,yes,yes,yes,unemployed,secondary,NA,NA
+SRR14801424,lineage4,lineage4.2.1,-,MDR-TB,Male,48,previously_treated,yes,yes,yes,no,employed,secondary,no,0
+SRR14801416,lineage2,lineage2.2.1,-,MDR-TB,Male,24,new_case,yes,yes,yes,no,unemployed,secondary,yes,NA
+SRR14801916,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,62,new_case,yes,yes,yes,no,retired,primary,no,0
+SRR14801912,lineage2,lineage2.2.1,-,MDR-TB,Female,54,previously_treated,yes,yes,yes,no,unemployed,primary,no,4
+SRR14801886,lineage4,lineage4.2.1,-,MDR-TB,Female,35,new_case,yes,yes,yes,no,disabled,secondary,no,2
+SRR14802241,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,30,new_case,yes,yes,yes,no,employed,higher_education,no,4
+SRR14802238,lineage4,lineage4.2.1,-,MDR-TB,Male,21,new_case,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14802210,lineage4,lineage4.2.1,-,MDR-TB,Male,36,previously_treated,yes,yes,no,no,unemployed,secondary,no,5
+SRR14802202,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,54,previously_treated,yes,yes,yes,no,disabled,secondary,NA,0
+SRR14807687,lineage4,lineage4.3.3,-,MDR-TB,Male,49,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,2
+SRR14807517,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14807515,lineage4,lineage4.2.1,-,MDR-TB,Male,30,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14807500,lineage4,lineage4.2.1,-,MDR-TB,Male,44,previously_treated,yes,yes,yes,yes,employed,primary,NA,4
+SRR14807492,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801467,lineage4,lineage4.2.1,-,MDR-TB,Male,32,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14801382,lineage2,lineage2.2.1,-,MDR-TB,Male,66,previously_treated,yes,yes,no,yes,retired,primary,yes,0
+SRR14802200,lineage4,lineage4.2.1,-,MDR-TB,Male,28,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801819,lineage2,lineage2.2.1,-,MDR-TB,Male,86,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14782099,lineage4,lineage4.2.1,-,MDR-TB,Male,66,new_case,yes,yes,no,yes,unemployed,higher_education,no,5
+SRR14782273,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782190,lineage4,lineage4.3.3,-,HR-TB,Male,56,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782588,lineage2,lineage2.2.1,-,HR-TB,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782553,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801559,lineage4,lineage4.2.1,-,MDR-TB,Male,23,new_case,yes,yes,no,no,unemployed,secondary,yes,NA
+SRR14802135,lineage4,lineage4.2.1,-,MDR-TB,Male,25,new_case,yes,yes,no,no,unemployed,primary,yes,0
+SRR14782104,lineage4,lineage4.2.1,-,MDR-TB,Male,38,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782372,lineage2,lineage2.2.1,-,MDR-TB,Male,62,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14801541,lineage4,lineage4.2.1,-,MDR-TB,Male,38,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801491,lineage4,lineage4.2.1,-,MDR-TB,Female,42,previously_treated,yes,yes,yes,no,unemployed,secondary,no,NA
+SRR14801442,lineage4,lineage4.2.1,-,MDR-TB,Male,19,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801413,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,specialized secondary,no,5
+SRR14801401,lineage4,lineage4.2.1,-,MDR-TB,Female,29,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14801388,lineage4,lineage4.2.1,-,MDR-TB,Male,28,new_case,yes,yes,yes,no,unemployed,higher_education,no,2
+SRR14801357,lineage4,lineage4.2.1,-,MDR-TB,Female,23,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807525,lineage2;lineage4,lineage2.2.1;lineage4.2.1,-,MDR-TB,Male,55,previously_treated,yes,yes,no,yes,unemployed,secondary,yes,0
+SRR14801304,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,no,unemployed,primary,yes,4
+SRR14801605,lineage4,lineage4.2.1,-,MDR-TB,Female,42,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14801599,lineage4,lineage4.2.1,-,MDR-TB,Male,24,new_case,yes,yes,no,no,unemployed,primary,NA,0
+SRR14801596,lineage2,lineage2.2.1,-,MDR-TB,Male,61,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801590,lineage4,lineage4.2.1,-,MDR-TB,Male,58,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14802131,lineage2,lineage2.2.1,-,MDR-TB,Male,26,previously_treated,yes,yes,yes,no,unemployed,primary,yes,3
+SRR14802130,lineage2,lineage2.2.1,-,MDR-TB,Female,60,previously_treated,yes,yes,no,no,retired,secondary,no,0
+SRR14802129,lineage2,lineage2.2.1,-,MDR-TB,Male,70,previously_treated,yes,yes,no,no,retired,primary,no,0
+SRR14802118,lineage2,lineage2.2.1,-,HR-TB,Male,6,new_case,yes,yes,yes,no,unemployed,no_education,no,2
+SRR14802109,lineage2,lineage2.2.1,-,MDR-TB,Male,44,new_case,yes,yes,no,yes,unemployed,primary,no,1
+SRR14802100,lineage2,lineage2.2.1,-,MDR-TB,Female,44,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14802099,lineage2,lineage2.2.1,-,MDR-TB,Male,28,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14802063,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,no,no,unemployed,primary,yes,0
+SRR14802059,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,46,new_case,yes,yes,yes,no,unemployed,secondary,yes,0
+SRR14802056,lineage4,lineage4.2.1,-,MDR-TB,Female,51,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14802042,lineage2,lineage2.2.1,-,MDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14802036,lineage2,lineage2.2.1,-,MDR-TB,Male,36,previously_treated,yes,2,yes,no,unemployed,primary,yes,1
+SRR14802019,lineage2,lineage2.2.1,-,MDR-TB,Male,52,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14802004,lineage2,lineage2.2.1,-,MDR-TB,Female,32,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801997,lineage4,lineage4.2.1,-,MDR-TB,Male,28,new_case,yes,4,yes,NA,0,NA,NA,0
+SRR14801989,lineage2,lineage2.2.1,-,HR-TB,Male,42,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801962,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,2
+SRR14802263,lineage4,lineage4.3.3,-,MDR-TB,Male,51,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14802189,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,no,no,unemployed,secondary,yes,2
+SRR14807642,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,38,previously_treated,yes,yes,yes,no,disabled,secondary,no,5
+SRR14807522,lineage2,lineage2.2.1,-,MDR-TB,Female,35,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14807460,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14807455,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,no,no,disabled,primary,no,1
+SRR14807674,lineage2,lineage2.2.1,-,MDR-TB,Male,59,previously_treated,yes,yes,yes,no,retired,secondary,no,1
+SRR14807636,lineage2,lineage2.2.1,-,MDR-TB,Male,52,previously_treated,yes,yes,no,yes,unemployed,primary,yes,0
+SRR14807601,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,32,previously_treated,yes,yes,no,no,unemployed,primary,NA,0
+SRR14807588,lineage4,lineage4.2.1,-,MDR-TB,Male,26,previously_treated,yes,yes,no,no,employed,secondary,no,2
+SRR14807573,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14807572,lineage2,lineage2.2.1,-,MDR-TB,Male,62,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14807570,lineage2,lineage2.2.1,-,MDR-TB,Male,40,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14782667,lineage4,lineage4.2.1,-,MDR-TB,Female,33,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14801653,lineage4,lineage4.2.1,-,MDR-TB,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14801474,lineage4,lineage4.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,no,NA,employed,specialized secondary,no,3
+SRR14782619,lineage4,lineage4.2.1,-,MDR-TB,Male,33,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14782461,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,52,new_case,yes,yes,no,no,unemployed,secondary,no,NA
+SRR14782235,lineage2,lineage2.2.1,-,MDR-TB,Male,56,previously_treated,yes,yes,no,no,unemployed,primary,NA,1
+SRR14801368,lineage4,lineage4.2.1,-,MDR-TB,Male,48,new_case,yes,yes,no,yes,unemployed,secondary,no,0
+SRR14802286,lineage4,lineage4.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,no,no,employed,specialized secondary,no,1
+SRR14782531,lineage4,lineage4.2.1,-,HR-TB,Male,47,new_case,yes,yes,yes,no,unemployed,primary,no,6
+SRR14781921,lineage4,lineage4.2.1,-,MDR-TB,Female,33,new_case,yes,yes,yes,no,unemployed,secondary,NA,5
+SRR14781920,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,28,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14781915,lineage4,lineage4.2.1,-,MDR-TB,Male,32,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782307,lineage4,lineage4.2.1,-,MDR-TB,Male,36,new_case,yes,yes,yes,yes,unemployed,primary,yes,0
+SRR14782234,lineage4,lineage4.2.1,-,MDR-TB,Male,42,new_case,yes,yes,no,yes,unemployed,secondary,no,1
+SRR14801291,lineage2,lineage2.2.1,-,MDR-TB,Female,20,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14782147,lineage4,lineage4.2.1,-,HR-TB,Male,33,new_case,yes,yes,yes,no,unemployed,primary,no,0
+SRR14801510,lineage2,lineage2.2.1,-,MDR-TB,Male,28,previously_treated,yes,yes,no,NA,unemployed,secondary,no,3
+SRR14802061,lineage4,lineage4.3.3,-,MDR-TB,Female,77,previously_treated,yes,yes,yes,no,retired,specialized secondary,no,1
+SRR14801846,lineage4,lineage4.2.1,-,MDR-TB,Male,57,new_case,yes,yes,no,no,disabled,secondary,yes,2
+SRR14801730,lineage2,lineage2.2.1,-,MDR-TB,Male,37,new_case,yes,yes,no,no,disabled,secondary,no,2
+SRR14801716,lineage2,lineage2.2.1,-,MDR-TB,Female,36,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801505,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,19,new_case,yes,yes,no,no,student,secondary,no,7
+SRR14801497,lineage4,lineage4.2.1,-,MDR-TB,Male,45,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801496,lineage2,lineage2.2.1,-,MDR-TB,Male,45,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801429,lineage4,lineage4.2.1,-,MDR-TB,Male,32,new_case,yes,yes,no,no,disabled,secondary,no,4
+SRR14802282,lineage2,lineage2.2.1,-,MDR-TB,Female,45,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14802230,lineage2,lineage2.2.1,-,MDR-TB,Female,18,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801312,lineage2,lineage2.2.1,-,MDR-TB,Female,20,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14801310,lineage2,lineage2.2.1,-,MDR-TB,Female,79,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14801616,lineage2,lineage2.2.1,-,MDR-TB,Female,30,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14801615,lineage4,lineage4.2.1,-,MDR-TB,Male,34,previously_treated,yes,yes,no,no,employed,secondary,NA,1
+SRR14801614,lineage4,lineage4.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14801598,lineage4,lineage4.2.1,-,MDR-TB,Male,43,previously_treated,yes,yes,no,yes,unemployed,primary,yes,3
+SRR14802159,lineage4,lineage4.2.1,-,MDR-TB,Male,42,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14802144,lineage4,lineage4.2.1,-,MDR-TB,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14802140,lineage2,lineage2.2.1,-,MDR-TB,Male,54,previously_treated,yes,yes,yes,no,NA,secondary,no,5
+SRR14802116,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,63,previously_treated,yes,yes,no,no,retired,primary,no,2
+SRR14802112,lineage2,lineage2.2.1,-,MDR-TB,Female,76,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14802111,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14802098,lineage2,lineage2.2.1,-,MDR-TB,Male,48,new_case,yes,yes,no,no,unemployed,primary,yes,0
+SRR14802081,lineage2,lineage2.2.1,-,MDR-TB,Female,48,new_case,yes,yes,yes,yes,unemployed,specialized secondary,no,1
+SRR14802075,lineage4,lineage4.2.1,-,MDR-TB,Male,50,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802003,lineage2,lineage2.2.1,-,MDR-TB,Male,40,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14802002,lineage2,lineage2.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14801991,lineage4,lineage4.2.1,-,MDR-TB,Male,40,new_case,yes,yes,no,no,unemployed,primary,yes,0
+SRR14801969,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,53,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14801955,lineage2,lineage2.2.1,-,MDR-TB,Male,46,previously_treated,yes,yes,no,no,unemployed,specialized secondary,NA,1
+SRR14801946,lineage2,lineage2.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,no,no,employed,higher_education,no,3
+SRR14801944,lineage2,lineage2.2.1,-,MDR-TB,Male,20,previously_treated,yes,4,yes,no,unemployed,no_education,yes,2
+SRR14801943,lineage2,lineage2.2.1,-,MDR-TB,Male,36,previously_treated,yes,yes,yes,yes,unemployed,primary,NA,0
+SRR14801941,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,25,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802277,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,33,previously_treated,yes,yes,no,yes,unemployed,primary,no,4
+SRR14802272,lineage2,lineage2.2.1,-,MDR-TB,Male,43,previously_treated,yes,yes,no,no,unemployed,primary,NA,2
+SRR14802266,lineage2,lineage2.2.1,-,MDR-TB,Male,40,new_case,yes,yes,no,no,unemployed,primary,yes,0
+SRR14802259,lineage2,lineage2.2.1,-,MDR-TB,Male,57,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14802254,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,31,previously_treated,yes,yes,no,no,disabled,secondary,NA,2
+SRR14807688,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,66,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14807508,lineage2,lineage2.2.1,-,MDR-TB,Male,30,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14807475,lineage4,lineage4.2.1,-,MDR-TB,Male,36,previously_treated,yes,yes,yes,no,NA,primary,NA,2
+SRR14807473,lineage2,lineage2.2.1,-,MDR-TB,Male,34,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807456,lineage2,lineage2.2.1,-,MDR-TB,Male,36,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14807684,lineage2,lineage2.2.1,-,MDR-TB,Male,19,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14807671,lineage2,lineage2.2.1,-,MDR-TB,Female,59,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14807668,lineage2,lineage2.2.1,-,MDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14807660,lineage4,lineage4.2.1,-,MDR-TB,Male,37,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14807659,lineage2,lineage2.2.1,-,MDR-TB,Male,32,previously_treated,yes,yes,no,no,unemployed,primary,NA,1
+SRR14807657,lineage2,lineage2.2.1,-,MDR-TB,Female,23,previously_treated,yes,yes,no,no,unemployed,primary,NA,0
+SRR14807652,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,41,previously_treated,yes,yes,no,yes,unemployed,primary,yes,2
+SRR14807648,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,no,no,unemployed,primary,NA,4
+SRR14807638,lineage4,lineage4.3.3,-,Pre-XDR-TB,Male,34,previously_treated,yes,yes,no,no,unemployed,secondary,yes,2
+SRR14807616,lineage2,lineage2.2.1,-,MDR-TB,Male,66,new_case,yes,yes,no,no,retired,specialized secondary,no,1
+SRR14807596,lineage2,lineage2.2.1,-,MDR-TB,Male,26,previously_treated,yes,yes,yes,no,employed,secondary,no,3
+SRR14807580,lineage2,lineage2.2.1,-,MDR-TB,Male,33,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14807558,lineage4,lineage4.2.1,-,MDR-TB,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14807557,lineage2,lineage2.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,no,no,employed,primary,yes,1
+SRR14807556,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,74,new_case,yes,yes,no,no,employed,secondary,no,NA
+SRR14807545,lineage4,lineage4.2.1,-,MDR-TB,Male,54,new_case,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14782091,lineage4,lineage4.2.1,-,MDR-TB,Male,47,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14781998,lineage4,lineage4.2.1,-,HR-TB,Female,30,previously_treated,yes,yes,yes,no,unemployed,secondary,no,5
+SRR14781973,lineage4,lineage4.2.1,-,MDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782205,lineage2,lineage2.2.1,-,MDR-TB,Male,34,new_case,yes,yes,no,no,unemployed,secondary,NA,2
+SRR14782599,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801881,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,20,new_case,yes,yes,yes,no,unemployed,secondary,NA,2
+SRR14801880,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,38,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801525,lineage2,lineage2.2.1,-,MDR-TB,Male,43,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14801524,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,28,previously_treated,yes,yes,no,no,unemployed,secondary,yes,NA
+SRR14807524,lineage2,lineage2.2.1,-,MDR-TB,Male,28,new_case,yes,yes,yes,no,unemployed,secondary,yes,2
+SRR14781904,lineage4,lineage4.2.1,-,MDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782297,lineage4,lineage4.2.1,-,MDR-TB,Male,26,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782802,lineage2,lineage2.2.1,-,MDR-TB,Male,31,new_case,yes,yes,no,no,unemployed,secondary,yes,0
+SRR14801830,lineage4,lineage4.2.1,-,MDR-TB,Male,43,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801417,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,no,unemployed,secondary,NA,NA
+SRR14782129,lineage4,lineage4.2.1,-,MDR-TB,Male,68,previously_treated,yes,yes,no,no,retired,primary,no,3
+SRR14782771,lineage4,lineage4.2.1,-,MDR-TB,Female,47,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14782421,lineage2,lineage2.2.1,-,MDR-TB,Male,54,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782306,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,no,yes,disabled,primary,no,1
+SRR14782772,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,50,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14801527,lineage4,lineage4.2.1,-,MDR-TB,Male,52,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14801476,lineage2,lineage2.2.1,-,MDR-TB,Female,28,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14801439,lineage2,lineage2.2.1,-,HR-TB,Male,51,new_case,yes,yes,yes,no,unemployed,primary,yes,2
+SRR14781969,lineage4,lineage4.2.1,-,MDR-TB,Female,24,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14781946,lineage2,lineage2.2.1,-,HR-TB,Male,55,previously_treated,yes,yes,no,no,employed,secondary,no,2
+SRR14782525,lineage4,lineage4.2.1,-,MDR-TB,Male,47,previously_treated,yes,yes,no,NA,disabled,primary,no,1
+SRR14782482,lineage4,lineage4.2.1,-,MDR-TB,Female,8,new_case,yes,yes,no,no,student,no_education,no,4
+SRR14782475,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,26,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14801780,lineage2,lineage2.2.1,-,MDR-TB,Female,46,previously_treated,yes,yes,no,yes,unemployed,primary,no,6
+SRR14801663,lineage2,lineage2.2.1,-,MDR-TB,Male,52,previously_treated,yes,yes,no,NA,employed,secondary,no,1
+SRR14801644,lineage4,lineage4.8,-,MDR-TB,Male,33,new_case,yes,yes,no,yes,unemployed,primary,no,0
+SRR14801500,lineage2,lineage2.2.1,-,MDR-TB,Male,54,new_case,yes,yes,no,yes,unemployed,primary,no,3
+SRR14802228,lineage4,lineage4.2.1,-,MDR-TB,Male,32,new_case,yes,yes,no,yes,unemployed,specialized secondary,no,3
+SRR14781859,lineage4,lineage4.2.1,-,HR-TB,Female,16,new_case,yes,yes,yes,no,student,primary,NA,4
+SRR14782630,lineage2,lineage2.2.1,-,HR-TB,Male,47,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801409,lineage4,lineage4.2.1,-,MDR-TB,Male,45,new_case,yes,yes,yes,no,unemployed,secondary,yes,NA
+SRR14801314,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,38,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14801604,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,42,previously_treated,yes,yes,no,no,unemployed,primary,NA,0
+SRR14801602,lineage4,lineage4.2.1,-,MDR-TB,Male,25,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14801591,lineage2,lineage2.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14801587,lineage4,lineage4.2.1,-,MDR-TB,Male,34,previously_treated,other,yes,yes,no,unemployed,specialized secondary,yes,2
+SRR14801586,lineage2,lineage2.2.1,-,MDR-TB,Male,65,previously_treated,yes,yes,yes,no,retired,secondary,no,1
+SRR14802171,lineage4,lineage4.2.1,-,MDR-TB,Male,28,new_case,yes,yes,yes,no,employed,specialized secondary,NA,1
+SRR14802170,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,47,new_case,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14802168,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,36,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14802160,lineage2,lineage2.2.1,-,MDR-TB,Female,45,previously_treated,yes,yes,yes,no,employed,secondary,no,0
+SRR14802154,lineage2,lineage2.2.1,-,MDR-TB,Female,42,previously_treated,yes,yes,yes,no,disabled,primary,no,0
+SRR14802151,lineage2,lineage2.2.1,-,MDR-TB,Male,34,previously_treated,yes,yes,yes,yes,unemployed,secondary,yes,0
+SRR14802149,lineage4,lineage4.2.1,-,MDR-TB,Male,61,previously_treated,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14802143,lineage4,lineage4.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,NA,1
+SRR14802138,lineage4,lineage4.2.1,-,MDR-TB,Male,30,previously_treated,yes,yes,yes,no,unemployed,secondary,NA,2
+SRR14802134,lineage2,lineage2.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,secondary,NA,2
+SRR14802104,lineage2,lineage2.2.1,-,MDR-TB,Male,43,previously_treated,yes,yes,yes,no,disabled,secondary,no,4
+SRR14802088,lineage2,lineage2.2.1,-,MDR-TB,Male,31,previously_treated,yes,yes,yes,no,unemployed,higher_education,no,0
+SRR14802080,lineage2,lineage2.2.1,-,MDR-TB,Female,31,previously_treated,other,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14802068,lineage2,lineage2.2.1,-,MDR-TB,Male,15,new_case,yes,yes,yes,no,student,primary,no,5
+SRR14802041,lineage4,lineage4.2.1;lineage4.3.3,-,Pre-XDR-TB,Male,34,previously_treated,yes,yes,yes,no,unemployed,secondary,no,NA
+SRR14802033,lineage2,lineage2.2.1,-,MDR-TB,Female,15,new_case,yes,yes,yes,no,student,secondary,no,4
+SRR14802032,lineage2,lineage2.2.1,-,HR-TB,Male,50,previously_treated,yes,yes,yes,no,unemployed,primary,no,0
+SRR14802021,lineage2,lineage2.2.1,-,MDR-TB,Male,35,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14802012,lineage4,lineage4.2.1,-,MDR-TB,Female,36,previously_treated,yes,yes,yes,no,unemployed,primary,yes,NA
+SRR14801999,lineage2,lineage2.2.1,-,MDR-TB,Female,33,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14801988,lineage2;lineage4,lineage2.2.1;lineage4.3.3,-,MDR-TB,Male,28,new_case,yes,yes,yes,yes,unemployed,primary,NA,0
+SRR14801977,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,62,new_case,yes,yes,yes,no,retired,secondary,no,1
+SRR14801973,lineage2,lineage2.2.1,-,MDR-TB,Female,57,new_case,other,yes,yes,no,retired,specialized secondary,no,0
+SRR14801959,lineage2,lineage2.2.1,-,MDR-TB,Male,28,new_case,yes,yes,yes,no,unemployed,secondary,NA,4
+SRR14801956,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,secondary,NA,4
+SRR14801947,lineage2,lineage2.2.1,-,MDR-TB,Male,40,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14801935,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,34,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14801924,lineage2,lineage2.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,1
+SRR14802258,lineage2,lineage2.2.1,-,MDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14807481,lineage2,lineage2.2.1,-,XDR-TB,Male,36,previously_treated,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14807471,lineage2,lineage2.2.1,-,MDR-TB,Female,47,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807461,lineage2;lineage4,lineage2.2.1;lineage4.2.1,-,MDR-TB,Male,36,new_case,yes,yes,yes,no,unemployed,secondary,NA,2
+SRR14807681,lineage2,lineage2.2.1,-,MDR-TB,Male,56,previously_treated,yes,yes,yes,no,disabled,primary,yes,0
+SRR14807673,lineage4,lineage4.2.1,-,MDR-TB,Female,25,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807670,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,yes,no,unemployed,secondary,NA,1
+SRR14807662,lineage2,lineage2.2.1,-,MDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807661,lineage2,lineage2.2.1,-,MDR-TB,Female,35,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14807655,lineage4,lineage4.2.1,-,MDR-TB,Male,32,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,1
+SRR14807654,lineage2,lineage2.2.1,-,MDR-TB,Female,33,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14807650,lineage4,lineage4.2.1,-,MDR-TB,Male,33,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807647,lineage2,lineage2.2.1,-,MDR-TB,Male,43,new_case,yes,yes,yes,yes,unemployed,secondary,no,0
+SRR14807643,lineage4,lineage4.2.1,-,MDR-TB,Male,42,new_case,yes,yes,yes,no,unemployed,specialized secondary,yes,0
+SRR14807640,lineage4,lineage4.2.1,-,MDR-TB,Male,39,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14807629,lineage2,lineage2.2.1,-,MDR-TB,Male,48,previously_treated,yes,yes,yes,no,disabled,secondary,yes,0
+SRR14807613,lineage2,lineage2.2.1,-,MDR-TB,Male,38,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14807611,lineage2,lineage2.2.1,-,MDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,secondary,NA,1
+SRR14807603,lineage2,lineage2.2.1,-,MDR-TB,Male,38,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,2
+SRR14807602,lineage2,lineage2.2.1,-,MDR-TB,Male,65,new_case,yes,yes,yes,no,disabled,secondary,no,0
+SRR14807597,lineage2,lineage2.2.1,-,MDR-TB,Male,35,new_case,yes,yes,yes,no,unemployed,secondary,NA,0
+SRR14807592,lineage2,lineage2.2.1,-,MDR-TB,Male,36,new_case,yes,yes,NA,no,unemployed,primary,yes,0
+SRR14807591,lineage4,lineage4.2.1,-,MDR-TB,Male,38,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807586,lineage2,lineage2.2.1,-,MDR-TB,Male,46,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14807584,lineage2,lineage2.2.1,-,MDR-TB,Male,68,previously_treated,other,yes,yes,no,retired,specialized secondary,no,2
+SRR14807574,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807571,lineage2,lineage2.2.1,-,MDR-TB,Male,42,previously_treated,yes,yes,yes,yes,unemployed,secondary,yes,0
+SRR14807563,lineage2,lineage2.2.1,-,MDR-TB,Male,53,previously_treated,yes,yes,yes,no,disabled,secondary,no,5
+SRR14807561,lineage2,lineage2.2.1,-,MDR-TB,Male,33,new_case,yes,yes,yes,no,employed,higher_education,no,2
+SRR14807550,lineage2,lineage2.2.1,-,MDR-TB,Male,56,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14807549,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,34,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,1
+SRR14807541,lineage2,lineage2.2.1,-,MDR-TB,Male,66,previously_treated,other,yes,yes,no,retired,secondary,yes,0
+SRR14807539,lineage2,lineage2.2.1,-,MDR-TB,Male,37,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14782030,lineage2,lineage2.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,no,no,unemployed,secondary,yes,5
+SRR14782140,lineage4,lineage4.2.1,-,MDR-TB,Male,33,previously_treated,yes,yes,no,no,unemployed,secondary,NA,0
+SRR14801483,lineage4,lineage4.2.1,-,MDR-TB,Male,62,previously_treated,yes,yes,no,no,retired,secondary,no,2
+SRR14801460,lineage4,lineage4.2.1,-,MDR-TB,Female,22,previously_treated,yes,yes,no,no,employed,secondary,no,3
+SRR14801451,lineage4,lineage4.2.1,-,MDR-TB,Female,55,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14801324,lineage4,lineage4.2.1,-,MDR-TB,Male,50,previously_treated,yes,yes,no,no,unemployed,secondary,yes,1
+SRR14782036,lineage4,lineage4.3.3,-,MDR-TB,Male,76,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14782819,lineage4,lineage4.2.1,-,MDR-TB,Male,39,previously_treated,yes,yes,no,no,unemployed,secondary,NA,NA
+SRR14782204,lineage4,lineage4.3.3,-,Sensitive,Female,51,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782665,lineage4,lineage4.7,-,Sensitive,Male,54,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782098,lineage4,lineage4.7,-,Sensitive,Female,59,new_case,yes,yes,no,no,retired,secondary,no,4
+SRR14782092,lineage4,lineage4.7,-,Sensitive,Female,76,previously_treated,yes,yes,no,no,retired,primary,no,12
+SRR14782079,lineage4,lineage4.3.3,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782055,lineage2,lineage2.2.1,-,Sensitive,Male,27,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14781980,lineage4,lineage4.3.4.1,-,Sensitive,Male,30,new_case,yes,yes,no,no,disabled,secondary,no,2
+SRR14781897,lineage4,lineage4.3.4.1,-,Sensitive,Female,37,new_case,yes,yes,no,no,employed,secondary,no,3
+SRR14781840,lineage4,lineage4.2.1.1,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782254,lineage4,lineage4.3.3,-,Sensitive,Female,45,new_case,yes,yes,no,no,employed,primary,no,2
+SRR14782138,lineage2,lineage2.2.1,-,Sensitive,Male,26,new_case,yes,yes,no,no,student,secondary,no,3
+SRR14782712,lineage4,lineage4.8,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782705,lineage4,lineage4.2.1.1,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782583,lineage2,lineage2.2.1,-,Other,Male,47,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782471,lineage4,lineage4.8,-,Sensitive,Male,37,new_case,yes,yes,no,no,unemployed,secondary,yes,2
+SRR14782468,lineage4,lineage4.1.2,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14801553,lineage2,lineage2.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801508,lineage4,lineage4.2.1.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,employed,specialized secondary,no,2
+SRR14801465,lineage4,lineage4.3.3,-,Sensitive,Male,49,previously_treated,yes,yes,yes,no,employed,secondary,no,0
+SRR14801443,lineage4,lineage4.8,-,Sensitive,Male,21,new_case,yes,yes,no,yes,unemployed,primary,yes,NA
+SRR14801391,lineage4,lineage4.1.2.1,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801381,lineage4,lineage4.3.3,-,Sensitive,Male,46,new_case,yes,yes,no,no,employed,specialized secondary,no,4
+SRR14801361,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801346,lineage2,lineage2.2.1,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,primary,NA,NA
+SRR14801905,lineage2,lineage2.2.1,-,Sensitive,Female,25,previously_treated,yes,yes,yes,no,unemployed,primary,no,4
+SRR14801898,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14802253,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,no,no,disabled,primary,no,3
+SRR14807514,lineage2,lineage2.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,specialized secondary,no,3
+SRR14807509,lineage4,lineage4.1.2.1,-,Sensitive,Male,64,new_case,yes,yes,no,no,retired,secondary,no,4
+SRR14782006,lineage4,lineage4.8,-,Sensitive,Female,0,previously_treated,yes,yes,no,no,unemployed,no_education,no,4
+SRR14782677,lineage4,lineage4.1.2.1,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782831,lineage4,lineage4.8,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14802179,lineage2,lineage2.2.1,-,Sensitive,Female,26,new_case,yes,yes,yes,yes,unemployed,primary,no,3
+SRR14807686,lineage4,lineage4.8,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801315,lineage2,lineage2.2.1,-,Other,Male,56,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801313,lineage4,lineage4.2.1.1,-,Other,Male,50,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14801584,lineage4,lineage4.8,-,Sensitive,Male,29,new_case,yes,yes,yes,yes,unemployed,secondary,yes,1
+SRR14802177,lineage4,lineage4.1,-,Sensitive,Male,38,previously_treated,other,yes,yes,no,unemployed,primary,NA,1
+SRR14802141,lineage2,lineage2.2.1,-,Sensitive,Male,31,new_case,yes,yes,yes,no,unemployed,secondary,NA,0
+SRR14802093,lineage2,lineage2.2.1,-,Sensitive,Female,24,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14802069,lineage2,lineage2.2.1,-,Sensitive,Male,61,new_case,yes,yes,yes,no,retired,secondary,no,1
+SRR14802048,lineage2,lineage2.2.1,-,Sensitive,Male,36,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14802030,lineage4,lineage4.1.2.1,-,Sensitive,Male,63,new_case,yes,yes,yes,no,employed,higher_education,no,1
+SRR14801982,lineage4,lineage4.3.3,-,Sensitive,Male,30,new_case,yes,yes,no,no,employed,specialized secondary,no,3
+SRR14801971,lineage2,lineage2.2.1,-,Sensitive,Male,52,new_case,yes,yes,yes,no,employed,higher_education,no,0
+SRR14801968,lineage4,lineage4.2.1.1,-,Other,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14802275,lineage2,lineage2.2.1,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14802255,lineage2,lineage2.2.1,-,Sensitive,Female,69,new_case,yes,yes,yes,no,disabled,specialized secondary,no,1
+SRR14807562,lineage4,lineage4.8,-,Sensitive,Male,46,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14782418,lineage2,lineage2.2.1,-,Sensitive,Male,66,new_case,yes,yes,no,no,retired,secondary,no,2
+SRR14801642,lineage4,lineage4.1,-,Sensitive,Female,58,new_case,yes,yes,no,no,retired,primary,no,2
+SRR14801600,lineage4,lineage4.8,-,Sensitive,Female,30,new_case,yes,2,no,yes,unemployed,primary,no,12
+SRR14802161,lineage4,lineage4.8,-,Sensitive,Female,29,new_case,yes,yes,no,yes,unemployed,primary,no,12
+SRR14802256,lineage2,lineage2.2.1,-,Sensitive,Male,79,previously_treated,yes,yes,no,no,retired,primary,no,1
+SRR14801877,lineage4,lineage4.3.3,-,Sensitive,Male,60,previously_treated,yes,yes,no,no,disabled,secondary,no,0
+SRR14801874,lineage4,lineage4.1.2.1,-,Sensitive,Female,79,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14801837,lineage4,lineage4.1.2.1,-,Sensitive,Female,50,new_case,yes,yes,no,no,employed,specialized secondary,no,6
+SRR14801810,lineage4,lineage4.8,-,Sensitive,Male,19,previously_treated,yes,2,yes,no,unemployed,secondary,no,6
+SRR14801806,lineage4,lineage4.3.4.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,disabled,specialized secondary,no,3
+SRR14801799,lineage4,lineage4.1.2.1,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801661,lineage4,lineage4.4.1.1,-,Sensitive,Male,50,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801636,lineage4,lineage4.3.3,-,Sensitive,Male,55,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14807653,lineage2,lineage2.2.1,-,Sensitive,Male,30,new_case,yes,yes,yes,no,unemployed,primary,no,5
+SRR14782476,lineage4,lineage4.3.3,-,Sensitive,Male,54,previously_treated,yes,yes,no,no,unemployed,NA,no,0
+SRR14782058,lineage4,lineage4.3.3,-,Sensitive,Male,62,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14782020,lineage4,lineage4.1.2.1,-,Sensitive,Male,41,new_case,yes,yes,no,no,unemployed,primary,no,NA
+SRR14781909,lineage4,lineage4.3.3,-,Sensitive,Female,38,new_case,yes,yes,no,yes,unemployed,primary,no,1
+SRR14781869,lineage4,lineage4.3.3,-,Sensitive,Male,28,new_case,yes,yes,no,no,unemployed,primary,no,8
+SRR14781866,lineage2,lineage2.2.1,-,Sensitive,Male,41,new_case,yes,yes,no,no,unemployed,secondary,no,7
+SRR14782406,lineage4,lineage4.1.2.1,-,Sensitive,Male,25,new_case,yes,yes,no,no,unemployed,secondary,no,NA
+SRR14782308,lineage4,lineage4.3.3,-,Sensitive,Male,25,new_case,yes,yes,no,yes,unemployed,no_education,NA,2
+SRR14782261,lineage4,lineage4.8,-,Sensitive,Male,31,new_case,yes,yes,no,yes,unemployed,primary,NA,6
+SRR14782669,lineage2,lineage2.2.1,-,Sensitive,Male,47,new_case,yes,yes,yes,no,retired,secondary,no,NA
+SRR14782663,lineage2,lineage2.2.1,-,Sensitive,Female,44,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782574,lineage4,lineage4.3.3,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782541,lineage4,lineage4.3.3,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,primary,no,NA
+SRR14782519,lineage2;lineage4,lineage2.2.1;lineage4,-,Sensitive,Male,56,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782437,lineage2,lineage2.2.1,-,Sensitive,Male,32,previously_treated,yes,yes,no,yes,unemployed,primary,no,NA
+SRR14782436,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,no,no,employed,secondary,no,0
+SRR14782827,lineage4,lineage4.3.3,-,Sensitive,Male,68,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14782796,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14801885,lineage4,lineage4.1.2.1,-,HR-TB,Male,55,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802229,lineage2,lineage2.2.1,-,Sensitive,Male,32,new_case,yes,yes,no,yes,unemployed,primary,no,NA
+SRR14802207,lineage4,lineage4,-,Sensitive,Male,53,new_case,yes,yes,no,no,employed,secondary,no,1
+SRR14802194,lineage4,lineage4.3.3,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14807533,lineage2,lineage2.2.1,-,Sensitive,Male,36,new_case,yes,yes,no,yes,unemployed,primary,yes,1
+SRR14807516,lineage4,lineage4.2.1,-,Sensitive,Female,41,previously_treated,yes,yes,no,no,employed,primary,no,2
+SRR14807499,lineage4,lineage4.1.2.1,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14807497,lineage4,lineage4.8,-,Sensitive,Male,22,new_case,yes,yes,yes,no,unemployed,primary,no,3
+SRR14782631,lineage2,lineage2.2.1,-,Sensitive,Female,36,new_case,yes,yes,no,no,employed,primary,no,4
+SRR14782064,lineage4,lineage4.8,-,Sensitive,Male,21,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782026,lineage4,lineage4.2.1.1,-,Other,Male,39,previously_treated,yes,yes,no,no,unemployed,primary,no,2
+SRR14782015,lineage4,lineage4.3.3,-,Sensitive,Male,53,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782008,lineage4,lineage4.8,-,Sensitive,Female,51,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14781944,lineage4,lineage4.1.2.1,-,Sensitive,Male,69,previously_treated,yes,yes,no,no,retired,primary,no,1
+SRR14781939,lineage2,lineage2.2.1,-,Sensitive,Male,35,previously_treated,yes,yes,yes,no,unemployed,higher_education,NA,0
+SRR14781929,lineage2,lineage2.2.1,-,Sensitive,Male,31,new_case,yes,yes,no,NA,unemployed,secondary,no,1
+SRR14781873,lineage2,lineage2.2.1,-,Other,Male,47,previously_treated,yes,yes,no,no,disabled,primary,no,1
+SRR14781851,lineage4,lineage4.8,-,Sensitive,Female,31,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14781849,lineage4,lineage4.1.2.1,-,Sensitive,Female,32,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782220,lineage2,lineage2.2.1,-,Sensitive,Male,34,new_case,yes,yes,yes,no,unemployed,higher_education,NA,1
+SRR14782194,lineage4,lineage4.7,-,Sensitive,Male,24,new_case,yes,yes,no,no,unemployed,primary,no,12
+SRR14782757,lineage4,lineage4.1.2.1,-,Sensitive,Male,63,previously_treated,yes,yes,no,no,retired,secondary,no,0
+SRR14782752,lineage4,lineage4.1.2.1,-,Sensitive,Male,36,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782747,lineage4,lineage4.3.3,-,Sensitive,Male,47,new_case,yes,yes,no,no,disabled,secondary,no,4
+SRR14782744,lineage4,lineage4.3.3,-,Sensitive,Male,47,new_case,yes,yes,no,no,employed,secondary,no,3
+SRR14801676,lineage4,lineage4.3.3,-,Sensitive,Male,28,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801545,lineage2,lineage2.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801501,lineage2,lineage2.2.1,-,Sensitive,Male,41,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801404,lineage4,lineage4.3.3,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801393,lineage2,lineage2.2.1,-,Sensitive,Male,27,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14801377,lineage4,lineage4.8,-,Sensitive,Male,55,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801337,lineage4,lineage4.8,-,Sensitive,Male,38,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14802235,lineage4,lineage4.1.2,-,Sensitive,Male,62,previously_treated,yes,yes,no,no,retired,primary,no,1
+SRR14807507,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14807511,lineage4,lineage4.7,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14807501,lineage4,lineage4.3.3,-,Sensitive,Male,24,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801309,lineage2,lineage2.2.1,-,Sensitive,Male,68,previously_treated,yes,yes,no,no,retired,secondary,no,6
+SRR14802163,lineage4,lineage4.8,-,Sensitive,Male,49,new_case,yes,yes,no,yes,employed,specialized secondary,no,0
+SRR14802001,lineage4,lineage4.2.1.1,-,Sensitive,Male,47,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14801957,lineage2,lineage2.2.1,-,Sensitive,Female,40,new_case,yes,yes,no,no,unemployed,secondary,no,11
+SRR14802261,lineage4,lineage4.8,-,Sensitive,Male,61,new_case,yes,yes,yes,no,retired,primary,no,0
+SRR14807621,lineage4,lineage4.3.3,-,Sensitive,Male,41,new_case,yes,yes,yes,no,disabled,secondary,no,1
+SRR14807568,lineage2,lineage2.2.1,-,Sensitive,Male,19,new_case,yes,yes,no,no,unemployed,secondary,no,NA
+SRR14782121,lineage4,lineage4.1.2.1,-,Sensitive,Female,79,new_case,yes,yes,no,no,retired,secondary,no,4
+SRR14781858,lineage2,lineage2.2.1,-,Sensitive,Male,57,new_case,yes,yes,no,NA,unemployed,primary,no,0
+SRR14781845,lineage4,lineage4.3.3,-,Sensitive,Male,57,previously_treated,yes,yes,no,no,disabled,primary,no,2
+SRR14782349,lineage4,lineage4.8,-,Sensitive,Male,59,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14782319,lineage4,lineage4.2.1.1,-,Other,Male,60,new_case,yes,yes,no,no,unemployed,specialized secondary,no,7
+SRR14782165,lineage4,lineage4.8,-,Sensitive,Male,58,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14782164,lineage4,lineage4.8,-,Sensitive,Male,50,new_case,yes,yes,no,no,employed,secondary,NA,3
+SRR14782146,lineage4,lineage4.8,-,Sensitive,Male,29,previously_treated,yes,yes,no,NA,unemployed,primary,no,2
+SRR14782144,lineage4,lineage4.8,-,Sensitive,Female,26,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782143,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782678,lineage4,lineage4.8,-,Sensitive,Female,63,new_case,yes,yes,yes,no,retired,specialized secondary,no,1
+SRR14782616,lineage2,lineage2.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,NA,unemployed,secondary,NA,6
+SRR14782593,lineage2,lineage2.2.1,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782505,lineage2,lineage2.2.1,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,primary,no,7
+SRR14782430,lineage2,lineage2.2.1,-,Sensitive,Male,53,previously_treated,yes,yes,no,no,unemployed,primary,no,2
+SRR14782830,lineage4,lineage4.8,-,Sensitive,Female,25,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782807,lineage4,lineage4.3.3,-,Sensitive,Male,53,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14807485,lineage4,lineage4.9,-,Sensitive,Male,43,new_case,yes,yes,no,no,employed,primary,NA,3
+SRR14782050,lineage2,lineage2.2.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782024,lineage4,lineage4.3.3,-,Sensitive,Male,62,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14782222,lineage4,lineage4.8,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,no_education,NA,0
+SRR14782703,lineage4,lineage4.3.4.1,-,Sensitive,Female,24,new_case,yes,yes,yes,yes,unemployed,secondary,no,3
+SRR14782694,lineage4,lineage4.3.3,-,Sensitive,Male,35,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14782674,lineage2,lineage2.2.1,-,Sensitive,Female,41,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14782627,lineage4,lineage4.2.1.1,-,Other,Male,45,new_case,yes,yes,no,no,unemployed,secondary,NA,4
+SRR14782581,lineage2,lineage2.2.1,-,Sensitive,Male,39,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14782516,lineage2,lineage2.2.1,-,Sensitive,Female,22,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782808,lineage4,lineage4.3.3,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801446,lineage2,lineage2.2.1,-,Sensitive,Male,34,previously_treated,yes,yes,no,yes,unemployed,primary,no,3
+SRR14801427,lineage2,lineage2.2.1,-,Sensitive,Male,23,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801348,lineage2,lineage2.2.1,-,Sensitive,Female,34,new_case,yes,yes,no,NA,unemployed,secondary,no,3
+SRR14801339,lineage4,lineage4.1.2.1,-,Sensitive,Female,46,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801328,lineage2,lineage2.2.1,-,Sensitive,Female,39,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801323,lineage2,lineage2.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801322,lineage4,lineage4.8,-,Sensitive,Male,45,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801919,lineage4,lineage4.2.1.1,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14802248,lineage2,lineage2.2.1,-,Sensitive,Male,32,new_case,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14802247,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802239,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14802220,lineage4,lineage4.3.3,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14802205,lineage4,lineage4.2.1.1,-,Sensitive,Male,50,previously_treated,yes,2,no,NA,unemployed,secondary,no,0
+SRR14802197,lineage4,lineage4.8,-,Sensitive,Male,48,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14807463,lineage4,lineage4.8,-,Sensitive,Male,40,previously_treated,yes,yes,no,yes,unemployed,secondary,NA,1
+SRR14807503,lineage2,lineage2.2.1,-,Other,Female,46,new_case,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14807453,lineage4,lineage4.8,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782118,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782374,lineage4,lineage4.1.2.1,-,Sensitive,Male,65,previously_treated,yes,yes,no,no,retired,secondary,no,3
+SRR14782244,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782203,lineage4,lineage4.1.2.1,-,Sensitive,Male,47,new_case,yes,yes,no,no,employed,specialized secondary,no,1
+SRR14782162,lineage2,lineage2.2.1,-,Other,Male,46,new_case,other,yes,yes,no,disabled,secondary,no,0
+SRR14782664,lineage4,lineage4.8,-,Sensitive,Male,53,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782594,lineage2,lineage2.2.1,-,Sensitive,Male,22,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14782435,lineage4,lineage4.2.1.1,-,Other,Male,47,new_case,yes,yes,yes,no,disabled,secondary,no,NA
+SRR14782834,lineage4,lineage4.2.1,-,Sensitive,Female,44,new_case,yes,yes,yes,yes,unemployed,secondary,no,1
+SRR14782426,lineage4,lineage4.8,-,Sensitive,Male,41,new_case,yes,yes,no,no,unemployed,primary,no,8
+SRR14782125,lineage4,lineage4.8,-,Sensitive,Female,30,new_case,yes,yes,no,no,employed,primary,no,8
+SRR14781923,lineage2,lineage2.2.1,-,Other,Male,62,new_case,yes,yes,yes,no,unemployed,primary,no,12
+SRR14781906,lineage4,lineage4.3.3,-,Sensitive,Male,41,new_case,yes,yes,no,no,employed,primary,no,15
+SRR14782354,lineage2,lineage2.2.1,-,Sensitive,Male,64,new_case,yes,yes,yes,no,retired,secondary,no,12
+SRR14782335,lineage4,lineage4.8,-,Sensitive,Male,36,previously_treated,yes,yes,yes,yes,unemployed,primary,no,1
+SRR14782322,lineage2,lineage2.2.1,-,Sensitive,Male,18,new_case,yes,yes,no,no,unemployed,secondary,no,14
+SRR14782316,lineage4,lineage4.2.1.1,-,Other,Male,35,new_case,yes,yes,yes,no,unemployed,primary,no,15
+SRR14782275,lineage4,lineage4.8,-,Sensitive,Male,35,new_case,yes,yes,yes,no,unemployed,primary,no,10
+SRR14782241,lineage2,lineage2.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,NA,no,6
+SRR14782145,lineage4,lineage4.8,-,Sensitive,Male,58,new_case,yes,yes,no,no,unemployed,primary,no,13
+SRR14782647,lineage4,lineage4.2.1.1,-,Other,Female,42,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14782618,lineage2,lineage2.2.1,-,Sensitive,Male,64,new_case,yes,yes,no,no,retired,secondary,no,15
+SRR14782608,lineage2,lineage2.2.1,-,Other,Male,47,new_case,yes,yes,no,no,unemployed,primary,yes,15
+SRR14782558,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782734,lineage4,lineage4.8,-,Sensitive,Female,42,new_case,yes,yes,no,no,unemployed,primary,no,12
+SRR14802242,lineage4,lineage4.8,-,Sensitive,Female,50,new_case,yes,yes,no,no,unemployed,primary,no,10
+SRR14782347,lineage4,lineage4.8,-,Sensitive,Male,18,new_case,yes,yes,yes,no,student,secondary,no,2
+SRR14782309,lineage4,lineage4.1.2.1,-,Sensitive,Female,76,new_case,yes,yes,no,no,retired,secondary,no,2
+SRR14782283,lineage4,lineage4.9,-,Sensitive,Male,61,previously_treated,yes,yes,no,no,disabled,secondary,no,3
+SRR14782189,lineage4,lineage4.3.3,-,Sensitive,Male,62,new_case,yes,yes,no,no,disabled,primary,no,6
+SRR14782175,lineage4,lineage4.8,-,Sensitive,Male,32,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782710,lineage4,lineage4.3.3,-,Sensitive,Male,32,new_case,yes,yes,yes,no,employed,primary,no,3
+SRR14782829,lineage4,lineage4.3.3,-,Sensitive,Female,33,new_case,yes,yes,yes,no,unemployed,primary,no,5
+SRR14801731,lineage4,lineage4.8,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801965,lineage4,lineage4.2.1.1,-,Other,Male,41,new_case,yes,yes,no,no,unemployed,primary,yes,0
+SRR14802219,lineage4,lineage4.8,-,Other,Male,39,new_case,yes,yes,yes,no,unemployed,primary,no,3
+SRR14802192,lineage2,lineage2.2.1,-,Sensitive,Male,60,new_case,yes,yes,no,no,retired,primary,no,5
+SRR14782393,lineage4,lineage4.3.3,-,Sensitive,Male,38,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14782642,lineage4,lineage4.3.3,-,Sensitive,Male,49,previously_treated,yes,yes,no,no,unemployed,primary,no,2
+SRR14782087,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,yes,unemployed,primary,no,0
+SRR14781991,lineage4,lineage4.8,-,Sensitive,Male,37,new_case,other,yes,no,no,unemployed,secondary,yes,0
+SRR14781884,lineage4,lineage4.7,-,Sensitive,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782399,lineage4,lineage4.3.3,-,Sensitive,Male,58,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782384,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,specialized secondary,yes,1
+SRR14782378,lineage4,lineage4.8,-,Sensitive,Male,59,previously_treated,yes,yes,yes,no,employed,secondary,no,1
+SRR14782369,lineage4,lineage4.2.1.1,-,Other,Male,61,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782366,lineage2,lineage2.2.1,-,Other,Male,29,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782321,lineage4,lineage4.8,-,Sensitive,Male,54,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782232,lineage4,lineage4.8,-,Sensitive,Male,60,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14782208,lineage4,lineage4.1.2.1,-,Sensitive,Male,58,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782696,lineage4,lineage4.1.2.1,-,Sensitive,Male,28,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14782688,lineage4,lineage4.1.2.1,-,Sensitive,Male,36,new_case,yes,yes,no,yes,unemployed,primary,no,1
+SRR14782728,lineage4,lineage4.3.3,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782832,lineage4,lineage4.1.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14782792,lineage4,lineage4.8,-,Sensitive,Male,49,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782763,lineage4,lineage4.2.1.1,-,Sensitive,Female,12,new_case,yes,yes,no,no,student,primary,no,3
+SRR14801557,lineage4,lineage4.3.3,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801518,lineage4,lineage4.1.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801449,lineage4,lineage4.2.1.1,-,Other,Male,49,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14801436,lineage4,lineage4.8,-,Sensitive,Male,73,previously_treated,yes,yes,no,no,retired,primary,NA,1
+SRR14801435,lineage4,lineage4.8,-,Sensitive,Female,29,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801434,lineage4,lineage4.3.4.1,-,Sensitive,Male,56,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801411,lineage2,lineage2.2.1,-,Sensitive,Male,48,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14801399,lineage4,lineage4.3.3,-,Sensitive,Male,82,new_case,yes,yes,no,no,retired,primary,no,4
+SRR14801353,lineage2,lineage2.2.1,-,Other,Male,33,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801334,lineage4,lineage4.8,-,Sensitive,Male,33,new_case,yes,yes,no,yes,unemployed,primary,NA,NA
+SRR14801331,lineage2,lineage2.2.1,-,Sensitive,Male,28,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14802231,lineage4,lineage4.8,-,Sensitive,Male,45,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802214,lineage2,lineage2.2.1,-,Other,Male,67,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14802209,lineage4,lineage4.1.2.1,-,Sensitive,Male,37,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14807498,lineage4,lineage4.8,-,Sensitive,Male,60,new_case,yes,yes,no,no,disabled,primary,no,3
+SRR14802124,lineage4,lineage4.1.2.1,-,Sensitive,Male,31,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14782148,lineage2,lineage2.2.1,-,Other,Male,57,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782387,lineage2,lineage2.2.1,-,Sensitive,Male,57,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14782217,lineage4,lineage4.1.2.1,-,Sensitive,Female,75,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14801664,lineage4,lineage4.1.2.1,-,Sensitive,Male,33,previously_treated,yes,yes,yes,yes,unemployed,primary,no,0
+SRR14802212,lineage4,lineage4.3.3,-,Sensitive,Male,59,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801866,lineage4,lineage4.2.1.1,-,Other,Male,56,new_case,yes,yes,no,no,employed,higher_education,no,1
+SRR14801859,lineage4,lineage4.8,-,Sensitive,Female,28,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801854,lineage4,lineage4.8,-,Sensitive,Male,46,new_case,yes,yes,no,no,disabled,primary,no,3
+SRR14801772,lineage2,lineage2.2.1,-,Sensitive,Male,70,previously_treated,yes,yes,no,yes,disabled,secondary,no,2
+SRR14801646,lineage2,lineage2.2.1,-,Sensitive,Male,34,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782028,lineage2,lineage2.2.1,-,Sensitive,Male,25,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14781999,lineage4,lineage4.3.3,-,Sensitive,Female,54,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801430,lineage2,lineage2.2.1,-,Sensitive,Male,59,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801407,lineage4,lineage4.2.1.1,-,Sensitive,Male,58,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,10
+SRR14801585,lineage2,lineage2.2.1,-,Sensitive,Male,59,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14801851,lineage2,lineage2.2.1,-,Sensitive,Male,71,new_case,yes,yes,no,no,retired,specialized secondary,no,6
+SRR14801818,lineage4,lineage4.2.1.1,-,Other,Male,59,previously_treated,yes,yes,no,no,disabled,secondary,no,1
+SRR14801789,lineage4,lineage4.2.1.1,-,Sensitive,Male,32,new_case,yes,yes,yes,no,employed,specialized secondary,no,4
+SRR14801754,lineage4,lineage4.8,-,Sensitive,Male,59,new_case,yes,yes,no,no,disabled,primary,no,6
+SRR14801656,lineage2,lineage2.2.1,-,Sensitive,Male,31,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14801626,lineage2,lineage2.2.1,-,Sensitive,Male,47,previously_treated,yes,yes,yes,no,unemployed,primary,no,2
+SRR14807598,lineage4,lineage4.2.1.1,-,Sensitive,Male,54,new_case,yes,yes,no,no,employed,specialized secondary,no,1
+SRR14782822,lineage2,lineage2.2.1,-,Sensitive,Female,61,new_case,yes,yes,yes,no,retired,specialized secondary,no,2
+SRR14802162,lineage4,lineage4.1.2.1,-,Other,Male,36,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14802095,lineage2,lineage2.2.1,-,Sensitive,Female,44,previously_treated,yes,yes,yes,yes,unemployed,specialized secondary,no,1
+SRR14802020,lineage2,lineage2.2.1,-,Sensitive,Male,38,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14802010,lineage4,lineage4.1.2,-,Sensitive,Male,40,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801926,lineage2,lineage2.2.1,-,Sensitive,Male,30,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14802269,lineage4,lineage4.8,-,Sensitive,Male,61,new_case,yes,yes,no,no,retired,secondary,no,5
+SRR14807465,lineage4,lineage4.8,-,Sensitive,Female,19,previously_treated,yes,yes,yes,no,student,specialized secondary,yes,5
+SRR14807623,lineage4,lineage4.2.1.1,-,Sensitive,Male,42,previously_treated,other,yes,NA,NA,NA,NA,NA,NA
+SRR14782014,lineage4,lineage4.2.1.1,-,Other,Male,33,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782185,lineage4,lineage4.7,-,Sensitive,Female,29,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14782172,lineage4,lineage4.2.1.1,-,Other,Male,34,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782155,lineage2,lineage2.2.1,-,Sensitive,Male,43,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14782649,lineage4,lineage4.7,-,Sensitive,Male,0,new_case,yes,yes,no,no,unemployed,no_education,no,3
+SRR14782603,lineage4,lineage4.2.1,-,Sensitive,Male,27,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782778,lineage4,lineage4.8,-,Sensitive,Male,32,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782766,lineage4,lineage4.2,-,Sensitive,Male,50,previously_treated,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801482,lineage2,lineage2.2.1,-,Sensitive,Female,61,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14801450,lineage4,lineage4.3.3,-,Sensitive,Male,53,new_case,yes,yes,no,NA,unemployed,primary,no,0
+SRR14801333,lineage4,lineage4.3.3,-,Sensitive,Male,60,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14801332,lineage2,lineage2.2.1,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802249,lineage2,lineage2.2.1,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14807493,lineage2,lineage2.2.1,-,Sensitive,Male,23,previously_treated,yes,yes,yes,yes,unemployed,higher_education,NA,NA
+SRR14807478,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14781989,lineage4,lineage4.8,-,Sensitive,Female,68,new_case,yes,yes,no,no,disabled,secondary,no,1
+SRR14782758,lineage4,lineage4.1.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,specialized secondary,no,3
+SRR14801742,lineage4,lineage4.1,-,Sensitive,Female,83,new_case,yes,yes,yes,no,retired,secondary,no,4
+SRR14802117,lineage4,lineage4.8,-,Sensitive,Male,34,new_case,yes,yes,yes,no,unemployed,no_education,no,3
+SRR14801873,lineage4,lineage4.8,-,Sensitive,Male,40,new_case,yes,yes,no,no,disabled,secondary,no,3
+SRR14801828,lineage4,lineage4.3.3,-,Sensitive,Male,45,new_case,yes,yes,no,no,unemployed,primary,no,6
+SRR14801824,lineage4,lineage4.8,-,Sensitive,Male,59,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14801785,lineage4,lineage4.8,-,Sensitive,Male,59,previously_treated,yes,yes,yes,no,disabled,secondary,no,1
+SRR14801781,lineage4,lineage4.1.2.1,-,Sensitive,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801744,lineage2,lineage2.2.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14801684,lineage2,lineage2.2.1,-,Sensitive,Male,66,new_case,yes,yes,no,no,retired,secondary,no,NA
+SRR14801677,lineage4,lineage4.4.1.1,-,Sensitive,Male,63,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14782066,lineage2,lineage2.2.1,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,specialized secondary,no,4
+SRR14782013,lineage2,lineage2.2.1,-,Sensitive,Male,49,previously_treated,yes,yes,no,no,disabled,secondary,no,1
+SRR14801374,lineage2,lineage2.2.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,10
+SRR14801611,lineage4,lineage4.8,-,Sensitive,Male,68,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801939,lineage2,lineage2.2.1,-,Sensitive,Female,36,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801863,lineage4,lineage4.8,-,Sensitive,Male,41,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801803,lineage2,lineage2.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801792,lineage2,lineage2.2.1,-,Sensitive,Male,49,new_case,yes,yes,no,no,disabled,secondary,no,NA
+SRR14801778,lineage4,lineage4.8,-,Sensitive,Male,56,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801770,lineage4,lineage4.2.1.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801707,lineage2,lineage2.2.1,-,Sensitive,Female,72,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14801702,lineage2,lineage2.2.1,-,Sensitive,Female,71,new_case,yes,yes,yes,no,retired,secondary,no,NA
+SRR14801700,lineage4,lineage4.1.2.1,-,Sensitive,Male,68,new_case,yes,yes,no,no,employed,secondary,no,2
+SRR14801655,lineage2,lineage2.2.1,-,Sensitive,Male,27,new_case,yes,yes,no,no,unemployed,secondary,no,11
+SRR14801627,lineage4,lineage4.1.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801918,lineage4,lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782311,lineage2,lineage2.2.1,-,Sensitive,Male,48,new_case,yes,yes,no,no,employed,specialized secondary,no,0
+SRR14782704,lineage4,lineage4.8,-,Sensitive,Male,58,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782452,lineage4,lineage4.1.2.1,-,Sensitive,Male,48,previously_treated,yes,yes,yes,yes,unemployed,higher_education,no,NA
+SRR14801290,lineage2,lineage2.2.1,-,Sensitive,Female,42,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801288,lineage4,lineage4.3.4.1,-,Sensitive,Female,29,previously_treated,yes,yes,yes,no,disabled,primary,no,4
+SRR14801858,lineage4,lineage4.1.2.1,-,Sensitive,Male,61,new_case,yes,yes,yes,yes,unemployed,primary,yes,0
+SRR14801838,lineage4,lineage4.1.2.1,-,Sensitive,Male,56,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801807,lineage4,lineage4.2.1.1,-,Other,Male,40,new_case,yes,yes,no,no,employed,specialized secondary,no,0
+SRR14801784,lineage4,lineage4.8,-,Sensitive,Male,22,new_case,yes,yes,no,no,unemployed,secondary,NA,3
+SRR14801740,lineage4,lineage4.8,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801697,lineage4,lineage4.8,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801688,lineage4,lineage4.3.3,-,Sensitive,Male,65,new_case,yes,yes,no,no,retired,specialized secondary,no,4
+SRR14801683,lineage4,lineage4.8,-,Sensitive,Male,58,new_case,yes,yes,no,no,unemployed,no_education,no,1
+SRR14801671,lineage4,lineage4.2.1,-,Sensitive,Male,56,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801412,lineage4,lineage4.3.3,-,Sensitive,Male,23,new_case,yes,yes,no,yes,unemployed,primary,yes,NA
+SRR14801821,lineage2,lineage2.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14801802,lineage4,lineage4.8,-,Sensitive,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801801,lineage4,lineage4.3.3,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801734,lineage2,lineage2.2.1,-,Sensitive,Male,25,new_case,yes,yes,yes,no,unemployed,secondary,no,6
+SRR14801719,lineage4,lineage4.1.2.1,-,Sensitive,Male,68,previously_treated,yes,yes,yes,no,retired,secondary,no,4
+SRR14801674,lineage4,lineage4.3.3,-,Sensitive,Male,28,new_case,yes,yes,no,no,unemployed,secondary,no,15
+SRR14801658,lineage2,lineage2.2.1,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,secondary,no,8
+SRR14801326,lineage2,lineage2.2.1,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,primary,NA,NA
+SRR14802137,lineage2,lineage2.2.1,-,Sensitive,Male,22,new_case,yes,yes,no,no,student,secondary,no,1
+SRR14802132,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,yes,no,unemployed,secondary,yes,1
+SRR14802113,lineage4,lineage4.2.1.1,-,Other,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14802276,lineage4,lineage4.8,-,Sensitive,Female,23,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14807462,lineage2,lineage2.2.1,-,Sensitive,Male,49,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14807679,lineage4,lineage4.8,-,Sensitive,Male,82,new_case,yes,yes,no,no,retired,primary,no,0
+SRR14807614,lineage2,lineage2.2.1,-,Sensitive,Male,30,previously_treated,yes,yes,yes,no,unemployed,primary,no,1
+SRR14782171,lineage2,lineage2.2.1,-,Sensitive,Male,41,new_case,yes,yes,yes,no,unemployed,no_education,no,3
+SRR14781930,lineage4,lineage4.1,-,Sensitive,Female,59,previously_treated,yes,yes,no,yes,retired,primary,no,2
+SRR14782392,lineage4,lineage4.3.4.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,disabled,secondary,no,0
+SRR14782315,lineage4,lineage4.1.2.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782270,lineage4,lineage4.3.3,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782248,lineage4,lineage4.3.3,-,Sensitive,Female,42,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782215,lineage4,lineage4.2.1.1,-,Other,Female,30,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14782509,lineage4,lineage4.3.3,-,Sensitive,Male,61,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782498,lineage2,lineage2.2.1,-,Sensitive,Female,46,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782127,lineage2,lineage2.2.1,-,Sensitive,Male,38,previously_treated,yes,yes,no,no,retired,specialized secondary,no,1
+SRR14782082,lineage4,lineage4.2.1,-,Sensitive,Male,23,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782072,lineage4,lineage4.8,-,Sensitive,Male,29,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14781964,lineage4,lineage4.3.4.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,disabled,primary,no,5
+SRR14781962,lineage4,lineage4.2.1.1,-,Other,Male,45,new_case,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14781960,lineage4,lineage4.3.3,-,Sensitive,Male,66,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14781936,lineage4,lineage4.2.1.1,-,Other,Male,50,previously_treated,yes,yes,no,no,disabled,primary,no,0
+SRR14781905,lineage4,lineage4.3.3,-,Sensitive,Female,39,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14781898,lineage2,lineage2.2.1,-,Sensitive,Male,43,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14781881,lineage4,lineage4.2.1.1,-,Other,Male,15,new_case,yes,yes,no,no,student,primary,no,1
+SRR14781879,lineage4,lineage4.8,-,Sensitive,Male,55,new_case,yes,yes,no,NA,unemployed,primary,no,2
+SRR14782133,lineage4,lineage4.3.3,-,Sensitive,Male,54,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782400,lineage4,lineage4.8,-,Sensitive,Male,41,new_case,yes,yes,no,yes,unemployed,secondary,no,0
+SRR14782398,lineage4,lineage4.8,-,Sensitive,Male,62,previously_treated,yes,yes,no,no,retired,primary,no,1
+SRR14782373,lineage4,lineage4.2.1.1,-,Other,Male,60,new_case,yes,yes,no,no,employed,primary,no,1
+SRR14782353,lineage2,lineage2.2.1,-,Sensitive,Male,25,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782341,lineage4,lineage4.8,-,Sensitive,Male,48,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14782332,lineage4,lineage4.3.4.1,-,Sensitive,Male,51,new_case,yes,2,no,no,unemployed,secondary,no,3
+SRR14782318,lineage2,lineage2.2.1,-,Sensitive,Male,35,previously_treated,yes,yes,no,no,unemployed,primary,no,4
+SRR14782255,lineage4,lineage4.8,-,Sensitive,Male,47,new_case,yes,yes,no,NA,disabled,specialized secondary,no,1
+SRR14782149,lineage4,lineage4.3.3,-,Sensitive,Male,42,new_case,yes,yes,no,no,disabled,primary,no,1
+SRR14782717,lineage4,lineage4.3.4.1,-,Sensitive,Male,40,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14782668,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,NA,unemployed,primary,yes,1
+SRR14782633,lineage2,lineage2.2.1,-,Sensitive,Male,52,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782564,lineage4,lineage4.3.3,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782540,lineage4,lineage4.3.3,-,Sensitive,Male,32,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14782494,lineage2,lineage2.2.1,-,Sensitive,Male,58,new_case,yes,yes,no,no,disabled,secondary,no,1
+SRR14782464,lineage4,lineage4.2.1.1,-,Sensitive,Male,28,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14782813,lineage4,lineage4.3.4.1,-,Sensitive,Male,60,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801308,lineage4,lineage4.2.1.1,-,Other,Male,31,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801908,lineage4,lineage4.8,-,Sensitive,Male,30,previously_treated,yes,yes,no,no,unemployed,primary,no,NA
+SRR14801890,lineage4,lineage4.8,-,Sensitive,Male,22,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14802283,lineage4,lineage4.3.4.1,-,Sensitive,Female,26,new_case,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14802184,lineage4,lineage4.8,-,Sensitive,Male,55,new_case,yes,yes,no,no,disabled,secondary,no,2
+SRR14807518,lineage2,lineage2.2.1,-,Sensitive,Female,37,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14807510,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14807488,lineage4,lineage4.3.3,-,Sensitive,Male,58,new_case,yes,yes,no,no,disabled,secondary,no,0
+SRR14807486,lineage4,lineage4.3.3,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782131,lineage4,lineage4.2.1,-,Sensitive,Male,45,new_case,yes,yes,no,no,unemployed,secondary,no,NA
+SRR14782074,lineage4,lineage4.2.1.1,-,Other,Female,18,new_case,yes,yes,no,no,unemployed,primary,NA,3
+SRR14781863,lineage4,lineage4.3.3,-,Sensitive,Male,49,new_case,yes,yes,no,no,employed,primary,no,0
+SRR14782137,lineage2,lineage2.2.1,-,Sensitive,Female,23,new_case,yes,yes,no,no,employed,specialized secondary,no,3
+SRR14782114,lineage4,lineage4.3.4.1,-,Sensitive,Male,52,new_case,yes,yes,no,yes,unemployed,primary,no,0
+SRR14782097,lineage4,lineage4.3.3,-,Sensitive,Male,58,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14782045,lineage4,lineage4.8,-,Sensitive,Male,37,new_case,yes,yes,no,no,unemployed,primary,yes,1
+SRR14781910,lineage4,lineage4.8,-,Sensitive,Female,26,new_case,yes,yes,yes,yes,unemployed,secondary,no,1
+SRR14781868,lineage4,lineage4.2.1.1,-,Other,Male,14,new_case,yes,yes,no,no,student,primary,no,3
+SRR14781836,lineage2,lineage2.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,NA,disabled,primary,no,4
+SRR14782280,lineage4,lineage4.9,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782200,lineage4,lineage4.3.3,-,Sensitive,Male,46,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782179,lineage2,lineage2.2.1,-,Sensitive,Male,41,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782571,lineage2,lineage2.2.1,-,Sensitive,Female,59,previously_treated,yes,yes,no,no,retired,primary,NA,1
+SRR14782535,lineage4,lineage4.3.4.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782521,lineage2,lineage2.2.1,-,Sensitive,Male,64,previously_treated,yes,yes,no,yes,retired,primary,no,2
+SRR14782481,lineage4,lineage4.3.4.1,-,Sensitive,Female,32,new_case,yes,yes,no,no,disabled,primary,NA,1
+SRR14782451,lineage2,lineage2.2.1,-,Sensitive,Female,66,new_case,yes,yes,no,no,retired,primary,NA,1
+SRR14782825,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,yes,unemployed,primary,no,2
+SRR14782806,lineage4,lineage4.3.3,-,Sensitive,Male,24,new_case,yes,yes,no,yes,employed,secondary,no,1
+SRR14782756,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,no,yes,student,no_education,no,3
+SRR14801842,lineage4,lineage4.2.1.1,-,Other,Female,43,previously_treated,yes,yes,no,no,unemployed,primary,NA,1
+SRR14801375,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,yes,yes,no,yes,unemployed,secondary,no,NA
+SRR14801992,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,yes,no,unemployed,higher_education,NA,3
+SRR14801913,lineage4,lineage4.3.3,-,Sensitive,Female,27,new_case,yes,yes,no,NA,employed,primary,NA,3
+SRR14802191,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,no,no,employed,specialized secondary,no,3
+SRR14802188,lineage4,lineage4.8,-,Sensitive,Male,24,new_case,yes,yes,yes,yes,unemployed,primary,no,3
+SRR14807553,lineage4,lineage4.8,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14807532,lineage4,lineage4.8,-,Sensitive,Male,55,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14807530,lineage4,lineage4.1.2.1,-,Sensitive,Male,63,new_case,yes,yes,no,no,retired,primary,NA,6
+SRR14781885,lineage4,lineage4.8,-,Sensitive,Female,46,previously_treated,yes,yes,no,no,disabled,primary,no,3
+SRR14782259,lineage2,lineage2.2.1,-,Sensitive,Male,32,new_case,yes,yes,yes,NA,unemployed,primary,no,3
+SRR14782193,lineage4,lineage4.2.1.1,-,Other,Male,32,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14782709,lineage2,lineage2.2.1,-,Sensitive,Female,23,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782804,lineage4,lineage4.2.1.1,-,Other,Male,32,new_case,yes,yes,yes,no,unemployed,primary,no,4
+SRR14782106,lineage2,lineage2.2.1,-,Sensitive,Female,59,new_case,yes,yes,no,no,retired,primary,no,4
+SRR14782061,lineage4,lineage4.8,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14781992,lineage4,lineage4.8,-,Sensitive,Female,46,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14781984,lineage4,lineage4.3.3,-,Sensitive,Male,46,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14781967,lineage2,lineage2.2.1,-,Sensitive,Female,37,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14781847,lineage4,lineage4.3.3,-,Sensitive,Female,35,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782362,lineage2,lineage2.2.1,-,Sensitive,Male,51,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14782302,lineage4,lineage4.8,-,Sensitive,Male,46,new_case,yes,yes,no,no,disabled,primary,no,1
+SRR14782296,lineage4,lineage4.3.3,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,primary,no,10
+SRR14782266,lineage2,lineage2.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782264,lineage4,lineage4.7,-,Sensitive,Male,61,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782263,lineage4,lineage4.8,-,Sensitive,Male,66,new_case,yes,yes,no,no,retired,primary,no,6
+SRR14782262,lineage4,lineage4.2.1.1,-,Other,Male,56,new_case,yes,yes,yes,no,unemployed,primary,no,3
+SRR14782168,lineage2,lineage2.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782626,lineage4,lineage4.3.3,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14782550,lineage4,lineage4.3.3,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14782502,lineage4,lineage4.1.2.1,-,Sensitive,Male,44,previously_treated,yes,yes,no,no,unemployed,primary,no,5
+SRR14782501,lineage2,lineage2.2.1,-,Sensitive,Male,55,new_case,yes,yes,no,no,unemployed,primary,no,6
+SRR14782811,lineage4,lineage4.1.2.1,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782795,lineage4,lineage4.2.1.1,-,Other,Male,29,new_case,yes,yes,yes,no,employed,secondary,no,2
+SRR14782769,lineage2,lineage2.2.1,-,Sensitive,Male,48,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14782733,lineage4,lineage4.1.2.1,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14801347,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,no,no,disabled,secondary,no,1
+SRR14801899,lineage2,lineage2.2.1,-,Sensitive,Female,49,new_case,yes,yes,no,no,unemployed,primary,no,11
+SRR14782635,lineage4,lineage4.8,-,Sensitive,Male,16,new_case,yes,yes,yes,yes,disabled,primary,no,2
+SRR14782585,lineage4,lineage4.8,-,Sensitive,Female,0,new_case,yes,yes,yes,yes,unemployed,no_education,no,0
+SRR14802072,lineage2,lineage2.2.1,-,Sensitive,Female,46,new_case,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14802006,lineage2,lineage2.2.1,-,Sensitive,Female,45,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14802278,lineage2,lineage2.2.1,-,Sensitive,Male,52,previously_treated,yes,yes,yes,no,disabled,secondary,no,1
+SRR14801297,lineage2,lineage2.2.1,-,Sensitive,Female,43,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801850,lineage4,lineage4.3.3,-,Sensitive,Male,37,new_case,yes,yes,yes,no,unemployed,primary,no,NA
+SRR14801848,lineage2,lineage2.2.1,-,Sensitive,Female,57,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14801797,lineage4,lineage4.3.3,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801794,lineage4,lineage4.3.3,-,Sensitive,Male,36,new_case,yes,yes,yes,no,unemployed,secondary,no,6
+SRR14801771,lineage4,lineage4.8,-,Sensitive,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801752,lineage2,lineage2.2.1,-,Sensitive,Male,35,new_case,yes,yes,yes,yes,unemployed,secondary,no,5
+SRR14801714,lineage4,lineage4.3.3,-,Sensitive,Female,39,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14801703,lineage4,lineage4.1.2.1,-,Sensitive,Male,35,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14801701,lineage4,lineage4.1.2.1,-,Sensitive,Male,36,new_case,yes,2,yes,no,unemployed,specialized secondary,no,2
+SRR14801696,lineage4,lineage4.1.2.1,-,Sensitive,Male,37,new_case,yes,3,yes,no,unemployed,specialized secondary,no,2
+SRR14801681,lineage4,lineage4.3.3,-,Sensitive,Male,44,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14801466,lineage4,lineage4.8,-,Sensitive,Female,31,new_case,yes,yes,yes,no,unemployed,primary,NA,NA
+SRR14801336,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,other,yes,yes,no,unemployed,secondary,NA,2
+SRR14782282,lineage4,lineage4.8,-,Sensitive,Male,25,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782107,lineage4,lineage4.8,-,Sensitive,Female,48,new_case,yes,yes,yes,yes,employed,specialized secondary,no,5
+SRR14782085,lineage2;lineage4,lineage2.2.1;lineage4.8,-,Sensitive,Female,23,new_case,yes,yes,yes,yes,unemployed,secondary,no,3
+SRR14782007,lineage4,lineage4.8,-,Sensitive,Male,34,new_case,yes,yes,yes,yes,unemployed,secondary,no,1
+SRR14781996,lineage4,lineage4.7,-,Sensitive,Male,29,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14781985,lineage4,lineage4.2.1.1,-,Other,Female,37,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782370,lineage4,lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14782359,lineage4,lineage4.2.1,-,Sensitive,Male,48,new_case,yes,yes,yes,no,unemployed,specialized secondary,yes,1
+SRR14782542,lineage4,lineage4.2.1.1,-,Other,Female,30,new_case,yes,yes,yes,no,employed,specialized secondary,no,4
+SRR14782123,lineage4,lineage4.2.1.1,-,Other,Male,54,new_case,yes,yes,no,no,employed,NA,NA,4
+SRR14782103,lineage4,lineage4.8,-,Sensitive,Male,40,previously_treated,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14782101,lineage4,lineage4.1.2.1,-,Sensitive,Male,44,previously_treated,yes,yes,yes,no,unemployed,primary,no,2
+SRR14782093,lineage4,lineage4.3.3,-,Sensitive,Male,43,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14782078,lineage4,lineage4.8,-,Sensitive,Male,38,new_case,yes,yes,yes,no,unemployed,secondary,yes,4
+SRR14782076,lineage4,lineage4.8,-,Sensitive,Male,33,previously_treated,yes,2,yes,NA,0,NA,NA,0
+SRR14782069,lineage4,lineage4.1.2.1,-,Sensitive,Female,31,new_case,yes,yes,yes,no,unemployed,higher_education,no,3
+SRR14782057,lineage4,lineage4.2.1.1,-,Other,Female,35,new_case,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14782046,lineage4,lineage4.8,-,Sensitive,Female,70,new_case,yes,yes,yes,no,employed,specialized secondary,no,4
+SRR14782044,lineage2,lineage2.2.1,-,Sensitive,Female,27,new_case,yes,yes,yes,yes,unemployed,specialized secondary,no,1
+SRR14782043,lineage4,lineage4.8,-,Sensitive,Male,70,new_case,yes,yes,yes,no,retired,specialized secondary,no,1
+SRR14782035,lineage2,lineage2.2.1,-,Sensitive,Female,38,new_case,yes,yes,yes,no,employed,higher_education,no,3
+SRR14782032,lineage2,lineage2.2.1,-,Sensitive,Male,60,new_case,yes,yes,yes,yes,unemployed,primary,yes,NA
+SRR14782021,lineage4,lineage4.2.1.1,-,Sensitive,Male,29,new_case,yes,yes,no,no,unemployed,specialized secondary,no,3
+SRR14781995,lineage4,lineage4.3.3,-,Sensitive,Female,47,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14781986,lineage2,lineage2.2.1,-,Sensitive,Male,49,previously_treated,yes,yes,yes,yes,unemployed,secondary,no,NA
+SRR14781977,lineage4,lineage4.8,-,Sensitive,Female,48,new_case,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14781956,lineage4,lineage4.3.3,-,Sensitive,Male,56,new_case,yes,yes,no,yes,unemployed,specialized secondary,no,2
+SRR14781942,lineage4,lineage4.3.4.1,-,Sensitive,Male,24,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14781927,lineage2,lineage2.2.1,-,Sensitive,Male,65,new_case,yes,yes,yes,no,employed,specialized secondary,NA,2
+SRR14781912,lineage4,lineage4.2.1.1,-,Other,Female,23,new_case,yes,yes,yes,no,employed,higher_education,no,0
+SRR14781911,lineage2,lineage2.2.1,-,Sensitive,Female,29,previously_treated,yes,yes,no,yes,unemployed,primary,no,2
+SRR14781890,lineage4,lineage4.2.1.1,-,Other,Female,45,new_case,yes,yes,yes,no,unemployed,primary,no,0
+SRR14781888,lineage2,lineage2.2.1,-,Sensitive,Male,57,new_case,yes,yes,yes,no,employed,higher_education,no,1
+SRR14781882,lineage2,lineage2.2.1,-,Sensitive,Male,26,new_case,yes,yes,yes,no,employed,secondary,NA,3
+SRR14781877,lineage2,lineage2.2.1,-,Sensitive,Male,36,new_case,yes,yes,yes,NA,unemployed,primary,no,1
+SRR14781867,lineage4,lineage4.8,-,Sensitive,Female,83,new_case,yes,yes,yes,no,retired,primary,no,0
+SRR14781846,lineage4,lineage4.1.2,-,Sensitive,Female,31,new_case,yes,yes,yes,no,employed,higher_education,no,4
+SRR14782408,lineage4,lineage4.2.1.1,-,Sensitive,Female,19,new_case,yes,yes,yes,yes,student,secondary,no,3
+SRR14782403,lineage2,lineage2.2.1,-,Sensitive,Male,59,new_case,yes,yes,yes,NA,disabled,secondary,no,2
+SRR14782389,lineage2,lineage2.2.1,-,Other,Male,47,new_case,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14782382,lineage4,lineage4.3.3,-,Sensitive,Male,65,new_case,yes,yes,yes,no,retired,specialized secondary,no,NA
+SRR14782368,lineage4,lineage4.8,-,Sensitive,Female,65,new_case,yes,yes,yes,no,retired,higher_education,no,4
+SRR14782367,lineage2,lineage2.2.1,-,Other,Male,80,new_case,yes,yes,yes,no,retired,secondary,no,3
+SRR14782364,lineage4,lineage4.8,-,Sensitive,Male,42,previously_treated,yes,yes,no,no,unemployed,secondary,yes,3
+SRR14782360,lineage4,lineage4.1.2.1,-,Sensitive,Male,46,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,1
+SRR14782356,lineage2,lineage2.2.1,-,Other,Male,56,previously_treated,yes,yes,yes,no,retired,higher_education,no,4
+SRR14782355,lineage4,lineage4.1.2.1,-,Sensitive,Female,64,new_case,yes,yes,yes,no,disabled,secondary,no,2
+SRR14782350,lineage4,lineage4.3.4.1,-,Sensitive,Female,56,new_case,yes,yes,no,yes,unemployed,primary,no,1
+SRR14782334,lineage2,lineage2.2.1,-,Other,Male,39,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14782330,lineage4,lineage4.3.3,-,Sensitive,Male,36,new_case,yes,yes,yes,yes,unemployed,specialized secondary,no,0
+SRR14782313,lineage2,lineage2.2.1,-,Sensitive,Male,49,new_case,yes,yes,yes,no,employed,secondary,no,2
+SRR14782312,lineage4,lineage4.1.2.1,-,Sensitive,Male,62,new_case,yes,yes,yes,no,employed,higher_education,NA,NA
+SRR14782295,lineage4,lineage4.1.2.1,-,Sensitive,Female,32,previously_treated,yes,2,yes,no,unemployed,NA,no,5
+SRR14782294,lineage2,lineage2.2.1,-,Other,Male,47,new_case,yes,yes,yes,yes,unemployed,specialized secondary,no,3
+SRR14782269,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,yes,NA,unemployed,primary,NA,1
+SRR14782238,lineage2,lineage2.2.1,-,Sensitive,Female,25,new_case,yes,yes,yes,no,employed,higher_education,NA,3
+SRR14782228,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,yes,no,employed,secondary,no,1
+SRR14782724,lineage4,lineage4.1.2.1,-,Sensitive,Female,39,new_case,yes,yes,yes,no,employed,specialized secondary,no,0
+SRR14782212,lineage4,lineage4.2.1.1;lineage4.8,-,Other,Male,41,new_case,yes,yes,yes,no,unemployed,secondary,yes,3
+SRR14782188,lineage2,lineage2.2.1,-,Sensitive,Female,28,new_case,yes,yes,yes,no,employed,higher_education,no,3
+SRR14782180,lineage4,lineage4.3.4.1,-,Sensitive,Male,56,new_case,temporarily_left,yes,no,NA,unemployed,secondary,no,1
+SRR14782169,lineage2,lineage2.2.1,-,Other,Male,41,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,4
+SRR14782167,lineage4,lineage4.8,-,Sensitive,Male,74,new_case,yes,yes,yes,no,retired,secondary,no,1
+SRR14782151,lineage2,lineage2.2.1,-,Other,Male,52,new_case,yes,yes,yes,no,employed,primary,no,1
+SRR14782683,lineage4,lineage4.8,-,Sensitive,Female,41,new_case,yes,yes,yes,yes,unemployed,secondary,yes,NA
+SRR14782644,lineage2,lineage2.2.1,-,Sensitive,Male,25,new_case,yes,yes,yes,yes,unemployed,specialized secondary,no,0
+SRR14782640,lineage2,lineage2.2.1,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782629,lineage2,lineage2.2.1,-,Sensitive,Male,39,new_case,yes,yes,yes,no,unemployed,NA,no,5
+SRR14782586,lineage4,lineage4.2.1.1,-,Other,Female,36,new_case,yes,yes,yes,yes,unemployed,primary,no,NA
+SRR14782578,lineage2,lineage2.2.1,-,Sensitive,Male,36,new_case,yes,yes,yes,no,employed,specialized secondary,NA,NA
+SRR14782573,lineage4,lineage4.2.1.1,-,Sensitive,Female,53,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14782560,lineage4,lineage4.1.2.1,-,Sensitive,Male,24,new_case,yes,yes,yes,no,employed,higher_education,no,1
+SRR14782534,lineage4,lineage4.2.1.1,-,Other,Male,33,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,4
+SRR14782473,lineage4,lineage4.2.1.1,-,Other,Female,29,new_case,yes,yes,yes,no,employed,secondary,no,4
+SRR14782463,lineage4,lineage4.8,-,Sensitive,Female,56,previously_treated,yes,yes,yes,no,employed,secondary,no,1
+SRR14782450,lineage4,lineage4.2.1.1,-,Other,Male,63,new_case,yes,yes,yes,no,NA,specialized secondary,no,1
+SRR14782446,lineage2,lineage2.2.1,-,Other,Male,62,new_case,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14782445,lineage2,lineage2.2.1,-,Other,Male,49,new_case,yes,yes,yes,yes,unemployed,secondary,no,1
+SRR14782823,lineage2,lineage2.2.1,-,Other,Female,25,new_case,yes,yes,yes,yes,unemployed,secondary,no,3
+SRR14782803,lineage2,lineage2.2.1,-,Sensitive,Male,60,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14782800,lineage4,lineage4.8,-,Sensitive,Male,39,new_case,yes,yes,yes,no,employed,primary,no,2
+SRR14782788,lineage2,lineage2.2.1,-,Other,Female,38,new_case,yes,yes,yes,no,employed,specialized secondary,no,2
+SRR14782784,lineage4,lineage4.8,-,Sensitive,Male,61,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14782776,lineage2,lineage2.2.1,-,Other,Male,43,new_case,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14782775,lineage4,lineage4.3.4.1,-,Sensitive,Female,32,previously_treated,yes,yes,yes,yes,unemployed,primary,no,1
+SRR14782774,lineage4,lineage4.3.3,-,Sensitive,Male,37,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14782731,lineage4,lineage4.8,-,Sensitive,Female,54,new_case,yes,yes,yes,no,retired,NA,no,3
+SRR14801533,lineage4,lineage4.8,-,Sensitive,Male,60,new_case,yes,yes,yes,yes,unemployed,secondary,no,NA
+SRR14801548,lineage4,lineage4.8,-,Sensitive,Male,29,new_case,yes,yes,NA,yes,unemployed,primary,no,NA
+SRR14801447,lineage2,lineage2.2.1,-,Sensitive,Male,26,new_case,yes,yes,yes,yes,unemployed,secondary,no,0
+SRR14801444,lineage4,lineage4.8,-,Sensitive,Male,34,new_case,yes,yes,NA,yes,unemployed,secondary,yes,NA
+SRR14801921,lineage4,lineage4.2.1.1,-,Other,Female,63,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801909,lineage4,lineage4.2.1.1,-,Sensitive,Male,86,new_case,yes,yes,yes,no,retired,primary,no,5
+SRR14801904,lineage4,lineage4.3.3,-,Sensitive,Male,34,new_case,yes,yes,yes,no,employed,secondary,no,2
+SRR14801902,lineage4,lineage4.8,-,Sensitive,Male,59,new_case,yes,yes,yes,no,employed,primary,no,1
+SRR14801901,lineage4,lineage4.3.3,-,Sensitive,Male,48,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14801894,lineage2,lineage2.2.1,-,Other,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801893,lineage4,lineage4.3.3,-,Sensitive,Male,23,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14802180,lineage2,lineage2.2.1,-,Other,Male,59,new_case,yes,yes,yes,no,employed,secondary,no,3
+SRR14802280,lineage4,lineage4.8,-,Sensitive,Male,18,new_case,yes,yes,yes,no,student,specialized secondary,no,5
+SRR14802251,lineage4,lineage4.3.3,-,Sensitive,Female,39,new_case,yes,yes,yes,yes,unemployed,secondary,no,2
+SRR14802243,lineage4,lineage4.8,-,Sensitive,Female,42,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14802221,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,yes,no,employed,primary,no,4
+SRR14802203,lineage4,lineage4.1.2.1,-,Sensitive,Female,21,new_case,yes,yes,yes,no,unemployed,primary,no,1
+SRR14802185,lineage2,lineage2.2.1,-,Other,Female,19,new_case,yes,yes,yes,no,student,primary,no,1
+SRR14802182,lineage4,lineage4.2.1,-,Sensitive,Male,45,new_case,yes,yes,yes,no,unemployed,primary,no,1
+SRR14807631,lineage2,lineage2.2.1,-,Sensitive,Male,28,new_case,yes,yes,yes,no,disabled,primary,no,1
+SRR14807609,lineage4,lineage4.2.1.1,-,Other,Male,38,previously_treated,yes,yes,yes,yes,disabled,secondary,no,5
+SRR14807535,lineage4,lineage4.8,-,Sensitive,Male,32,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807531,lineage4,lineage4.2.1.1,-,Other,Female,39,previously_treated,yes,yes,yes,no,employed,higher_education,no,2
+SRR14807519,lineage4,lineage4.3.3,-,Sensitive,Male,44,previously_treated,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14807505,lineage2,lineage2.2.1,-,Sensitive,Male,43,new_case,yes,yes,yes,no,employed,secondary,yes,2
+SRR14807502,lineage4,lineage4.2.1.1,-,Other,Male,40,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14807490,lineage4,lineage4.8,-,Sensitive,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14807487,lineage4,lineage4.8,-,Sensitive,Male,39,new_case,yes,yes,yes,yes,unemployed,secondary,no,NA
+SRR14807482,lineage2,lineage2.2.1,-,Sensitive,Female,42,new_case,yes,yes,yes,yes,disabled,primary,no,1
+SRR14807476,lineage4,lineage4.1.2.1,-,Sensitive,Male,62,new_case,yes,yes,yes,no,employed,secondary,no,1
+SRR14781952,lineage2,lineage2.2.1,-,Sensitive,Female,27,new_case,yes,yes,no,no,unemployed,specialized secondary,no,4
+SRR14782598,lineage4,lineage4.3.4.1,-,Sensitive,Male,57,new_case,yes,yes,no,no,unemployed,primary,no,7
+SRR14782119,lineage4,lineage4.3.3,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,specialized secondary,no,8
+SRR14781848,lineage4,lineage4.8,-,Sensitive,Female,60,previously_treated,yes,yes,no,no,retired,primary,no,9
+SRR14782299,lineage4,lineage4.8,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14782584,lineage2,lineage2.2.1,-,Other,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782489,lineage2,lineage2.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,8
+SRR14782787,lineage4,lineage4.2.1.1,-,Sensitive,Male,63,previously_treated,yes,yes,no,no,disabled,secondary,no,8
+SRR14782753,lineage4,lineage4.7,-,Sensitive,Male,58,new_case,yes,yes,yes,no,employed,higher_education,no,10
+SRR14782746,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,yes,yes,yes,no,unemployed,primary,no,7
+SRR14801565,lineage4,lineage4.3.3,-,Sensitive,Female,32,new_case,yes,yes,no,no,unemployed,specialized secondary,no,3
+SRR14801484,lineage4,lineage4.3.3,-,Sensitive,Female,26,new_case,yes,yes,no,no,unemployed,primary,no,9
+SRR14801462,lineage4,lineage4.1.2.1,-,Sensitive,Male,49,new_case,yes,yes,no,no,unemployed,secondary,no,10
+SRR14801453,lineage4,lineage4.8,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,primary,no,9
+SRR14801433,lineage4,lineage4.3.3,-,Sensitive,Male,69,new_case,yes,yes,yes,no,disabled,specialized secondary,no,3
+SRR14801423,lineage4,lineage4.3.3,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,primary,yes,2
+SRR14801422,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,NA,unemployed,primary,no,3
+SRR14801364,lineage2;lineage4,lineage2.2.1;lineage4,-,Sensitive,Female,34,previously_treated,yes,yes,no,no,disabled,primary,no,14
+SRR14801338,lineage2,lineage2.2.1,-,Other,Female,25,new_case,yes,yes,no,no,employed,specialized secondary,no,3
+SRR14801911,lineage4,lineage4.8,-,Sensitive,Female,2,new_case,yes,yes,no,no,unemployed,no_education,no,4
+SRR14807529,lineage4,lineage4.8,-,Sensitive,Female,63,new_case,yes,yes,no,no,retired,primary,no,9
+SRR14801868,lineage4,lineage4.8,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801760,lineage4,lineage4.8,-,Sensitive,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801705,lineage4,lineage4.1.2.1,-,Sensitive,Female,81,previously_treated,yes,yes,no,no,retired,secondary,no,0
+SRR14801678,lineage4,lineage4.4.1.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801624,lineage4,lineage4.8,-,Sensitive,Male,64,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14801622,lineage4,lineage4.8,-,Sensitive,Male,65,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14801287,lineage4,lineage4.1.2.1,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801549,lineage4,lineage4.8,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,NA,NA
+SRR14802285,lineage4,lineage4.3.3,-,Sensitive,Male,54,new_case,yes,yes,no,no,employed,specialized secondary,no,1
+SRR14782130,lineage4,lineage4.2.1.1,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14782105,lineage4,lineage4.2.1.1,-,Other,Female,21,new_case,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14782029,lineage2,lineage2.2.1,-,Other,Male,30,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14781953,lineage4,lineage4.2.1.1,-,Other,Male,44,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14781916,lineage2,lineage2.2.1,-,Sensitive,Male,66,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14781902,lineage4,lineage4.3.3,-,Sensitive,Male,37,new_case,yes,yes,no,no,disabled,secondary,no,5
+SRR14782414,lineage4,lineage4.1.2.1,-,Sensitive,Male,39,new_case,yes,yes,yes,no,employed,higher_education,no,3
+SRR14782380,lineage4,lineage4.2.1.1,-,Other,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782177,lineage4,lineage4.3.4.1,-,Sensitive,Female,45,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782716,lineage2,lineage2.2.1,-,Other,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782682,lineage2,lineage2.2.1,-,Other,Male,32,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782472,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,disabled,specialized secondary,no,2
+SRR14782457,lineage4,lineage4.8,-,Sensitive,Male,41,previously_treated,yes,yes,no,no,unemployed,secondary,no,7
+SRR14782448,lineage4,lineage4.3.3,-,Sensitive,Male,26,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801864,lineage2,lineage2.2.1,-,Other,Male,52,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801558,lineage4,lineage4.7,-,Sensitive,Male,34,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801552,lineage2,lineage2.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14801547,lineage4,lineage4.3.4.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801538,lineage4,lineage4.3.3,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801537,lineage2;lineage4,lineage2.2.1;lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801523,lineage4,lineage4.3.3,-,Sensitive,Male,21,new_case,yes,yes,no,no,disabled,specialized secondary,no,3
+SRR14801489,lineage2,lineage2.2.1,-,Sensitive,Male,60,previously_treated,yes,yes,no,no,employed,specialized secondary,no,0
+SRR14801486,lineage4,lineage4.3.3,-,Sensitive,Male,47,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801485,lineage4,lineage4.8,-,Sensitive,Male,60,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801473,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801469,lineage4,lineage4.3.4.1,-,Sensitive,Male,54,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801455,lineage2,lineage2.2.1,-,Sensitive,Male,56,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801398,lineage4,lineage4.2.1.1,-,Sensitive,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801397,lineage4,lineage4.8,-,Sensitive,Male,25,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14801379,lineage2,lineage2.2.1,-,Sensitive,Male,57,new_case,yes,yes,no,no,disabled,specialized secondary,no,1
+SRR14801371,lineage2,lineage2.2.1,-,Other,Male,30,new_case,yes,yes,no,no,unemployed,no_education,no,0
+SRR14801343,lineage4,lineage4.2.1.1,-,Other,Male,25,previously_treated,yes,yes,no,no,unemployed,primary,NA,NA
+SRR14801342,lineage4,lineage4.3.3,-,Sensitive,Male,48,new_case,yes,yes,no,no,disabled,specialized secondary,no,2
+SRR14801910,lineage4,lineage4.8,-,Sensitive,Male,32,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801889,lineage4,lineage4.2.1.1,-,Sensitive,Female,43,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14802281,lineage4,lineage4.8,-,Sensitive,Male,53,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14802211,lineage2,lineage2.2.1,-,Sensitive,Male,40,new_case,yes,yes,no,no,disabled,secondary,no,5
+SRR14802198,lineage2,lineage2.2.1,-,Other,Male,30,new_case,yes,yes,yes,no,employed,primary,yes,3
+SRR14802186,lineage4,lineage4.8,-,Sensitive,Male,39,new_case,yes,yes,no,no,unemployed,no_education,no,0
+SRR14807576,lineage2,lineage2.2.1,-,Sensitive,Male,80,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14807620,lineage2,lineage2.2.1,-,Other,Female,48,new_case,yes,yes,no,no,unemployed,specialized secondary,no,4
+SRR14807489,lineage2,lineage2.2.1,-,Sensitive,Male,68,new_case,yes,yes,yes,no,retired,secondary,no,4
+SRR14782454,lineage2,lineage2.2.1,-,Sensitive,Male,54,new_case,yes,yes,no,yes,unemployed,secondary,no,3
+SRR14782049,lineage4,lineage4.1.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,NA,retired,primary,no,2
+SRR14782023,lineage4,lineage4.8,-,Sensitive,Male,65,new_case,yes,yes,no,yes,retired,secondary,no,4
+SRR14782009,lineage4,lineage4.2.1,-,Sensitive,Female,26,new_case,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14781950,lineage4,lineage4.2.1.1,-,Other,Female,39,previously_treated,yes,yes,yes,no,disabled,secondary,no,NA
+SRR14781933,lineage2,lineage2.2.1,-,Sensitive,Male,15,new_case,yes,yes,no,no,student,secondary,no,3
+SRR14781922,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,NA,employed,secondary,no,5
+SRR14782292,lineage4,lineage4.2.1.1,-,Other,Male,45,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782805,lineage4,lineage4.8,-,Sensitive,Male,38,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782789,lineage4,lineage4.3.4.1,-,Sensitive,Male,43,new_case,yes,yes,no,NA,unemployed,secondary,NA,NA
+SRR14782742,lineage2,lineage2.2.1,-,Sensitive,Male,27,new_case,yes,yes,yes,no,unemployed,secondary,NA,3
+SRR14801820,lineage2,lineage2.2.1,-,Other,Male,32,new_case,yes,yes,no,no,unemployed,secondary,no,5
+SRR14801546,lineage4,lineage4.1.2.1,-,Sensitive,Male,33,previously_treated,yes,yes,no,no,unemployed,secondary,NA,6
+SRR14801540,lineage4,lineage4.3.3,-,Sensitive,Male,55,new_case,other,yes,no,NA,unemployed,secondary,no,1
+SRR14801522,lineage4,lineage4.2.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,specialized secondary,NA,2
+SRR14801520,lineage4,lineage4.2.1.1,-,Other,Male,30,previously_treated,yes,yes,no,no,unemployed,secondary,NA,1
+SRR14801468,lineage2,lineage2.2.1,-,Sensitive,Male,36,new_case,yes,yes,yes,no,employed,specialized secondary,no,4
+SRR14801459,lineage4,lineage4.3.3,-,Sensitive,Male,39,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801457,lineage2,lineage2.2.1,-,Sensitive,Male,78,previously_treated,yes,yes,no,no,retired,secondary,no,1
+SRR14801440,lineage4,lineage4.3.3,-,Sensitive,Male,67,new_case,yes,yes,no,no,retired,secondary,no,2
+SRR14801359,lineage4,lineage4.2.1,-,Sensitive,Male,29,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801318,lineage4,lineage4.3.4.1,-,Sensitive,Male,40,new_case,yes,yes,no,no,disabled,secondary,NA,3
+SRR14802217,lineage4,lineage4.4.1.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,secondary,NA,1
+SRR14802175,lineage4,lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,yes,no,unemployed,primary,no,1
+SRR14802169,lineage4,lineage4.8,-,Sensitive,Male,32,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802166,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,yes,yes,yes,no,unemployed,secondary,yes,0
+SRR14802153,lineage2,lineage2.2.1,-,Sensitive,Male,47,previously_treated,yes,yes,no,NA,unemployed,primary,no,0
+SRR14802051,lineage2,lineage2.2.1,-,Sensitive,Female,41,previously_treated,yes,yes,no,no,disabled,specialized secondary,no,4
+SRR14802037,lineage4,lineage4.8,-,Sensitive,Female,69,new_case,yes,yes,yes,no,retired,secondary,no,1
+SRR14802016,lineage2,lineage2.2.1,-,Sensitive,Male,20,new_case,yes,yes,no,no,student,secondary,no,4
+SRR14801993,lineage2,lineage2.2.1,-,Other,Male,33,previously_treated,yes,yes,yes,no,unemployed,higher_education,no,3
+SRR14801963,lineage4,lineage4.2.1.1,-,Other,Male,55,previously_treated,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801949,lineage2,lineage2.2.1,-,Sensitive,Male,50,previously_treated,yes,yes,yes,no,employed,primary,no,1
+SRR14801948,lineage4,lineage4.2.2.1,-,Sensitive,Male,35,new_case,other,yes,yes,no,unemployed,secondary,yes,0
+SRR14802274,lineage4,lineage4.8,-,Sensitive,Female,41,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14802225,lineage2,lineage2.2.1,-,Sensitive,Male,49,new_case,yes,yes,no,yes,unemployed,secondary,no,2
+SRR14807467,lineage4,lineage4.2.2.1,-,Sensitive,Male,47,previously_treated,yes,yes,yes,no,unemployed,primary,yes,2
+SRR14807617,lineage4,lineage4.8,-,Sensitive,Male,39,previously_treated,yes,yes,no,no,unemployed,primary,NA,0
+SRR14807595,lineage4,lineage4.1,-,Sensitive,Male,30,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14807590,lineage4,lineage4.3.4.1,-,Sensitive,Female,32,new_case,yes,yes,yes,no,unemployed,primary,no,4
+SRR14807566,lineage2,lineage2.2.1,-,Other,Male,34,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14807548,lineage4,lineage4.8,-,Sensitive,Male,50,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14807536,lineage4,lineage4.8,-,Sensitive,Male,52,previously_treated,yes,yes,yes,yes,unemployed,secondary,yes,0
+SRR14782554,lineage2,lineage2.2.1,-,Sensitive,Male,57,new_case,yes,yes,no,no,employed,secondary,no,1
+SRR14782624,lineage2,lineage2.2.1,-,Sensitive,Female,49,previously_treated,yes,yes,no,no,disabled,specialized secondary,no,2
+SRR14801917,lineage4,lineage4.2.1.1,-,Other,Male,25,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801298,lineage4,lineage4.2.1.1,-,Sensitive,Male,63,new_case,yes,yes,no,no,retired,primary,no,1
+SRR14801829,lineage2,lineage2.2.1,-,Sensitive,Male,48,previously_treated,yes,2,no,no,unemployed,secondary,no,2
+SRR14801813,lineage2,lineage2.2.1,-,Sensitive,Female,16,new_case,yes,yes,no,no,student,primary,no,6
+SRR14801774,lineage2,lineage2.2.1,-,Sensitive,Male,40,new_case,yes,yes,yes,no,unemployed,secondary,no,6
+SRR14801699,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14801923,lineage4,lineage4.1.2.1,-,Sensitive,Male,57,new_case,yes,yes,no,no,unemployed,primary,no,8
+SRR14801922,lineage2,lineage2.2.1,-,Sensitive,Male,47,new_case,yes,2,no,no,unemployed,specialized secondary,no,2
+SRR14782071,lineage4,lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,yes,no,unemployed,NA,no,0
+SRR14782017,lineage4,lineage4.3.3,-,Sensitive,Male,25,new_case,yes,yes,no,yes,unemployed,NA,no,4
+SRR14782213,lineage4,lineage4.2.1.1,-,Other,Male,51,new_case,yes,yes,no,no,unemployed,secondary,yes,4
+SRR14782695,lineage4,lineage4.8,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782607,lineage4,lineage4.8,-,Sensitive,Female,69,new_case,yes,yes,yes,no,retired,higher_education,no,1
+SRR14782056,lineage2,lineage2.2.1,-,Sensitive,Male,31,previously_treated,yes,yes,yes,no,unemployed,primary,no,1
+SRR14782011,lineage4,lineage4.8,-,Sensitive,Male,59,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,1
+SRR14781972,lineage2,lineage2.2.1,-,Sensitive,Male,45,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14782575,lineage2,lineage2.2.1,-,Sensitive,Male,34,previously_treated,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14782524,lineage4,lineage4.8,-,Sensitive,Female,42,new_case,yes,yes,yes,no,disabled,primary,no,3
+SRR14782517,lineage4,lineage4.2.1,-,Sensitive,Female,43,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801470,lineage4,lineage4.2.1,-,Sensitive,Male,52,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782124,lineage2,lineage2.2.1,-,Other,Male,55,new_case,yes,yes,yes,no,unemployed,secondary,no,5
+SRR14782111,lineage4,lineage4.8,-,Sensitive,Male,27,new_case,yes,yes,yes,NA,unemployed,primary,NA,2
+SRR14782005,lineage4,lineage4.3.3,-,Sensitive,Male,55,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14781871,lineage2,lineage2.2.1,-,Sensitive,Male,59,new_case,yes,yes,yes,yes,employed,secondary,no,2
+SRR14782401,lineage2,lineage2.2.1,-,Sensitive,Female,26,new_case,yes,yes,yes,no,student,higher_education,no,4
+SRR14782192,lineage2,lineage2.2.1,-,Sensitive,Male,38,previously_treated,yes,yes,yes,yes,unemployed,secondary,yes,NA
+SRR14782134,lineage4,lineage4.2.1.1,-,Other,Male,48,new_case,yes,yes,no,no,unemployed,primary,NA,3
+SRR14782740,lineage4,lineage4.2.1.1,-,Other,Female,37,new_case,yes,yes,yes,no,unemployed,secondary,no,3
+SRR14782018,lineage4,lineage4.3.3,-,Sensitive,Male,42,new_case,yes,yes,no,no,employed,specialized secondary,no,2
+SRR14782128,lineage4,lineage4.8,-,Sensitive,Male,41,previously_treated,yes,yes,no,yes,unemployed,primary,no,0
+SRR14782094,lineage4,lineage4.1.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14781889,lineage4,lineage4.8,-,Sensitive,Female,46,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14781853,lineage4,lineage4.8,-,Sensitive,Female,45,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782229,lineage4,lineage4.8,-,Sensitive,Male,38,new_case,yes,yes,yes,no,unemployed,primary,NA,2
+SRR14782497,lineage4,lineage4.1.2.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801875,lineage4,lineage4.3.3,-,Sensitive,Male,25,new_case,yes,yes,no,no,employed,specialized secondary,no,2
+SRR14807575,lineage2,lineage2.2.1,-,Sensitive,Male,49,new_case,yes,yes,no,no,retired,secondary,no,2
+SRR14782760,lineage4,lineage4.3.4.1,-,Sensitive,Male,21,new_case,yes,yes,no,no,student,higher_education,no,2
+SRR14782727,lineage4,lineage4.8,-,Sensitive,Male,17,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782305,lineage4,lineage4.1.2.1,-,Sensitive,Male,50,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14782559,lineage4,lineage4.3.3,-,Sensitive,Female,14,new_case,yes,yes,yes,NA,student,secondary,no,5
+SRR14782821,lineage4,lineage4.3.4.1,-,Sensitive,Female,18,new_case,yes,yes,no,no,unemployed,primary,no,9
+SRR14802028,lineage2,lineage2.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,secondary,no,7
+SRR14801865,lineage4,lineage4.2.1.1,-,Other,Male,45,new_case,yes,yes,no,no,disabled,primary,no,1
+SRR14801840,lineage4,lineage4.3.3,-,Sensitive,Male,42,new_case,yes,yes,no,no,disabled,secondary,no,3
+SRR14801825,lineage4,lineage4.1.2.1,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,secondary,yes,2
+SRR14801769,lineage4,lineage4.8,-,Sensitive,Male,39,previously_treated,yes,yes,no,no,unemployed,secondary,yes,1
+SRR14801728,lineage4,lineage4.3.3,-,Sensitive,Male,33,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801722,lineage2,lineage2.2.1,-,Sensitive,Female,28,new_case,emigrated,yes,no,no,unemployed,secondary,no,3
+SRR14801711,lineage4,lineage4.8,-,Sensitive,Male,61,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801682,lineage4,lineage4.2.1.1,-,Sensitive,Female,44,new_case,yes,yes,yes,no,unemployed,secondary,no,5
+SRR14801657,lineage4,lineage4.2.1.1,-,Other,Male,43,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801630,lineage2,lineage2.2.1,-,Other,Male,45,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801623,lineage4,lineage4.1.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,NA,unemployed,secondary,yes,5
+SRR14801582,lineage4,lineage4.3.3,-,Sensitive,Male,34,new_case,yes,yes,no,no,unemployed,secondary,no,6
+SRR14802232,lineage4,lineage4.2.1.1,-,Other,Female,44,new_case,other,yes,no,no,unemployed,secondary,no,1
+SRR14801317,lineage2,lineage2.2.1,-,Sensitive,Female,42,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801311,lineage4,lineage4.3.3,-,Sensitive,Male,51,previously_treated,yes,yes,no,no,unemployed,specialized secondary,NA,1
+SRR14801305,lineage2,lineage2.2.1,-,Sensitive,Male,57,new_case,yes,yes,no,no,unemployed,secondary,yes,1
+SRR14801303,lineage4,lineage4.1.2.1;lineage4.3.3,-,HR-TB,Male,32,new_case,yes,yes,no,no,unemployed,primary,yes,0
+SRR14802155,lineage4,lineage4.8,-,Sensitive,Female,31,previously_treated,yes,yes,no,yes,unemployed,primary,no,1
+SRR14802145,lineage4,lineage4.3.3,-,Sensitive,Female,60,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14802136,lineage4,lineage4.3.4.1,-,Sensitive,Male,46,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14802127,lineage2,lineage2.2.1,-,Other,Male,49,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14802102,lineage4,lineage4.1.2.1,-,Sensitive,Male,37,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14802089,lineage4,lineage4.8,-,Sensitive,Female,36,new_case,yes,yes,no,no,unemployed,specialized secondary,no,5
+SRR14802057,lineage4,lineage4.3.4.1,-,Sensitive,Male,56,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14802009,lineage4,lineage4.1.2.1,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,secondary,yes,0
+SRR14801952,lineage2,lineage2.2.1,-,Other,Female,57,new_case,yes,yes,no,no,retired,secondary,no,3
+SRR14801942,lineage4,lineage4.3.4.1,-,Sensitive,Male,63,new_case,yes,yes,yes,no,retired,primary,no,0
+SRR14802257,lineage4,lineage4.1.2.1,-,Sensitive,Female,35,previously_treated,yes,yes,no,no,unemployed,specialized secondary,no,NA
+SRR14802240,lineage2,lineage2.2.1,-,Other,Female,55,previously_treated,yes,yes,yes,yes,retired,primary,no,0
+SRR14802237,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,yes,no,unemployed,secondary,yes,2
+SRR14807472,lineage4,lineage4.3.3,-,Sensitive,Male,43,new_case,yes,yes,no,no,employed,secondary,no,4
+SRR14807458,lineage4,lineage4.8,-,Sensitive,Male,57,new_case,yes,yes,no,no,employed,specialized secondary,no,1
+SRR14807608,lineage2,lineage2.2.1,-,Other,Male,51,new_case,yes,yes,no,no,employed,higher_education,no,3
+SRR14807606,lineage2,lineage2.2.1,-,Sensitive,Male,62,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14807599,lineage4,lineage4.2.1.1,-,Other,Male,39,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14807585,lineage2,lineage2.2.1,-,Sensitive,Female,48,new_case,yes,yes,yes,yes,unemployed,secondary,no,0
+SRR14807582,lineage4,lineage4.3.4.1,-,Sensitive,Male,35,new_case,yes,yes,yes,no,unemployed,primary,no,2
+SRR14807554,lineage2,lineage2.2.1,-,Sensitive,Male,42,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14807537,lineage2,lineage2.2.1,-,Other,Male,49,previously_treated,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782073,lineage4,lineage4.8,-,Sensitive,Female,64,new_case,yes,yes,no,no,disabled,primary,no,0
+SRR14782068,lineage4,lineage4.3.3,-,Sensitive,Male,48,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14781913,lineage4,lineage4.2.1.1,-,Sensitive,Male,64,previously_treated,yes,yes,yes,no,disabled,primary,no,0
+SRR14782258,lineage2,lineage2.2.1,-,Sensitive,Male,56,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782257,lineage4,lineage4.8,-,Sensitive,Male,58,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782231,lineage4,lineage4.2.1.1,-,Other,Male,34,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782191,lineage4,lineage4.1.2.1,-,Sensitive,Male,38,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14782142,lineage4,lineage4.3.3,-,Sensitive,Male,68,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782597,lineage4,lineage4.2.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14782439,lineage2,lineage2.2.1,-,Sensitive,Male,32,new_case,yes,yes,no,no,unemployed,specialized secondary,NA,4
+SRR14782814,lineage4,lineage4.2.1.1,-,Sensitive,Male,31,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801720,lineage4,lineage4.8,-,Other,Male,47,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14801550,lineage4,lineage4.2.1.1,-,Sensitive,Male,27,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801464,lineage4,lineage4.1.2,-,Sensitive,Female,18,new_case,yes,yes,no,no,student,secondary,no,4
+SRR14801456,lineage4,lineage4.8,-,Sensitive,Female,44,new_case,yes,yes,no,no,unemployed,primary,no,2
+SRR14801389,lineage4,lineage4.1.2.1,-,Sensitive,Female,45,new_case,yes,yes,no,no,unemployed,NA,no,2
+SRR14801373,lineage4,lineage4.1.2.1,-,Sensitive,Male,48,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14801321,lineage4,lineage4.2.1.1,-,Sensitive,Female,52,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801320,lineage4,lineage4.2.1.1,-,Other,Male,54,new_case,yes,yes,yes,no,unemployed,primary,no,0
+SRR14801900,lineage4,lineage4.1.2.1,-,Sensitive,Female,22,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801887,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,yes,yes,no,no,disabled,primary,NA,5
+SRR14807474,lineage4,lineage4.1.2.1,-,Sensitive,Male,61,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14807479,lineage4,lineage4.2.1.1,-,Other,Male,43,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14782431,lineage4,lineage4.8,-,Sensitive,Male,58,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782022,lineage4,lineage4.3.4.1,-,Sensitive,Male,54,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782388,lineage4,lineage4.8,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,specialized secondary,no,3
+SRR14782556,lineage2,lineage2.2.1,-,Sensitive,Male,37,new_case,yes,yes,no,no,unemployed,specialized secondary,no,0
+SRR14801499,lineage4,lineage4.1.2,-,Sensitive,Male,43,new_case,yes,yes,yes,no,unemployed,NA,NA,NA
+SRR14801307,lineage4,lineage4.1.2,-,Sensitive,Male,46,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802050,lineage2,lineage2.2.1,-,Sensitive,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14802190,lineage4,lineage4.8,-,Sensitive,Male,29,new_case,yes,yes,no,no,unemployed,NA,no,1
+SRR14801289,lineage4,lineage4.2.1,-,Sensitive,Male,43,previously_treated,yes,yes,no,no,unemployed,primary,yes,5
+SRR14801839,lineage4,lineage4.3.3,-,Sensitive,Male,26,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801832,lineage4,lineage4.3.3,-,Sensitive,Female,32,new_case,yes,yes,no,no,employed,secondary,no,4
+SRR14801827,lineage4,lineage4.2.1,-,Sensitive,Male,49,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,1
+SRR14801826,lineage2,lineage2.2.1,-,Sensitive,Male,40,new_case,yes,yes,no,NA,unemployed,secondary,no,3
+SRR14801812,lineage2,lineage2.2.1,-,Sensitive,Male,46,new_case,yes,yes,no,no,disabled,no_education,no,2
+SRR14801805,lineage4,lineage4.3.3,-,Sensitive,Male,65,previously_treated,yes,yes,no,no,retired,secondary,no,1
+SRR14801773,lineage4,lineage4.1.2.1,-,Sensitive,Female,66,previously_treated,yes,yes,yes,no,retired,secondary,no,3
+SRR14801758,lineage4,lineage4.3.3,-,Sensitive,Female,32,new_case,yes,yes,yes,no,employed,secondary,no,3
+SRR14801737,lineage4,lineage4.3.3,-,Sensitive,Male,46,previously_treated,yes,yes,yes,yes,unemployed,primary,no,15
+SRR14801660,lineage4,lineage4.2.1.1,-,Other,Male,28,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801617,lineage4,lineage4.3.4.1,-,Sensitive,Male,26,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801344,lineage4,lineage4.8,-,Sensitive,Male,35,previously_treated,yes,yes,yes,no,unemployed,primary,NA,NA
+SRR14781925,lineage4,lineage4.8,-,Sensitive,Male,59,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782407,lineage2,lineage2.2.1,-,Sensitive,Male,38,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14782290,lineage2,lineage2.2.1,-,Sensitive,Male,61,new_case,yes,yes,no,no,disabled,secondary,no,1
+SRR14782207,lineage4,lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782621,lineage2,lineage2.2.1,-,Sensitive,Male,55,new_case,yes,yes,no,no,unemployed,specialized secondary,no,1
+SRR14782557,lineage4,lineage4.3.3,-,Sensitive,Male,69,new_case,yes,yes,yes,no,retired,primary,no,1
+SRR14782495,lineage2,lineage2.2.1,-,Other,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782745,lineage4,lineage4.8,-,Sensitive,Male,68,new_case,yes,yes,no,NA,retired,specialized secondary,no,1
+SRR14801562,lineage4,lineage4.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801554,lineage4,lineage4.2.1,-,Sensitive,Female,81,new_case,yes,yes,no,no,retired,primary,NA,1
+SRR14801534,lineage4,lineage4.1.2,-,Sensitive,Male,25,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14801475,lineage4,lineage4.3.4.1,-,Sensitive,Male,32,new_case,yes,yes,NA,yes,unemployed,primary,yes,2
+SRR14801370,lineage4,lineage4.1,-,Sensitive,Male,40,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801369,lineage4,lineage4.1,-,Sensitive,Male,48,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801920,lineage2,lineage2.2.1,-,Sensitive,Male,49,previously_treated,yes,yes,no,no,disabled,secondary,NA,3
+SRR14802250,lineage4,lineage4.2.1.1,-,Other,Male,44,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14807496,lineage4,lineage4.2.1.1,-,Other,Male,38,new_case,yes,yes,no,no,unemployed,no_education,no,1
+SRR14807520,lineage4,lineage4.3.4.1,-,Sensitive,Male,58,previously_treated,yes,yes,no,NA,disabled,secondary,NA,3
+SRR14782052,lineage4,lineage4.8,-,Sensitive,Male,42,previously_treated,yes,yes,no,yes,disabled,primary,no,14
+SRR14782051,lineage4,lineage4.8,-,Sensitive,Female,76,previously_treated,yes,yes,no,no,retired,primary,no,0
+SRR14781965,lineage4,lineage4.1.2.1,-,Sensitive,Male,44,new_case,yes,yes,no,no,employed,primary,no,0
+SRR14781949,lineage2,lineage2.2.1,-,Sensitive,Male,53,new_case,yes,yes,no,no,unemployed,specialized secondary,no,3
+SRR14782135,lineage4,lineage4.7,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782617,lineage4,lineage4.3.3,-,Sensitive,Male,44,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782529,lineage4,lineage4.2.1.1,-,Other,Male,45,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782488,lineage4,lineage4.2.1.1,-,Other,Male,82,new_case,yes,yes,no,no,retired,primary,no,4
+SRR14782479,lineage2,lineage2.2.1,-,Other,Male,29,new_case,yes,yes,no,no,unemployed,primary,no,6
+SRR14782466,lineage4,lineage4.8,-,Sensitive,Male,37,new_case,yes,yes,no,no,disabled,primary,no,2
+SRR14782462,lineage2,lineage2.2.1,-,Sensitive,Male,69,new_case,yes,yes,no,no,retired,primary,no,2
+SRR14782442,lineage4,lineage4.1.2.1,-,Sensitive,Male,24,new_case,yes,yes,no,no,unemployed,secondary,no,7
+SRR14801509,lineage4,lineage4.2.1.1,-,Other,Male,33,new_case,yes,yes,yes,no,unemployed,primary,no,1
+SRR14801478,lineage4,lineage4.1.2.1,-,Sensitive,Male,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14801414,lineage4,lineage4.3.3,-,Sensitive,Male,83,new_case,yes,yes,no,no,retired,primary,no,0
+SRR14801903,lineage4,lineage4.8,-,Sensitive,Male,35,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14802284,lineage4,lineage4.2.1.1,-,Other,Male,69,new_case,yes,yes,yes,no,retired,higher_education,no,1
+SRR14802246,lineage4,lineage4.8,-,Sensitive,Male,24,new_case,yes,yes,yes,no,employed,secondary,no,6
+SRR14802181,lineage4,lineage4.3.3,-,Sensitive,Male,40,new_case,yes,yes,no,no,unemployed,primary,no,4
+SRR14807504,lineage4,lineage4.1.2.1,-,Sensitive,Male,81,previously_treated,yes,yes,yes,no,retired,primary,no,3
+SRR14782390,lineage2,lineage2.2.1,-,Sensitive,Male,51,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14782287,lineage2,lineage2.2.1,-,Sensitive,Male,59,new_case,yes,yes,no,no,employed,specialized secondary,no,2
+SRR14782662,lineage4,lineage4.1.2.1,-,Sensitive,Female,46,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14807526,lineage4,lineage4.8,-,Sensitive,Male,34,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782348,lineage4,lineage4.2.1.1,-,Other,Male,42,new_case,yes,yes,no,NA,unemployed,primary,no,6
+SRR14782653,lineage4,lineage4.2.1.1,-,Other,Male,34,new_case,yes,yes,no,yes,unemployed,primary,no,5
+SRR14781917,lineage4,lineage4.3.3,-,Sensitive,Male,23,new_case,yes,yes,no,yes,unemployed,primary,NA,2
+SRR14782251,lineage4,lineage4.8,-,Sensitive,Male,52,new_case,yes,yes,no,NA,unemployed,secondary,no,3
+SRR14782242,lineage4,lineage4.8,-,Sensitive,Male,43,new_case,yes,yes,no,yes,retired,primary,no,1
+SRR14782655,lineage4,lineage4.8,-,Sensitive,Male,36,new_case,yes,yes,yes,yes,unemployed,secondary,no,3
+SRR14782770,lineage4,lineage4.3.4.1,-,Sensitive,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782741,lineage4,lineage4.2.1.1,-,Other,Male,61,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782729,lineage2,lineage2.2.1,-,Sensitive,Male,50,new_case,yes,yes,yes,no,employed,primary,no,5
+SRR14801798,lineage4,lineage4.1.2.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,primary,yes,6
+SRR14801521,lineage4,lineage4.8,-,Sensitive,Male,53,new_case,yes,yes,no,yes,unemployed,primary,no,0
+SRR14801477,lineage2,lineage2.2.1,-,Other,Female,58,new_case,yes,yes,no,yes,unemployed,secondary,no,1
+SRR14801791,lineage4,lineage4.1.2.1,-,Sensitive,Female,72,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801732,lineage4,lineage4.8,-,Sensitive,Male,28,new_case,yes,yes,no,yes,unemployed,primary,no,5
+SRR14801692,lineage4,lineage4.8,-,Sensitive,Male,65,new_case,yes,yes,no,yes,employed,secondary,no,2
+SRR14801672,lineage4,lineage4.3.3,-,Sensitive,Male,62,new_case,yes,yes,no,NA,employed,primary,no,1
+SRR14801345,lineage2,lineage2.2.1,-,Sensitive,Male,31,new_case,yes,yes,yes,no,unemployed,primary,NA,NA
+SRR14782487,lineage4,lineage4.3.4.1,-,Sensitive,Female,29,new_case,yes,yes,yes,no,employed,higher_education,no,5
+SRR14782328,lineage2,lineage2.2.1,-,Other,Female,45,new_case,yes,yes,yes,no,employed,specialized secondary,no,3
+SRR14801306,lineage2,lineage2.2.1,-,Sensitive,Male,24,new_case,other,yes,yes,no,unemployed,specialized secondary,yes,2
+SRR14801613,lineage4,lineage4.3.4.1,-,Sensitive,Male,38,previously_treated,yes,yes,yes,no,employed,higher_education,yes,1
+SRR14801610,lineage2,lineage2.2.1,-,Sensitive,Male,65,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14802176,lineage2,lineage2.2.1,-,Other,Female,20,new_case,yes,yes,yes,no,student,higher_education,yes,5
+SRR14802173,lineage4,lineage4.3.4.1,-,Sensitive,Female,35,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14802158,lineage2,lineage2.2.1,-,Sensitive,Female,26,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14802142,lineage2,lineage2.2.1,-,Sensitive,Male,62,new_case,yes,yes,yes,no,retired,secondary,no,1
+SRR14802110,lineage2,lineage2.2.1,-,Sensitive,Male,45,previously_treated,yes,yes,yes,no,unemployed,secondary,NA,1
+SRR14802044,lineage2,lineage2.2.1,-,Sensitive,Male,72,new_case,yes,yes,yes,no,disabled,primary,no,0
+SRR14801954,lineage4,lineage4.2.1.1,-,Other,Female,29,new_case,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14801953,lineage4,lineage4.3.4.1,-,Sensitive,Male,53,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14801938,lineage4,lineage4.3.4.1,-,Sensitive,Male,29,new_case,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14802271,lineage2,lineage2.2.1,-,Sensitive,Male,48,new_case,yes,yes,yes,no,unemployed,higher_education,yes,1
+SRR14807676,lineage4,lineage4.8,-,Sensitive,Male,34,previously_treated,other,yes,yes,no,unemployed,primary,yes,0
+SRR14807669,lineage4,lineage4.8,-,Sensitive,Female,58,previously_treated,yes,yes,yes,no,retired,specialized secondary,no,0
+SRR14807645,lineage4,lineage4.2.1.1,-,Sensitive,Male,60,new_case,yes,yes,yes,no,retired,secondary,yes,2
+SRR14807641,lineage4,lineage4.3.4.1,-,Sensitive,Male,37,new_case,yes,yes,yes,no,unemployed,specialized secondary,yes,2
+SRR14807607,lineage4,lineage4.8,-,Sensitive,Male,67,new_case,yes,yes,yes,no,disabled,specialized secondary,no,0
+SRR14807552,lineage4,lineage4.8,-,Sensitive,Male,32,new_case,yes,yes,yes,no,unemployed,primary,yes,1
+SRR14807551,lineage4,lineage4.1.2.1,-,Sensitive,Female,73,new_case,yes,yes,yes,no,retired,secondary,no,0
+SRR14782038,lineage2,lineage2.2.1,-,Sensitive,Male,34,new_case,yes,yes,yes,no,employed,secondary,no,4
+SRR14782010,lineage2,lineage2.2.1,-,Other,Female,38,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14781901,lineage4,lineage4.8,-,Sensitive,Male,48,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14782409,lineage4,lineage4.3.4.1,-,Sensitive,Male,66,new_case,yes,yes,no,no,retired,secondary,no,4
+SRR14782253,lineage4,lineage4.8,-,Sensitive,Female,22,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14782250,lineage4,lineage4.2.1.1,-,Sensitive,Male,52,new_case,yes,yes,yes,no,employed,higher_education,no,1
+SRR14782240,lineage4,lineage4.1.2.1,-,Sensitive,Male,33,new_case,yes,yes,no,no,unemployed,secondary,no,2
+SRR14782227,lineage4,lineage4.3.3,-,Sensitive,Male,33,previously_treated,yes,yes,no,no,unemployed,secondary,NA,5
+SRR14782141,lineage4,lineage4.2.1,-,Sensitive,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,4
+SRR14782707,lineage2,lineage2.2.1,-,Other,Male,23,previously_treated,yes,yes,no,no,unemployed,secondary,no,4
+SRR14801564,lineage4,lineage4.8,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,primary,no,3
+SRR14801516,lineage2,lineage2.2.1,-,Sensitive,Female,38,new_case,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801515,lineage4,lineage4.2.1,-,Sensitive,Male,42,new_case,yes,yes,no,no,unemployed,secondary,NA,0
+SRR14801514,lineage4,lineage4.2.1,-,Sensitive,Male,34,new_case,yes,yes,no,no,unemployed,secondary,no,1
+SRR14801513,lineage4,lineage4.2.1,-,Sensitive,Male,29,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801438,lineage2,lineage2.2.1,-,Sensitive,Male,63,previously_treated,yes,yes,no,no,retired,secondary,no,1
+SRR14801437,lineage4,lineage4.8,-,Sensitive,Male,47,new_case,other,yes,yes,no,unemployed,secondary,yes,0
+SRR14801428,lineage2,lineage2.2.1,-,Sensitive,Male,65,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801425,lineage2,lineage2.2.1,-,Sensitive,Male,55,new_case,yes,yes,no,no,unemployed,primary,no,5
+SRR14801406,lineage4,lineage4.3.3,-,Sensitive,Male,47,new_case,yes,yes,yes,no,unemployed,secondary,no,4
+SRR14801394,lineage2,lineage2.2.1,-,Sensitive,Female,26,previously_treated,yes,yes,no,no,disabled,secondary,no,4
+SRR14801383,lineage4,lineage4.3.3,-,Sensitive,Female,42,new_case,yes,yes,yes,no,employed,secondary,no,3
+SRR14801378,lineage2,lineage2.2.1,-,Sensitive,Male,45,new_case,yes,yes,yes,no,disabled,secondary,no,4
+SRR14801367,lineage2,lineage2.2.1,-,Sensitive,Male,28,new_case,yes,yes,no,yes,unemployed,primary,no,NA
+SRR14801355,lineage4,lineage4.8,-,Sensitive,Female,76,new_case,yes,yes,no,no,retired,secondary,no,3
+SRR14807587,lineage4,lineage4.8,-,Sensitive,Male,27,new_case,yes,yes,yes,yes,employed,secondary,no,1
+SRR14807513,lineage4,lineage4.8,-,Sensitive,Male,49,new_case,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807480,lineage4,lineage4.1.2.1,-,Sensitive,Male,36,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14781841,lineage4,lineage4.8,-,Sensitive,Male,23,previously_treated,yes,yes,no,yes,unemployed,primary,NA,NA
+SRR14782736,lineage4,lineage4.8,-,Sensitive,Male,68,new_case,yes,yes,no,yes,retired,secondary,no,2
+SRR14802195,lineage4,lineage4.1.2.1,-,Sensitive,Male,40,new_case,yes,yes,yes,yes,unemployed,primary,yes,3
+SRR14782156,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,58,previously_treated,yes,yes,no,no,employed,primary,no,4
+SRR14782434,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,yes,yes,disabled,primary,NA,0
+SRR14801607,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,39,new_case,yes,yes,yes,no,unemployed,higher_education,no,1
+SRR14802053,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,40,new_case,yes,yes,yes,yes,unemployed,secondary,no,0
+SRR14802029,lineage2;lineage4,lineage2.2.1;lineage4,-,XDR-TB,Male,33,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,2
+SRR14802011,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,47,new_case,yes,yes,yes,no,unemployed,secondary,no,0
+SRR14807469,lineage2,lineage2.2.1,-,XDR-TB,Male,41,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,1
+SRR14807459,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,primary,no,2
+SRR14807667,lineage2,lineage2.2.1,-,XDR-TB,Male,49,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,0
+SRR14807646,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,37,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14807583,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,34,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,4
+SRR14807581,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,32,previously_treated,yes,yes,yes,no,unemployed,primary,no,0
+SRR14807538,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,46,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14801569,lineage4,lineage4.2.1,-,HR-TB,Male,34,new_case,yes,yes,no,no,employed,primary,no,5
+SRR14782391,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,47,previously_treated,yes,yes,no,no,disabled,specialized secondary,no,3
+SRR14782670,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,41,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14782084,lineage4,lineage4.3.4.2,-,Pre-XDR-TB,Male,53,previously_treated,yes,yes,yes,no,disabled,secondary,no,0
+SRR14781875,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,50,previously_treated,yes,yes,no,no,unemployed,primary,no,5
+SRR14782113,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,31,previously_treated,yes,yes,no,no,unemployed,secondary,no,3
+SRR14801530,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,29,new_case,yes,yes,no,no,NA,secondary,no,4
+SRR14781907,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,66,previously_treated,yes,yes,yes,no,employed,secondary,NA,5
+SRR14781865,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,42,previously_treated,yes,yes,no,no,disabled,secondary,yes,1
+SRR14807512,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,37,new_case,yes,yes,no,yes,unemployed,secondary,no,1
+SRR14782429,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,17,new_case,yes,yes,no,no,student,primary,no,4
+SRR14801884,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,55,previously_treated,yes,yes,no,no,disabled,primary,no,3
+SRR14802222,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,56,previously_treated,yes,yes,no,no,disabled,secondary,no,1
+SRR14782511,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,53,previously_treated,yes,yes,no,no,disabled,secondary,no,0
+SRR14801458,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,51,previously_treated,yes,yes,no,no,disabled,secondary,no,2
+SRR14802123,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,45,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14802101,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,61,previously_treated,yes,yes,yes,no,retired,specialized secondary,yes,4
+SRR14807466,lineage2,lineage2.2.1,-,XDR-TB,Female,27,previously_treated,yes,yes,yes,no,disabled,primary,no,0
+SRR14807632,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,27,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,1
+SRR14807610,lineage2,lineage2.2.1,-,XDR-TB,Male,20,new_case,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14807579,lineage2,lineage2.2.1,-,XDR-TB,Male,33,previously_treated,yes,yes,no,no,disabled,primary,yes,4
+SRR14807567,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,58,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,2
+SRR14782833,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,47,previously_treated,yes,yes,no,yes,unemployed,primary,no,0
+SRR14802204,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,47,previously_treated,yes,yes,no,yes,unemployed,no_education,no,0
+SRR14782265,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,60,previously_treated,yes,yes,no,no,unemployed,secondary,no,NA
+SRR14782547,lineage2,lineage2.2.1,-,HR-TB,Female,33,new_case,yes,yes,no,no,employed,specialized secondary,no,7
+SRR14801888,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,52,new_case,yes,yes,no,no,disabled,secondary,no,2
+SRR14782025,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,38,previously_treated,yes,yes,yes,no,disabled,secondary,NA,4
+SRR14782211,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,46,previously_treated,temporarily_left,yes,no,no,disabled,secondary,no,0
+SRR14782609,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,63,new_case,yes,yes,yes,no,retired,specialized secondary,no,1
+SRR14801836,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,8
+SRR14801647,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,37,previously_treated,yes,yes,yes,no,disabled,secondary,yes,3
+SRR14782680,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,37,previously_treated,yes,yes,yes,no,disabled,secondary,no,2
+SRR14782611,lineage4,lineage4.2.1,-,HR-TB,Female,42,new_case,yes,yes,no,no,unemployed,primary,NA,3
+SRR14782605,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,34,previously_treated,yes,yes,no,no,unemployed,primary,no,0
+SRR14782570,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,43,new_case,yes,yes,no,no,employed,primary,NA,3
+SRR14782458,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,18,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14782759,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,36,new_case,yes,yes,no,no,employed,secondary,no,3
+SRR14801454,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,51,previously_treated,yes,yes,no,no,unemployed,primary,no,1
+SRR14782654,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,44,previously_treated,yes,yes,no,no,disabled,primary,NA,1
+SRR14782060,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,38,new_case,yes,yes,no,no,unemployed,primary,no,0
+SRR14782420,lineage2,lineage2.2.1,-,HR-TB,Female,28,new_case,yes,yes,no,no,employed,higher_education,no,3
+SRR14782385,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,52,previously_treated,yes,yes,no,no,employed,specialized secondary,NA,2
+SRR14782483,lineage2,lineage2.2.1,-,HR-TB,Female,58,new_case,yes,yes,no,yes,employed,primary,no,0
+SRR14801358,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,56,previously_treated,yes,yes,no,yes,unemployed,primary,no,2
+SRR14781837,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,58,previously_treated,yes,yes,no,no,unemployed,secondary,no,0
+SRR14782537,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,51,new_case,yes,yes,no,no,unemployed,secondary,no,0
+SRR14801831,lineage2,lineage2.2.1,-,XDR-TB,Male,32,new_case,yes,yes,no,yes,unemployed,primary,no,4
+SRR14801724,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,43,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,NA
+SRR14801708,lineage4,lineage4.2.1,-,XDR-TB,Male,39,previously_treated,yes,yes,yes,no,disabled,secondary,no,1
+SRR14801694,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,27,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,2
+SRR14801693,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,41,previously_treated,yes,yes,yes,no,disabled,secondary,no,2
+SRR14782122,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,53,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,1
+SRR14782004,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,44,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14781843,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,46,new_case,yes,yes,yes,yes,unemployed,secondary,yes,NA
+SRR14782338,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,,NA,NA,NA,NA,NA,NA,NA,NA,NA
+SRR14782252,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,83,new_case,other,yes,yes,no,retired,specialized secondary,no,0
+SRR14782206,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,69,previously_treated,yes,yes,yes,no,retired,secondary,no,4
+SRR14782700,lineage4,lineage4.2.1,-,XDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14782686,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,58,previously_treated,yes,yes,yes,no,disabled,specialized secondary,no,2
+SRR14782651,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,47,previously_treated,yes,yes,no,no,disabled,secondary,yes,0
+SRR14782568,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,28,previously_treated,yes,yes,yes,yes,unemployed,secondary,no,2
+SRR14782552,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,36,previously_treated,yes,yes,yes,no,unemployed,secondary,no,2
+SRR14801853,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,31,previously_treated,yes,yes,yes,yes,unemployed,primary,no,0
+SRR14801775,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,59,previously_treated,yes,yes,no,no,disabled,primary,NA,0
+SRR14801542,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,46,previously_treated,yes,yes,yes,no,unemployed,secondary,yes,NA
+SRR14782620,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,36,previously_treated,yes,yes,yes,no,employed,higher_education,no,2
+SRR14782040,lineage2,lineage2.2.1,-,XDR-TB,Male,59,previously_treated,yes,yes,no,no,unemployed,secondary,no,9
+SRR14782715,lineage2,lineage2.2.1,-,XDR-TB,Female,30,previously_treated,yes,yes,yes,no,disabled,secondary,no,3
+SRR14782567,lineage2,lineage2.2.1,-,XDR-TB,Female,40,previously_treated,yes,yes,no,yes,disabled,primary,no,1
+SRR14801595,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,46,new_case,yes,yes,yes,no,unemployed,specialized secondary,no,3
+SRR14801967,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,22,new_case,yes,yes,yes,no,student,higher_education,no,0
+SRR14807630,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,39,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14807626,lineage4,lineage4.3.3,-,Pre-XDR-TB,Male,31,previously_treated,yes,yes,yes,no,disabled,primary,no,1
+SRR14781872,lineage4,lineage4.3.3,-,Pre-XDR-TB,Male,40,previously_treated,yes,yes,no,yes,unemployed,primary,yes,NA
+SRR14782157,lineage4,lineage4.3.3,-,Pre-XDR-TB,Male,38,previously_treated,yes,yes,no,no,unemployed,primary,yes,2
+SRR14802046,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,41,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14801975,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,55,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14802273,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,59,new_case,yes,yes,no,no,retired,secondary,no,0
+SRR14802265,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,no,yes,unemployed,primary,no,0
+SRR14807534,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,44,previously_treated,yes,yes,no,no,unemployed,primary,no,NA
+SRR14807680,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,32,previously_treated,yes,yes,yes,no,unemployed,primary,yes,0
+SRR14782037,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,33,new_case,yes,yes,no,no,unemployed,specialized secondary,no,2
+SRR14782743,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,36,previously_treated,yes,yes,no,no,disabled,secondary,no,5
+SRR14782236,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,64,new_case,yes,yes,no,no,retired,secondary,no,1
+SRR14801511,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,35,new_case,yes,yes,no,no,unemployed,primary,no,1
+SRR14801403,lineage4,lineage4.2.1,-,HR-TB,Female,39,previously_treated,yes,yes,no,no,unemployed,primary,no,3
+SRR14801594,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,68,previously_treated,yes,yes,yes,no,retired,secondary,no,0
+SRR14801592,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,41,previously_treated,yes,yes,yes,yes,unemployed,primary,NA,0
+SRR14802015,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,4
+SRR14801964,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,42,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,yes,4
+SRR14802260,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,50,previously_treated,yes,yes,yes,no,disabled,primary,yes,0
+SRR14807494,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,35,previously_treated,yes,yes,yes,no,unemployed,primary,yes,3
+SRR14807470,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,39,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14807468,lineage2,lineage2.2.1,-,Pre-XDR-TB,Female,43,previously_treated,yes,yes,yes,no,disabled,secondary,no,2
+SRR14807683,lineage2,lineage2.2.1,-,XDR-TB,Male,61,new_case,yes,yes,yes,no,retired,specialized secondary,no,1
+SRR14807665,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,44,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14807658,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,54,previously_treated,yes,yes,yes,yes,disabled,secondary,NA,0
+SRR14807627,lineage2,lineage2.2.1,-,XDR-TB,Male,33,previously_treated,yes,yes,yes,no,disabled,secondary,yes,1
+SRR14807593,lineage2,lineage2.2.1,-,Pre-XDR-TB,Male,39,previously_treated,yes,yes,yes,no,unemployed,specialized secondary,no,0
+SRR14807547,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,46,previously_treated,yes,yes,yes,no,unemployed,primary,NA,0
+SRR14807543,lineage4,lineage4.2.1,-,Pre-XDR-TB,Female,43,previously_treated,yes,yes,yes,no,unemployed,secondary,no,1
+SRR14782279,lineage4,lineage4.2.1,-,Pre-XDR-TB,Male,29,new_case,yes,yes,yes,no,unemployed,higher_education,no,2
+SRR14807615,lineage2,lineage2.2.1,-,MDR-TB,Female,32,previously_treated,yes,yes,yes,no,employed,specialized secondary,no,1
