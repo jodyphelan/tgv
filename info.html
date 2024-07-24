@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js" integrity="sha512-gEWKnYYa1/1c3jOuT9PR7NxiVI1bwn02DeJGsl+lMVQ1fWMNvtjkjxIApTdbJ/wcDjQmbf+McWahXwipdC9bGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cytoscape/cytoscape.js-popper@2.0.0/cytoscape-popper.js"></script> 
+        <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
+
+
+        
+
+        <style>
+
+            
+
+                #graph > *:not(.leaflet-container) {
+                    /* override default cytoscape styles */
+                    z-index: 500 !important;
+                }
+
+
+            body {
+                font-family: Roboto, "Open Sans", sans-serif;
+                font-size: 20px;
+                font-weight: 300;
+                text-rendering: optimizeLegibility;
+            }
+            .btn {
+                font-family: Roboto, "Open Sans", sans-serif;
+                font-size: 18px;
+                font-weight: 300;
+                text-rendering: optimizeLegibility;
+            }
+
+            .dropzone {
+                background: white;
+                border-radius: 5px;
+                border: 2px dashed rgb(0, 135, 247);
+                border-image: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .popper-div {
+                background-color: rgba(255, 255, 255, 0.716);
+                border-radius: 25px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+            <div class="row p-4">
+                <div class="col-md-12">
+                    <h1>Usage</h1>
+
+                    <div>
+                        Welcome to the transmission graph viewer!
+                    </div>
+                    <div>
+                        Drag and drop your transmission graph json file to the upload box to 
+                        the left and see the graph. You can also upload meta data in CSV format
+                        to colour and label the nodes. Just make sure a column 'Node' is present 
+                        which contains the same IDs as represented in the graph.
+                        To for download the IDs from a subset, use the <kbd>cmd/ctrl</kbd> key and click and drag and hit the
+                        download button.
+                    </div>
+                    <div>
+                        Don't have data yet? Download <a href="https://jodyphelan.github.io/tgv/examples/colombia_pv/hmmIBD.json">this example json</a> 
+                        file and drag it into the box on the top left.
+                    </div>
+                    <div>
+                        After it loads you should have a graph that looks like this:
+                    </div>
+                    <img src="img/img1.png" alt="" style="width: 50%;">
+                    <div>
+                        We can alter the minimum relatedness threshold to remove edges with a relatedness below a certain threshold. 
+                        To do this scroll down and select the "Filter edged" button.
+                    </div>
+                    <img src="img/img2.png" alt="" style="width: 50%;">
+                    <div>
+                        This will bring up a pop-up where you can enter the minimum relatedness threshold as shown below.
+                    </div>
+                    <img src="img/img3.png" alt="" style="width: 50%;">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 p-4">
+                    <h1>Citation</h1>
+
+                    <div class="p-2 fs-3">
+                        If you use this tool, please cite: TBD
+                    </div>
+                </div>
+            </div>
+            
+
+
+                
+                
+
+
+       
+    </body>
+</html>
