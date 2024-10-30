@@ -80,7 +80,7 @@
         <input type="color" id="colorPicker" style="display: none;">
         <div class="d-flex justify-content-center" style="height:100%;">
             <div class="p-2" style="overflow: auto; width:20%;">
-                <img class="img-fluid mt-4 mb-4" src="tgv-logo.png" alt="">
+                <img class="img-fluid mt-4 mb-4" src="img/tgv-logo.png" alt="">
                 
                 <p>
                     Add JSON transmission file:
@@ -1094,7 +1094,7 @@
                         name: 'fcose',
                         idealEdgeLength: function(edge){
                             min_degree = Math.min(edge.source().degree(),edge.target().degree())
-                            return mapNumRange(min_degree,0,10,50,500)
+                            return mapNumRange(min_degree,0,10,50,200)
                             
                         },
                     },
