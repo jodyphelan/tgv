@@ -1057,6 +1057,7 @@
 
                 // --- 3. Build the legend ---
                 const legendGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+                legendGroup.setAttribute("transform", "scale(1,1)"); // Adjust scale as needed
 
                 let index = 0;
                 for (const [label, color] of Object.entries(legend)) {
