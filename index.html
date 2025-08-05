@@ -1027,8 +1027,74 @@
 
             download_svg = function() {
                 var svgContent = cy.svg({scale: 1, full: true, bg: '#ffffff'});
-                var blob = new Blob([svgContent], {type: "image/svg+xml"});
-                saveAs(blob, "graph.svg");
+                console.log(svgContent)
+                // var blob = new Blob([svgContent], {type: "image/svg+xml"});
+                // saveAs(blob, "graph.svg");
+
+
+                        // svgContent is your original SVG string
+                const div = document.createElement('div');
+                div.innerHTML = svgContent;
+
+                const svg = div.querySelector('svg');
+
+                // Your legend object
+                const legend = metadata_colours[node_colours.value] || {};
+
+                // --- 1. Adjust SVG height ---
+                const currentHeight = parseFloat(svg.getAttribute('height')) || 0;
+                const legendItemHeight = 30;
+                const legendHeight = Object.keys(legend).length * legendItemHeight;
+                svg.setAttribute('height', currentHeight + legendHeight);
+
+                // --- 2. Shift existing content down ---
+                const firstG = svg.querySelector('g');
+                if (firstG) {
+                const currentTransform = firstG.getAttribute('transform') || '';
+                const newTransform = `translate(0, ${legendHeight}) ${currentTransform}`.trim();
+                firstG.setAttribute('transform', newTransform);
+                }
+
+                // --- 3. Build the legend ---
+                const legendGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+                let index = 0;
+                for (const [label, color] of Object.entries(legend)) {
+                const yOffset = index * legendItemHeight + 5;
+
+                // Rectangle (left)
+                const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                rect.setAttribute("x", "10");
+                rect.setAttribute("y", yOffset);
+                rect.setAttribute("width", "20");
+                rect.setAttribute("height", "20");
+                rect.setAttribute("fill", color);
+                rect.setAttribute("stroke", "black");
+                rect.setAttribute("stroke-width", "2");
+
+                // Text (right of the rectangle)
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", "40"); // 10 (padding) + 20 (rect width) + 10
+                text.setAttribute("y", yOffset + 16); // align with rect vertically
+                text.setAttribute("font-family", "Helvetica Neue, Helvetica, sans-serif");
+                text.setAttribute("font-size", "16px");
+                text.setAttribute("font-style", "normal");
+                text.setAttribute("fill", "black");
+                text.textContent = label;
+
+                legendGroup.appendChild(rect);
+                legendGroup.appendChild(text);
+
+                index++;
+                }
+
+                // --- 4. Insert the legend before the first group ---
+                svg.insertBefore(legendGroup, firstG);
+
+                // --- 5. Create a blob and download ---
+                const blob = new Blob([div.innerHTML], { type: "image/svg+xml" });
+                saveAs(blob, "test.graph.svg");
+
             }
 
 
